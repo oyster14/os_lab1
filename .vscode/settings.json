@@ -8,6 +8,7 @@
         "iostream": "cpp",
         "array": "cpp",
         "string_view": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "ostream": "cpp"
     }
 }
