@@ -96,6 +96,7 @@ class SymTab {
     }
 
     void printWarning() {
+        cout << endl;
         for (string& sym : syms) {
             if (symTable[sym].warncode == 3) {
                 __warning_message(3, sym, symTable[sym].loc);
@@ -126,14 +127,14 @@ class MemMap {
     }
 
     void print() {
-        cout << "Memory Map" << endl;
-        for (int i = 0; i < memMap.size(); i++) {
-            cout << setw(3) << setfill('0') << i;
-            cout << ": " << memMap[i].val;
-            if (memMap[i].errcode >= 0) {
-                __error_message(memMap[i].errcode, memMap[i].sym);
-            }
-            cout << endl;
+        int i = memMap.size() - 1;
+        if (i == 0) {
+            cout << "Memory Map" << endl;
+        }
+        cout << setw(3) << setfill('0') << i;
+        cout << ": " << memMap[i].val;
+        if (memMap[i].errcode >= 0) {
+            __error_message(memMap[i].errcode, memMap[i].sym);
         }
         cout << endl;
     }
@@ -208,7 +209,8 @@ class Tokenizer {
     }
 
     MemInfo readInstr(char type, int module_base, int module_size,
-                      vector<string>& uselist, SymTab* symTab, MemMap* memMap) {
+                      vector<pair<string, bool>>& uselist, SymTab* symTab,
+                      MemMap* memMap) {
         int instr = readInt(false);
         int opcode = instr / 1000;
         int operand = instr % 1000;
@@ -220,7 +222,6 @@ class Tokenizer {
         }
         switch (type) {
             case 'R':
-                operand += module_base;
                 if (operand >= module_size) {
                     instr = opcode * 1000 + module_base;
                     errcode = 1;
@@ -233,7 +234,8 @@ class Tokenizer {
                     errcode = 2;
                 } else {
                     instr = opcode * 1000;
-                    sym = uselist[operand];
+                    sym = uselist[operand].first;
+                    uselist[operand].second = true;
                     if (symTab->symExist(sym)) {
                         instr += symTab->getVal(sym);
                     } else {
@@ -361,10 +363,13 @@ void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
 
 void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
     int module_base = 0;
-    vector<string> uselist;
+    int module_counter = 0;
+    vector<pair<string, bool>> uselist;
     vector<string> deflist;
 
     while (!tokenizer->isEnd()) {
+        module_counter++;
+
         int defcount = tokenizer->readInt(false);
         deflist.clear();
         for (int i = 0; i < defcount; i++) {
@@ -381,7 +386,7 @@ void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
         uselist.clear();
         for (int i = 0; i < usecount; i++) {
             string sym = tokenizer->readSym(false);
-            uselist.emplace_back(sym);
+            uselist.emplace_back(sym, false);
             if (symTab->symExist(sym)) {
                 symTab->setUsedWarn(sym);
             }
@@ -393,12 +398,18 @@ void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
             MemInfo memInfo = tokenizer->readInstr(
                 addrmode, module_base, instcount, uselist, symTab, memMap);
             memMap->allocateMem(memInfo.val, memInfo.errcode, memInfo.sym);
+            memMap->print();
+        }
+
+        for (auto& use : uselist) {
+            if (use.second == false) {
+                __warning_message(2, use.first, module_counter);
+            }
         }
 
         module_base += instcount;
     }
 
-    memMap->print();
     symTab->printWarning();
 };
 
