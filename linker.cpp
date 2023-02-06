@@ -16,6 +16,15 @@ struct Token {
         : line(line), offset(offset), symbol(symbol) {}
 };
 
+struct MemInfo {
+    int val = 0;
+    int errcode = -1;
+    string sym = "";
+    MemInfo() : val(), errcode(), sym() {}
+    MemInfo(int val, int errcode, string sym)
+        : val(val), errcode(errcode), sym(sym) {}
+};
+
 void __parse_error(int errcode, int linenum, int lineoffset) {
     static const vector<string> errstr = {
         "NUM_EXPECTED",   // Number expect, anything >= 2^30 is not a number
@@ -43,73 +52,94 @@ void __error_message(int errcode, string symName = "") {
     cout << " Error: " << symName << errstr[errcode];
 };
 
-void __warning_message(int errcode, string symName = "", int symVal = 0) {
+void __warning_message(int errcode, string sym = "", int module = 0) {
     static const vector<string> errstr = {
-        " too big %d (max=%d) assume zero relative",  // see input - 4
+        " too big %d (max=%d) assume zero relative",  // for format
         " redefined and ignored",
         " appeared in the uselist but was not actually used",
         " was defined but never used"};
-    cout << "Warning: Module " << symVal << ": " << symName << errstr[errcode]
+    cout << "Warning: Module " << module << ": " << sym << errstr[errcode]
          << endl;
 };
 
 class SymTab {
    public:
-    void createSymbol(string sym, int val) {
-        if (symTab.count(sym) > 0) {
-            cout << "duplicate definition" << endl;
-            exit(0);
+    struct SymInfo {
+        int val = 0;
+        int loc = 0;
+        int warncode = 3;
+        int errcode = -1;
+        SymInfo() : val(), loc(), warncode(), errcode() {}
+        SymInfo(int val, int loc) : val(val), loc(loc) {}
+    };
+
+    void createSymbol(string sym, int val, int loc) {
+        if (symTable.count(sym) == 0) {
+            syms.emplace_back(sym);
+            symTable[sym] = {val, loc};
+        } else {
+            __warning_message(1, sym, loc);
+            symTable[sym].errcode = 4;
         }
-        syms.emplace_back(sym);
-        symTab[sym] = make_pair(val, -1);
     }
 
     void print() {
         cout << "Symbol Table" << endl;
         for (string& sym : syms) {
-            cout << sym << "=" << symTab[sym].first;
-            if (symTab[sym].second >= 0) {
-                __error_message(symTab[sym].second);
+            cout << sym << "=" << symTable[sym].val;
+            if (symTable[sym].errcode >= 0) {
+                __error_message(symTable[sym].errcode);
             }
             cout << endl;
         }
         cout << endl;
     }
 
-    int getVal(string sym) {
-        if (symTab.count(sym) == 0) {
-            cout << "wrong sym" << endl;
-            exit(0);
+    void printWarning() {
+        for (string& sym : syms) {
+            if (symTable[sym].warncode == 3) {
+                __warning_message(3, sym, symTable[sym].loc);
+            }
         }
-        return symTab[sym].first;
+        cout << endl;
     }
+
+    void setUsedWarn(string sym) { symTable[sym].warncode = -1; }
+
+    int getVal(string sym) { return symTable[sym].val; }
+
+    bool symExist(string sym) { return symTable.count(sym); }
 
    private:
     vector<string> syms;
-    unordered_map<string, pair<int, int>> symTab;
+    unordered_map<string, SymInfo> symTable;
 };
 
 class MemMap {
    public:
-    void allocateMem(int val) {
+    void allocateMem(int val, int errcode, string sym) {
         if (memMap.size() == 256) {
             cout << "exceed maximum memory" << endl;
             exit(0);
         }
-        memMap.emplace_back(val, -1);
+        memMap.emplace_back(val, errcode, sym);
     }
 
     void print() {
         cout << "Memory Map" << endl;
         for (int i = 0; i < memMap.size(); i++) {
             cout << setw(3) << setfill('0') << i;
-            cout << ": " << memMap[i].first;
+            cout << ": " << memMap[i].val;
+            if (memMap[i].errcode >= 0) {
+                __error_message(memMap[i].errcode, memMap[i].sym);
+            }
             cout << endl;
         }
+        cout << endl;
     }
 
    private:
-    vector<pair<int, int>> memMap;
+    vector<MemInfo> memMap;
 };
 
 class Tokenizer {
@@ -164,42 +194,57 @@ class Tokenizer {
         return token;
     }
 
-    int readInt() {
+    int readInt(bool check = true) {
         Token token = getToken();
-        for (int i = 0; i < token.symbol.size(); i++) {
-            if (!isdigit(token.symbol[i])) {
-                cout << "wrong int token" << endl;
-                exit(0);
+        if (check) {
+            for (int i = 0; i < token.symbol.size(); i++) {
+                if (!isdigit(token.symbol[i])) {
+                    cout << "wrong int token" << endl;
+                    exit(0);
+                }
             }
         }
         return stoi(token.symbol);
     }
 
-    int readInstr(char type, int module_base, vector<string>& uselist,
-                  SymTab* symTab) {
-        int instr = readInt();
+    MemInfo readInstr(char type, int module_base, int module_size,
+                      vector<string>& uselist, SymTab* symTab, MemMap* memMap) {
+        int instr = readInt(false);
         int opcode = instr / 1000;
         int operand = instr % 1000;
+        int errcode = -1;  // instr, errcode
+        string sym = "";
         if (opcode >= 10) {
             cout << "wrong opcode" << endl;
             exit(0);
         }
         switch (type) {
             case 'R':
-                instr += module_base;
+                operand += module_base;
+                if (operand >= module_size) {
+                    instr = opcode * 1000 + module_base;
+                    errcode = 1;
+                } else {
+                    instr += module_base;
+                }
                 break;
             case 'E':
                 if (operand >= uselist.size()) {
-                    cout << "wrong operand" << endl;
-                    exit(0);
+                    errcode = 2;
+                } else {
+                    instr = opcode * 1000;
+                    sym = uselist[operand];
+                    if (symTab->symExist(sym)) {
+                        instr += symTab->getVal(sym);
+                    } else {
+                        errcode = 3;
+                    }
                 }
-                instr = opcode * 1000 + symTab->getVal(uselist[operand]);
                 break;
             case 'A':
                 if (operand >= 512) {
-                    cout << "larger than machine size" << endl;
-                    exit(0);
-                    // instr changed
+                    instr = opcode * 1000;
+                    errcode = 0;
                 }
             case 'I':
                 break;
@@ -207,36 +252,37 @@ class Tokenizer {
                 cout << "wrong type" << endl;
                 exit(0);
         }
-        return instr;
+        return {instr, errcode, sym};
     }
 
-    string readSym() {
+    string readSym(bool check = true) {
         Token token = getToken();
-        int len = token.symbol.size();
-        if (len > 16) {
-            cout << "wrong symbol token" << endl;
-            exit(0);
-        }
-        for (int i = 0; i < len; i++) {
-            if (!isalnum(token.symbol[i])) {
+        if (check) {
+            int len = token.symbol.size();
+            if (len > 16) {
                 cout << "wrong symbol token" << endl;
                 exit(0);
+            }
+            for (int i = 0; i < len; i++) {
+                if (!isalnum(token.symbol[i])) {
+                    cout << "wrong symbol token" << endl;
+                    exit(0);
+                }
             }
         }
         return token.symbol;
     }
 
-    char readIAER() {
+    char readIAER(bool check = true) {
         Token token = getToken();
-        if (token.symbol.size() != 1) {
-            cout << "syntax error: an unexpected token" << endl;
-            exit(0);
-        }
         char type = token.symbol[0];
-        if (!(token.symbol == "I" || token.symbol == "A" ||
-              token.symbol == "E" || token.symbol == "R")) {
-            cout << "syntax error: an unexpected token" << endl;
-            exit(0);
+        if (check) {
+            if (token.symbol.size() != 1 ||
+                !(token.symbol == "I" || token.symbol == "A" ||
+                  token.symbol == "E" || token.symbol == "R")) {
+                cout << "syntax error: an unexpected token" << endl;
+                exit(0);
+            }
         }
         return type;
     }
@@ -281,8 +327,11 @@ class Tokenizer {
 
 void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
     int module_base = 0;
+    int module_counter = 0;
 
     while (!tokenizer->isEnd()) {
+        module_counter++;
+
         int defcount = tokenizer->readInt();
         if (defcount > 16) {
             cout << "defcount exceeds maximum limit" << endl;
@@ -291,7 +340,7 @@ void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
         for (int i = 0; i < defcount; i++) {
             string sym = tokenizer->readSym();
             int val = tokenizer->readInt();
-            symTab->createSymbol(sym, val + module_base);
+            symTab->createSymbol(sym, val + module_base, module_counter);
         }
 
         int usecount = tokenizer->readInt();
@@ -313,36 +362,44 @@ void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
 void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
     int module_base = 0;
     vector<string> uselist;
+    vector<string> deflist;
 
     while (!tokenizer->isEnd()) {
-        int defcount = tokenizer->readInt();
+        int defcount = tokenizer->readInt(false);
+        deflist.clear();
         for (int i = 0; i < defcount; i++) {
-            string sym = tokenizer->readSym();
-            int val = tokenizer->readInt();
+            string sym = tokenizer->readSym(false);
+            int val = tokenizer->readInt(false);
+            deflist.emplace_back(sym);
         }
 
-        int usecount = tokenizer->readInt();
+        int usecount = tokenizer->readInt(false);
         if (usecount > 16) {
             cout << "usecount exceeds maximum limit" << endl;
             exit(0);
         }
         uselist.clear();
         for (int i = 0; i < usecount; i++) {
-            string sym = tokenizer->readSym();
+            string sym = tokenizer->readSym(false);
             uselist.emplace_back(sym);
+            if (symTab->symExist(sym)) {
+                symTab->setUsedWarn(sym);
+            }
         }
 
         int instcount = tokenizer->readInt();
         for (int i = 0; i < instcount; i++) {
-            char addrmode = tokenizer->readIAER();
-            int addr =
-                tokenizer->readInstr(addrmode, module_base, uselist, symTab);
-            memMap->allocateMem(addr);
+            char addrmode = tokenizer->readIAER(false);
+            MemInfo memInfo = tokenizer->readInstr(
+                addrmode, module_base, instcount, uselist, symTab, memMap);
+            memMap->allocateMem(memInfo.val, memInfo.errcode, memInfo.sym);
         }
+
         module_base += instcount;
     }
 
     memMap->print();
+    symTab->printWarning();
 };
 
 int main(int argc, char* argv[]) {
