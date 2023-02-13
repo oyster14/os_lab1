@@ -9,6 +9,8 @@
         "array": "cpp",
         "string_view": "cpp",
         "unordered_map": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "iomanip": "cpp"
     }
 }

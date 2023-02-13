@@ -37,6 +37,7 @@ void __parse_error(int errcode, int linenum, int lineoffset) {
     };
     cout << "Parse Error line " << linenum << " offset " << lineoffset << ": "
          << errstr[errcode] << endl;
+    exit(0);
 };
 
 void __error_message(int errcode, string symName = "") {
@@ -52,14 +53,18 @@ void __error_message(int errcode, string symName = "") {
     cout << " Error: " << symName << errstr[errcode];
 };
 
-void __warning_message(int errcode, string sym = "", int module = 0) {
+void __warning_message(int errcode, string sym = "", int module = 0,
+                       int val = 0, int maxVal = 0) {
     static const vector<string> errstr = {
-        " too big %d (max=%d) assume zero relative",  // for format
+        ") assume zero relative",  // "too big %d (max=%d) assume zero relative"
         " redefined and ignored",
         " appeared in the uselist but was not actually used",
         " was defined but never used"};
-    cout << "Warning: Module " << module << ": " << sym << errstr[errcode]
-         << endl;
+    cout << "Warning: Module " << module << ": " << sym;
+    if (errcode == 0) {
+        cout << " too big " << val << " (max=" << maxVal;
+    }
+    cout << errstr[errcode] << endl;
 };
 
 class SymTab {
@@ -69,6 +74,7 @@ class SymTab {
         int loc = 0;
         int warncode = 3;
         int errcode = -1;
+        bool first_set = false;
         SymInfo() : val(), loc(), warncode(), errcode() {}
         SymInfo(int val, int loc) : val(val), loc(loc) {}
     };
@@ -109,6 +115,13 @@ class SymTab {
 
     int getVal(string sym) { return symTable[sym].val; }
 
+    void changeVal(string sym, int val) {
+        symTable[sym].val = val;
+        symTable[sym].first_set = true;
+    }
+
+    bool isFirstSet(string sym) { return symTable[sym].first_set; }
+
     bool symExist(string sym) { return symTable.count(sym); }
 
    private:
@@ -132,7 +145,7 @@ class MemMap {
             cout << "Memory Map" << endl;
         }
         cout << setw(3) << setfill('0') << i;
-        cout << ": " << memMap[i].val;
+        cout << ": " << setw(4) << setfill('0') << memMap[i].val;
         if (memMap[i].errcode >= 0) {
             __error_message(memMap[i].errcode, memMap[i].sym);
         }
@@ -195,17 +208,43 @@ class Tokenizer {
         return token;
     }
 
-    int readInt(bool check = true) {
+    int readInt(bool check = true, int list_type = 0, int mem_used = 0) {
+        if (check && isEnd()) {
+            __parse_error(0, finalLine, finalOffset);
+        }
         Token token = getToken();
         if (check) {
-            for (int i = 0; i < token.symbol.size(); i++) {
-                if (!isdigit(token.symbol[i])) {
-                    cout << "wrong int token" << endl;
-                    exit(0);
+            int idx = 0, len = token.symbol.size();
+            while (idx < len - 1 && token.symbol[idx] == '0') {
+                idx++;
+            }
+            if (len - idx > 10 ||
+                (len - idx == 10 && token.symbol[idx] != '1')) {
+                __parse_error(0, token.line, token.offset);
+            }
+            while (idx < len) {
+                if (!isdigit(token.symbol[idx])) {
+                    __parse_error(0, token.line, token.offset);
+                }
+                idx++;
+            }
+        }
+        int val = stoi(token.symbol);
+        if (check && val >= 1073741824) {
+            __parse_error(0, token.line, token.offset);
+        }
+        if (check && list_type > 0) {
+            if (list_type < 6) {
+                if (val > 16) {
+                    __parse_error(list_type, token.line, token.offset);
+                }
+            } else {
+                if (val + mem_used > 512) {
+                    __parse_error(list_type, token.line, token.offset);
                 }
             }
         }
-        return stoi(token.symbol);
+        return val;
     }
 
     MemInfo readInstr(char type, int module_base, int module_size,
@@ -217,8 +256,12 @@ class Tokenizer {
         int errcode = -1;  // instr, errcode
         string sym = "";
         if (opcode >= 10) {
-            cout << "wrong opcode" << endl;
-            exit(0);
+            if (type == 'I') {
+                errcode = 5;
+            } else {
+                errcode = 6;
+            }
+            return {9999, errcode, sym};
         }
         switch (type) {
             case 'R':
@@ -258,32 +301,38 @@ class Tokenizer {
     }
 
     string readSym(bool check = true) {
+        if (check && isEnd()) {
+            __parse_error(1, finalLine, finalOffset);
+        }
         Token token = getToken();
         if (check) {
             int len = token.symbol.size();
-            if (len > 16) {
-                cout << "wrong symbol token" << endl;
-                exit(0);
+            if (!isalpha(token.symbol[0])) {
+                __parse_error(1, token.line, token.offset);
             }
-            for (int i = 0; i < len; i++) {
+            for (int i = 1; i < len; i++) {
                 if (!isalnum(token.symbol[i])) {
-                    cout << "wrong symbol token" << endl;
-                    exit(0);
+                    __parse_error(1, token.line, token.offset);
                 }
+            }
+            if (len > 16) {
+                __parse_error(3, token.line, token.offset);
             }
         }
         return token.symbol;
     }
 
     char readIAER(bool check = true) {
+        if (check && isEnd()) {
+            __parse_error(2, finalLine, finalOffset);
+        }
         Token token = getToken();
         char type = token.symbol[0];
         if (check) {
             if (token.symbol.size() != 1 ||
                 !(token.symbol == "I" || token.symbol == "A" ||
                   token.symbol == "E" || token.symbol == "R")) {
-                cout << "syntax error: an unexpected token" << endl;
-                exit(0);
+                __parse_error(2, token.line, token.offset);
             }
         }
         return type;
@@ -293,7 +342,7 @@ class Tokenizer {
 
     void backToBeginning() {
         if (!isEnd()) {
-            cout << "file has yet to reach the end!" << endl;
+            cout << "Current file has yet to reach the end!" << endl;
             exit(0);
         }
         line = "";
@@ -330,30 +379,45 @@ class Tokenizer {
 void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
     int module_base = 0;
     int module_counter = 0;
+    int mem_used = 0;
+    vector<string> deflist;
 
     while (!tokenizer->isEnd()) {
         module_counter++;
 
-        int defcount = tokenizer->readInt();
-        if (defcount > 16) {
-            cout << "defcount exceeds maximum limit" << endl;
-            exit(0);
-        }
+        int defcount = tokenizer->readInt(true, 4);
+        deflist.clear();
         for (int i = 0; i < defcount; i++) {
             string sym = tokenizer->readSym();
             int val = tokenizer->readInt();
-            symTab->createSymbol(sym, val + module_base, module_counter);
+            deflist.emplace_back(sym);
+            symTab->createSymbol(sym, val, module_counter);
         }
 
-        int usecount = tokenizer->readInt();
+        int usecount = tokenizer->readInt(true, 5);
         for (int i = 0; i < usecount; i++) {
             string sym = tokenizer->readSym();
         }
 
-        int instcount = tokenizer->readInt();
+        int instcount = tokenizer->readInt(true, 6, mem_used);
+        mem_used += instcount;
         for (int i = 0; i < instcount; i++) {
             char addressmode = tokenizer->readIAER();
             int operand = tokenizer->readInt();
+        }
+
+        for (string& sym : deflist) {
+            if (symTab->isFirstSet(sym) == false) {
+                int val = symTab->getVal(sym);
+                if (val < instcount) {
+                    val += module_base;
+                } else {
+                    __warning_message(0, sym, module_counter, val,
+                                      instcount - 1);
+                    val = module_base;
+                }
+                symTab->changeVal(sym, val);
+            }
         }
         module_base += instcount;
     }
@@ -379,10 +443,6 @@ void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
         }
 
         int usecount = tokenizer->readInt(false);
-        if (usecount > 16) {
-            cout << "usecount exceeds maximum limit" << endl;
-            exit(0);
-        }
         uselist.clear();
         for (int i = 0; i < usecount; i++) {
             string sym = tokenizer->readSym(false);
@@ -423,6 +483,8 @@ int main(int argc, char* argv[]) {
     }
 
     SymTab* symTab = new SymTab();
+
+    SymTab symTab2 = SymTab();
 
     MemMap* memMap = new MemMap();
 
