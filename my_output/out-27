@@ -1,0 +1,51 @@
+Warning: Module 2: X11 redefined and ignored
+Warning: Module 2: X13 redefined and ignored
+Warning: Module 2: X12 redefined and ignored
+Warning: Module 6: X11 redefined and ignored
+Symbol Table
+X11=6 Error: This variable is multiple times defined; first value used
+X12=8 Error: This variable is multiple times defined; first value used
+X13=9 Error: This variable is multiple times defined; first value used
+X31=20
+
+Memory Map
+000: 1000
+001: 9999 Error: Illegal opcode; treated as 9999
+002: 1000 Error: X22 is not defined; zero used
+003: 1020
+004: 1000 Error: X22 is not defined; zero used
+005: 9999 Error: Illegal opcode; treated as 9999
+006: 0006
+007: 1007
+008: 1008
+009: 1009
+010: 2009
+011: 0020
+012: 2012
+013: 2006
+014: 2009
+015: 2015
+016: 2009
+017: 2020
+018: 3000
+019: 3701
+020: 9999 Error: Illegal opcode; treated as 9999
+021: 4021
+022: 4020
+023: 9999 Error: Illegal opcode; treated as 9999
+024: 4024
+025: 9999 Error: Illegal opcode; treated as 9999
+026: 4000 Error: X22 is not defined; zero used
+Warning: Module 4: X11 appeared in the uselist but was not actually used
+027: 5027
+028: 5987
+029: 5029
+030: 6030
+031: 6020
+032: 9999 Error: Illegal opcode; treated as 9999
+033: 6003
+034: 6034
+035: 6005
+
+Warning: Module 1: X12 was defined but never used
+

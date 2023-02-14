@@ -1,0 +1,14 @@
+Warning: Module 3: X22 too big 1 (max=0) assume zero relative
+Symbol Table
+X21=3
+X22=4
+
+Memory Map
+000: 9999 Error: Illegal opcode; treated as 9999
+001: 2003
+002: 9999 Error: Illegal opcode; treated as 9999
+003: 9999 Error: Illegal opcode; treated as 9999
+004: 9999 Error: Illegal immediate value; treated as 9999
+
+Warning: Module 3: X22 was defined but never used
+

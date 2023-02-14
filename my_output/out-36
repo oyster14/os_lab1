@@ -1,0 +1,3 @@
+Warning: Module 1: a too big 100 (max=3) assume zero relative
+Warning: Module 2: a redefined and ignored
+Parse Error line 1 offset 70: NUM_EXPECTED

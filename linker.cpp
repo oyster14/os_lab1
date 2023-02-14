@@ -74,19 +74,13 @@ class SymTab {
         int loc = 0;
         int warncode = 3;
         int errcode = -1;
-        bool first_set = false;
         SymInfo() : val(), loc(), warncode(), errcode() {}
         SymInfo(int val, int loc) : val(val), loc(loc) {}
     };
 
     void createSymbol(string sym, int val, int loc) {
-        if (symTable.count(sym) == 0) {
-            syms.emplace_back(sym);
-            symTable[sym] = {val, loc};
-        } else {
-            __warning_message(1, sym, loc);
-            symTable[sym].errcode = 4;
-        }
+        syms.emplace_back(sym);
+        symTable[sym] = {val, loc};
     }
 
     void print() {
@@ -111,18 +105,18 @@ class SymTab {
         cout << endl;
     }
 
+    void setMulDefErr(string sym, int module_counter) {
+        symTable[sym].errcode = 4;
+        if (module_counter != symTable[sym].loc) {
+            __warning_message(1, sym, module_counter);
+        }
+    }
+
+    bool symExist(string sym) { return symTable.count(sym); }
+
     void setUsedWarn(string sym) { symTable[sym].warncode = -1; }
 
     int getVal(string sym) { return symTable[sym].val; }
-
-    void changeVal(string sym, int val) {
-        symTable[sym].val = val;
-        symTable[sym].first_set = true;
-    }
-
-    bool isFirstSet(string sym) { return symTable[sym].first_set; }
-
-    bool symExist(string sym) { return symTable.count(sym); }
 
    private:
     vector<string> syms;
@@ -132,10 +126,6 @@ class SymTab {
 class MemMap {
    public:
     void allocateMem(int val, int errcode, string sym) {
-        if (memMap.size() == 256) {
-            cout << "exceed maximum memory" << endl;
-            exit(0);
-        }
         memMap.emplace_back(val, errcode, sym);
     }
 
@@ -280,6 +270,7 @@ class Tokenizer {
                     sym = uselist[operand].first;
                     uselist[operand].second = true;
                     if (symTab->symExist(sym)) {
+                        symTab->setUsedWarn(sym);
                         instr += symTab->getVal(sym);
                     } else {
                         errcode = 3;
@@ -380,7 +371,7 @@ void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
     int module_base = 0;
     int module_counter = 0;
     int mem_used = 0;
-    vector<string> deflist;
+    vector<pair<string, int>> deflist;
 
     while (!tokenizer->isEnd()) {
         module_counter++;
@@ -390,8 +381,7 @@ void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
         for (int i = 0; i < defcount; i++) {
             string sym = tokenizer->readSym();
             int val = tokenizer->readInt();
-            deflist.emplace_back(sym);
-            symTab->createSymbol(sym, val, module_counter);
+            deflist.emplace_back(sym, val);
         }
 
         int usecount = tokenizer->readInt(true, 5);
@@ -406,9 +396,10 @@ void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
             int operand = tokenizer->readInt();
         }
 
-        for (string& sym : deflist) {
-            if (symTab->isFirstSet(sym) == false) {
-                int val = symTab->getVal(sym);
+        for (auto& sym_val : deflist) {
+            int val = sym_val.second;
+            string& sym = sym_val.first;
+            if (symTab->symExist(sym) == false) {
                 if (val < instcount) {
                     val += module_base;
                 } else {
@@ -416,7 +407,9 @@ void Pass1(Tokenizer* tokenizer, SymTab* symTab) {
                                       instcount - 1);
                     val = module_base;
                 }
-                symTab->changeVal(sym, val);
+                symTab->createSymbol(sym, val, module_counter);
+            } else {
+                symTab->setMulDefErr(sym, module_counter);
             }
         }
         module_base += instcount;
@@ -429,17 +422,14 @@ void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
     int module_base = 0;
     int module_counter = 0;
     vector<pair<string, bool>> uselist;
-    vector<string> deflist;
 
     while (!tokenizer->isEnd()) {
         module_counter++;
 
         int defcount = tokenizer->readInt(false);
-        deflist.clear();
         for (int i = 0; i < defcount; i++) {
             string sym = tokenizer->readSym(false);
             int val = tokenizer->readInt(false);
-            deflist.emplace_back(sym);
         }
 
         int usecount = tokenizer->readInt(false);
@@ -447,12 +437,10 @@ void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
         for (int i = 0; i < usecount; i++) {
             string sym = tokenizer->readSym(false);
             uselist.emplace_back(sym, false);
-            if (symTab->symExist(sym)) {
-                symTab->setUsedWarn(sym);
-            }
         }
 
         int instcount = tokenizer->readInt();
+
         for (int i = 0; i < instcount; i++) {
             char addrmode = tokenizer->readIAER(false);
             MemInfo memInfo = tokenizer->readInstr(

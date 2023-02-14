@@ -8,7 +8,7 @@ LINKER=${*:-../linker}
 
 echo "linker=<$LINKER> outdir=<$OUTDIR>"
 
-INS="`seq 1 20`" 
+INS="`seq 1 50`" 
 INPRE="input-"
 OUTPRE="out-"
 
@@ -16,7 +16,7 @@ SPID=0   # process pid we are monitoring
 
 ##########################  START TIMER ####################
 
-TIMELIMIT=20
+TIMELIMIT=50
 TPID=0
 MPID=$$
 EXIT_NOW=0

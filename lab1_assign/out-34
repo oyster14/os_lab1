@@ -1,0 +1,4 @@
+Warning: Module 1: ab too big 6 (max=2) assume zero relative
+Warning: Module 2: ab redefined and ignored
+Warning: Module 3: ab redefined and ignored
+Parse Error line 11 offset 3: NUM_EXPECTED
