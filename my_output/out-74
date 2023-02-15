@@ -1,0 +1,622 @@
+Warning: Module 3: e1vf6pGTSX1 redefined and ignored
+Warning: Module 3: dQfQn redefined and ignored
+Warning: Module 4: oV redefined and ignored
+Warning: Module 4: y2clgZ redefined and ignored
+Warning: Module 5: oV redefined and ignored
+Symbol Table
+vPl0gqIZdE=186
+mx2D=336
+xMz3G1g=393
+ayV7=95
+dKrxmMwyWIOH5=384
+dQfQn=197 Error: This variable is multiple times defined; first value used
+s7zCZNZZU7g8Wq=232
+z9dTB0jy=66
+mYaAKw2Ypy7Sas=457
+cRtZehMQK77zN7DE=444
+jzyVL=454
+yEBWFuDk=445
+dk1QL2lH87yGKPPJ=444
+oV=455 Error: This variable is multiple times defined; first value used
+ak3xgbRPD=449
+gNSZ3sE2r=447
+cTvvlpaVV8a=450
+mXx=450
+xSiGLtsA1G5xj8=442
+fINgoW8=476
+e1vf6pGTSX1=473 Error: This variable is multiple times defined; first value used
+du=470
+hnMEvyXk=460
+qbdpXdnWs0egT=472
+mIyszMHZEV=461
+vTavJ=475
+y2clgZ=468 Error: This variable is multiple times defined; first value used
+y=470
+reOry6S=504
+vR=493
+ovGI=496
+cf5q9xdRXVAR3Soz=501
+lOPxEXouTMW9=499
+j0k=500
+uyKactNG6hlwqr=493
+nwWfNCdJdy4L=497
+spBmMQOIRuYAvp=504
+gQnMx=504
+j2r9lNlAy=509
+p922sY4=510
+ulVF=511
+ps8ojRGB=509
+
+Memory Map
+000: 4000 Error: Relative address exceeds module size; zero used
+001: 0000 Error: Absolute address exceeds machine size; zero used
+002: 0974
+003: 8000 Error: sz7h6Tf1P7 is not defined; zero used
+004: 9000 Error: qTO9wbQ is not defined; zero used
+005: 9439
+006: 3122
+007: 1319
+008: 4384
+009: 2000 Error: fnQkr is not defined; zero used
+010: 1317
+011: 9237
+012: 5014
+013: 0140
+014: 5000 Error: raqxsmFlH is not defined; zero used
+015: 5000 Error: fnQkr is not defined; zero used
+016: 4413
+017: 3442
+018: 3147
+019: 2298
+020: 0372
+021: 9999 Error: Illegal immediate value; treated as 9999
+022: 1101
+023: 1000 Error: fnQkr is not defined; zero used
+024: 4508
+025: 0000 Error: qTO9wbQ is not defined; zero used
+026: 0722
+027: 4235
+028: 9325
+029: 6323
+030: 7196
+031: 0139
+032: 7181
+033: 6000 Error: sz7h6Tf1P7 is not defined; zero used
+034: 0266
+035: 8000 Error: raqxsmFlH is not defined; zero used
+036: 2000 Error: raqxsmFlH is not defined; zero used
+037: 9096
+038: 5156
+039: 7000 Error: raqxsmFlH is not defined; zero used
+040: 2165
+041: 4000 Error: sz7h6Tf1P7 is not defined; zero used
+042: 1472
+043: 1292
+044: 0000 Error: fnQkr is not defined; zero used
+045: 6418
+046: 9015
+047: 5396
+048: 9006
+049: 3172
+050: 6325
+051: 9999 Error: Illegal opcode; treated as 9999
+052: 0025
+053: 7324
+054: 4286
+055: 6144
+056: 2000 Error: sz7h6Tf1P7 is not defined; zero used
+057: 3000 Error: qTO9wbQ is not defined; zero used
+058: 1458
+059: 9154
+060: 0068
+061: 1228
+062: 7000 Error: sz7h6Tf1P7 is not defined; zero used
+063: 4000 Error: fnQkr is not defined; zero used
+064: 0330
+065: 1105
+066: 5497
+067: 1188
+068: 7356
+069: 0266
+070: 5128
+071: 9000 Error: sz7h6Tf1P7 is not defined; zero used
+072: 4180
+073: 8276
+074: 2027
+075: 2392
+076: 4295
+077: 1000 Error: raqxsmFlH is not defined; zero used
+078: 9000 Error: qTO9wbQ is not defined; zero used
+079: 0000 Error: sz7h6Tf1P7 is not defined; zero used
+080: 0097
+081: 3501
+082: 5176
+083: 0583
+084: 5148
+085: 4210
+086: 8000 Error: fnQkr is not defined; zero used
+087: 3345
+088: 8444
+089: 7369
+090: 6000 Error: raqxsmFlH is not defined; zero used
+091: 8000 Error: qTO9wbQ is not defined; zero used
+092: 5060
+093: 0000 Error: Absolute address exceeds machine size; zero used
+094: 7095
+095: 2332
+096: 0000 Error: sz7h6Tf1P7 is not defined; zero used
+097: 4265
+098: 9286
+099: 4000 Error: fnQkr is not defined; zero used
+100: 9189
+101: 3171
+102: 0249
+103: 9319
+104: 4157
+105: 9000 Error: sz7h6Tf1P7 is not defined; zero used
+106: 4000 Error: fnQkr is not defined; zero used
+107: 5000 Error: raqxsmFlH is not defined; zero used
+108: 0256
+109: 6255
+110: 6000 Error: fnQkr is not defined; zero used
+111: 7000
+112: 8499
+113: 4228
+114: 1238
+115: 7259
+116: 4324
+117: 2000 Error: sz7h6Tf1P7 is not defined; zero used
+118: 5417
+119: 0358
+120: 7004
+121: 9383
+122: 8000 Error: raqxsmFlH is not defined; zero used
+123: 5103
+124: 4208
+125: 8000 Error: qTO9wbQ is not defined; zero used
+126: 2393
+127: 3000 Error: raqxsmFlH is not defined; zero used
+128: 1122
+129: 0000 Error: Absolute address exceeds machine size; zero used
+130: 4481
+131: 9000 Error: fnQkr is not defined; zero used
+132: 0432
+133: 0131
+134: 7448
+135: 4000 Error: sz7h6Tf1P7 is not defined; zero used
+136: 0162
+137: 3410
+138: 9179
+139: 4000 Error: Absolute address exceeds machine size; zero used
+140: 0229
+141: 0000 Error: Absolute address exceeds machine size; zero used
+142: 6000 Error: fnQkr is not defined; zero used
+143: 6447
+144: 0000 Error: raqxsmFlH is not defined; zero used
+145: 1000 Error: Relative address exceeds module size; zero used
+146: 6000 Error: sz7h6Tf1P7 is not defined; zero used
+147: 7456
+148: 2503
+149: 3465
+150: 5388
+151: 8507
+152: 0499
+153: 6000 Error: fnQkr is not defined; zero used
+154: 7000 Error: qTO9wbQ is not defined; zero used
+155: 0415
+156: 2000 Error: fnQkr is not defined; zero used
+157: 0000 Error: fnQkr is not defined; zero used
+158: 1091
+159: 8317
+160: 3000 Error: qTO9wbQ is not defined; zero used
+161: 0024
+162: 3000 Error: Relative address exceeds module size; zero used
+163: 3115
+164: 0038
+165: 0000 Error: Absolute address exceeds machine size; zero used
+166: 5457
+167: 5413
+168: 6240
+169: 0000 Error: Absolute address exceeds machine size; zero used
+170: 7140
+171: 4434
+172: 1000 Error: raqxsmFlH is not defined; zero used
+173: 3000 Error: qTO9wbQ is not defined; zero used
+174: 6004 Error: External address exceeds length of uselist; treated as immediate
+175: 8158
+176: 0000 Error: fnQkr is not defined; zero used
+177: 7000 Error: fnQkr is not defined; zero used
+178: 6391
+179: 2353
+180: 9999 Error: Illegal opcode; treated as 9999
+181: 4223
+182: 9000 Error: sz7h6Tf1P7 is not defined; zero used
+183: 6354
+184: 1159
+185: 3115
+186: 9415
+187: 0670
+188: 0470
+189: 6102
+190: 7000 Error: raqxsmFlH is not defined; zero used
+191: 7377
+192: 7138
+193: 8224
+194: 1000 Error: fnQkr is not defined; zero used
+195: 0000 Error: raqxsmFlH is not defined; zero used
+196: 0000 Error: Absolute address exceeds machine size; zero used
+197: 1328
+198: 1000 Error: raqxsmFlH is not defined; zero used
+199: 0624
+200: 0313
+201: 0495
+202: 0009 Error: External address exceeds length of uselist; treated as immediate
+203: 3264
+204: 5296
+205: 9999 Error: Illegal opcode; treated as 9999
+206: 0619
+207: 9000 Error: fnQkr is not defined; zero used
+208: 6111
+209: 9999 Error: Illegal opcode; treated as 9999
+210: 4328
+211: 7000 Error: sz7h6Tf1P7 is not defined; zero used
+212: 0253
+213: 9410
+214: 3319
+215: 6000 Error: raqxsmFlH is not defined; zero used
+216: 4000 Error: qTO9wbQ is not defined; zero used
+217: 3000 Error: Relative address exceeds module size; zero used
+218: 4231
+219: 0038
+220: 0255
+221: 6422
+222: 8000 Error: sz7h6Tf1P7 is not defined; zero used
+223: 2430
+224: 7000 Error: fnQkr is not defined; zero used
+225: 8428
+226: 7000 Error: fnQkr is not defined; zero used
+227: 0305
+228: 7258
+229: 2361
+230: 0312
+231: 7495
+232: 0143
+233: 8013 Error: External address exceeds length of uselist; treated as immediate
+234: 0332
+235: 9000 Error: sz7h6Tf1P7 is not defined; zero used
+236: 4000 Error: raqxsmFlH is not defined; zero used
+237: 2153
+238: 5364
+239: 7149
+240: 3462
+241: 1000 Error: qTO9wbQ is not defined; zero used
+242: 7000 Error: sz7h6Tf1P7 is not defined; zero used
+243: 5334
+244: 4000 Error: sz7h6Tf1P7 is not defined; zero used
+245: 7000 Error: fnQkr is not defined; zero used
+246: 4084
+247: 1000 Error: sz7h6Tf1P7 is not defined; zero used
+248: 6118
+249: 7000 Error: qTO9wbQ is not defined; zero used
+250: 8213
+251: 0058
+252: 8000 Error: sz7h6Tf1P7 is not defined; zero used
+253: 1263
+254: 6395
+255: 4423
+256: 2000 Error: sz7h6Tf1P7 is not defined; zero used
+257: 0924
+258: 6000 Error: qTO9wbQ is not defined; zero used
+259: 3000 Error: raqxsmFlH is not defined; zero used
+260: 4269
+261: 4155
+262: 8000 Error: sz7h6Tf1P7 is not defined; zero used
+263: 8285
+264: 2000 Error: Relative address exceeds module size; zero used
+265: 4356
+266: 0495
+267: 6000 Error: fnQkr is not defined; zero used
+268: 2186
+269: 8454
+270: 1059
+271: 2251
+272: 0213
+273: 7353
+274: 8026
+275: 7325
+276: 7000 Error: qTO9wbQ is not defined; zero used
+277: 6120
+278: 1088
+279: 9999 Error: Illegal immediate value; treated as 9999
+280: 0795
+281: 4448
+282: 6000 Error: qTO9wbQ is not defined; zero used
+283: 0330
+284: 0374
+285: 1325
+286: 0000 Error: raqxsmFlH is not defined; zero used
+287: 8324
+288: 0318
+289: 0649
+290: 5233
+291: 5488
+292: 4000 Error: qTO9wbQ is not defined; zero used
+293: 7179
+294: 1000 Error: fnQkr is not defined; zero used
+295: 1017
+296: 7463
+297: 3497
+298: 7295
+299: 4375
+300: 0183
+301: 5221
+302: 5249
+303: 8000 Error: raqxsmFlH is not defined; zero used
+304: 6198
+305: 3031
+306: 7183
+307: 7290
+308: 3185
+309: 0000 Error: raqxsmFlH is not defined; zero used
+310: 3000 Error: fnQkr is not defined; zero used
+311: 8482
+312: 0674
+313: 9000 Error: raqxsmFlH is not defined; zero used
+314: 4136
+315: 0054
+316: 8336
+317: 1289
+318: 3000 Error: qTO9wbQ is not defined; zero used
+319: 1400
+320: 3000 Error: qTO9wbQ is not defined; zero used
+321: 0000 Error: sz7h6Tf1P7 is not defined; zero used
+322: 7380
+323: 3058
+324: 2189
+325: 7000 Error: raqxsmFlH is not defined; zero used
+326: 7390
+327: 0000 Error: fnQkr is not defined; zero used
+328: 7414
+329: 3177
+330: 9999 Error: Illegal opcode; treated as 9999
+331: 5339
+332: 9186
+333: 1203
+334: 4000 Error: qTO9wbQ is not defined; zero used
+335: 5000 Error: qTO9wbQ is not defined; zero used
+336: 4082
+337: 1000 Error: sz7h6Tf1P7 is not defined; zero used
+338: 6000 Error: qTO9wbQ is not defined; zero used
+339: 5175
+340: 8487
+341: 0193
+342: 4464
+343: 1267
+344: 2168
+345: 1326
+346: 9010
+347: 0215
+348: 7000 Error: fnQkr is not defined; zero used
+349: 1198
+350: 8225
+351: 3019 Error: External address exceeds length of uselist; treated as immediate
+352: 0295
+353: 9252
+354: 7114
+355: 8310
+356: 3000 Error: sz7h6Tf1P7 is not defined; zero used
+357: 0000 Error: Absolute address exceeds machine size; zero used
+358: 1261
+359: 8354
+360: 0290
+361: 8000 Error: sz7h6Tf1P7 is not defined; zero used
+362: 5305
+363: 3204
+364: 0000 Error: sz7h6Tf1P7 is not defined; zero used
+365: 0495
+366: 8088
+367: 3339
+368: 3478
+369: 7209
+370: 2000 Error: sz7h6Tf1P7 is not defined; zero used
+371: 4131
+372: 3437
+373: 8000 Error: fnQkr is not defined; zero used
+374: 6000 Error: fnQkr is not defined; zero used
+375: 8000 Error: sz7h6Tf1P7 is not defined; zero used
+376: 9366
+377: 3253
+378: 5440
+379: 3443
+380: 4000 Error: fnQkr is not defined; zero used
+381: 0750
+382: 9424
+383: 4432
+384: 4092
+385: 7326
+386: 8132
+387: 6143
+388: 0570
+389: 6037
+390: 0374
+391: 8150
+392: 7280
+393: 4169
+394: 7196
+395: 2126
+396: 3134
+397: 3394
+398: 8346
+399: 0270
+400: 7344
+401: 0372
+402: 8000 Error: raqxsmFlH is not defined; zero used
+403: 1130
+404: 9000 Error: raqxsmFlH is not defined; zero used
+405: 8418
+406: 9999 Error: Illegal immediate value; treated as 9999
+407: 1414
+408: 3402
+409: 4203
+410: 1427
+411: 6473
+412: 7411
+413: 3000 Error: qTO9wbQ is not defined; zero used
+414: 9999 Error: Illegal opcode; treated as 9999
+415: 3250
+416: 7386
+417: 0248
+418: 6283
+419: 4133
+420: 1000 Error: raqxsmFlH is not defined; zero used
+421: 5101
+422: 5026
+423: 2139
+424: 0201
+425: 6509
+426: 1000 Error: sz7h6Tf1P7 is not defined; zero used
+427: 7000 Error: fnQkr is not defined; zero used
+428: 4086
+429: 3120
+430: 0463
+431: 8460
+432: 0131
+433: 7284
+434: 2315
+435: 2000 Error: raqxsmFlH is not defined; zero used
+436: 6246
+437: 6290
+438: 9000 Error: osellMk is not defined; zero used
+439: 9999 Error: Illegal opcode; treated as 9999
+440: 5133
+441: 8502
+442: 9999 Error: Illegal opcode; treated as 9999
+443: 0056
+444: 0651
+445: 0312
+446: 2438
+447: 1486
+448: 3000 Error: osellMk is not defined; zero used
+449: 1000 Error: osellMk is not defined; zero used
+450: 6257
+451: 5160
+452: 6189
+453: 2423
+454: 2450
+455: 1000 Error: osellMk is not defined; zero used
+456: 9000 Error: ulfqQUw8RVF is not defined; zero used
+457: 1000 Error: inrvXxndP is not defined; zero used
+Warning: Module 2: u appeared in the uselist but was not actually used
+Warning: Module 2: obziypcRB4q appeared in the uselist but was not actually used
+Warning: Module 2: uF41i4356HDWM28 appeared in the uselist but was not actually used
+458: 7266
+459: 8481
+460: 0979
+461: 3000 Error: u is not defined; zero used
+462: 9000 Error: mbi5JUXi is not defined; zero used
+463: 2395
+464: 2000 Error: ovBu2nlfrDUYB is not defined; zero used
+465: 6274
+466: 0064
+467: 5246
+468: 6464
+469: 4632
+470: 2256
+471: 2100
+472: 0341
+473: 3010 Error: External address exceeds length of uselist; treated as immediate
+474: 3503
+475: 1174
+476: 3327
+477: 5293
+478: 8492
+479: 2479
+480: 6000 Error: mbi5JUXi is not defined; zero used
+481: 3465
+482: 9418
+483: 2000 Error: u is not defined; zero used
+484: 2135
+485: 6173
+486: 1485
+487: 4258
+488: 1000 Error: dkoK7srz8k is not defined; zero used
+489: 1000 Error: xj is not defined; zero used
+490: 7160
+491: 3488
+492: 7490
+Warning: Module 3: p0IGePG appeared in the uselist but was not actually used
+493: 4392
+494: 5370
+495: 0480
+496: 7459
+497: 8000 Error: yjvM is not defined; zero used
+498: 4000 Error: a2MmZXX is not defined; zero used
+499: 9343
+500: 8447
+501: 8000 Error: a2MmZXX is not defined; zero used
+502: 3251
+503: 4484
+504: 8329
+505: 4349
+Warning: Module 4: zjHyxzM0Vx appeared in the uselist but was not actually used
+Warning: Module 4: cxymkB7ksCS appeared in the uselist but was not actually used
+506: 7506
+507: 8000 Error: pk8K0VU1dmKBo is not defined; zero used
+508: 9507
+509: 1000 Error: e3jQEFW6B3L8Kz is not defined; zero used
+510: 9000 Error: mW0cU3SVb is not defined; zero used
+511: 3000 Error: erJL4B7K is not defined; zero used
+Warning: Module 5: rAB1E2Zh appeared in the uselist but was not actually used
+Warning: Module 5: jR6a1B5R appeared in the uselist but was not actually used
+Warning: Module 5: roZhW8 appeared in the uselist but was not actually used
+Warning: Module 5: j0k appeared in the uselist but was not actually used
+Warning: Module 5: ommWm7FHz3LQEz appeared in the uselist but was not actually used
+Warning: Module 5: vP4tlesyF0 appeared in the uselist but was not actually used
+Warning: Module 5: vOXczyyxLiz appeared in the uselist but was not actually used
+Warning: Module 5: atVDwzhOo6Etgjhg appeared in the uselist but was not actually used
+Warning: Module 5: yU7YuvJTnpC7LI4 appeared in the uselist but was not actually used
+Warning: Module 5: sdeqo appeared in the uselist but was not actually used
+
+Warning: Module 1: vPl0gqIZdE was defined but never used
+Warning: Module 1: mx2D was defined but never used
+Warning: Module 1: xMz3G1g was defined but never used
+Warning: Module 1: ayV7 was defined but never used
+Warning: Module 1: dKrxmMwyWIOH5 was defined but never used
+Warning: Module 1: dQfQn was defined but never used
+Warning: Module 1: s7zCZNZZU7g8Wq was defined but never used
+Warning: Module 1: z9dTB0jy was defined but never used
+Warning: Module 2: mYaAKw2Ypy7Sas was defined but never used
+Warning: Module 2: cRtZehMQK77zN7DE was defined but never used
+Warning: Module 2: jzyVL was defined but never used
+Warning: Module 2: yEBWFuDk was defined but never used
+Warning: Module 2: dk1QL2lH87yGKPPJ was defined but never used
+Warning: Module 2: oV was defined but never used
+Warning: Module 2: ak3xgbRPD was defined but never used
+Warning: Module 2: gNSZ3sE2r was defined but never used
+Warning: Module 2: cTvvlpaVV8a was defined but never used
+Warning: Module 2: mXx was defined but never used
+Warning: Module 2: xSiGLtsA1G5xj8 was defined but never used
+Warning: Module 3: fINgoW8 was defined but never used
+Warning: Module 3: e1vf6pGTSX1 was defined but never used
+Warning: Module 3: du was defined but never used
+Warning: Module 3: hnMEvyXk was defined but never used
+Warning: Module 3: qbdpXdnWs0egT was defined but never used
+Warning: Module 3: mIyszMHZEV was defined but never used
+Warning: Module 3: vTavJ was defined but never used
+Warning: Module 3: y2clgZ was defined but never used
+Warning: Module 3: y was defined but never used
+Warning: Module 4: reOry6S was defined but never used
+Warning: Module 4: vR was defined but never used
+Warning: Module 4: ovGI was defined but never used
+Warning: Module 4: cf5q9xdRXVAR3Soz was defined but never used
+Warning: Module 4: lOPxEXouTMW9 was defined but never used
+Warning: Module 4: j0k was defined but never used
+Warning: Module 4: uyKactNG6hlwqr was defined but never used
+Warning: Module 4: nwWfNCdJdy4L was defined but never used
+Warning: Module 4: spBmMQOIRuYAvp was defined but never used
+Warning: Module 4: gQnMx was defined but never used
+Warning: Module 5: j2r9lNlAy was defined but never used
+Warning: Module 5: p922sY4 was defined but never used
+Warning: Module 5: ulVF was defined but never used
+Warning: Module 5: ps8ojRGB was defined but never used
+

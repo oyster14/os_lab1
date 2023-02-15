@@ -1,0 +1,169 @@
+Warning: Module 1: zCVFrpUZm redefined and ignored
+Symbol Table
+zCVFrpUZm=92 Error: This variable is multiple times defined; first value used
+miwL7hZTVFAFX=120
+qip=27
+gUjbkmB0Fx=72
+fZSc7D=86
+kXQ1dHLP2jZ=31
+naOSfg=82
+q0q=137
+
+Memory Map
+000: 4321
+001: 7046
+002: 7000 Error: cT3qslT is not defined; zero used
+003: 3198
+004: 4449
+005: 4236
+006: 0077
+007: 0032
+008: 4119
+009: 0857
+010: 5117
+011: 7306
+012: 5448
+013: 0000 Error: g is not defined; zero used
+014: 9999 Error: Illegal immediate value; treated as 9999
+015: 4000 Error: nRla7knK8qfawv is not defined; zero used
+016: 3229
+017: 2275
+018: 0649
+019: 5100
+020: 7211
+021: 0116
+022: 1000 Error: Relative address exceeds module size; zero used
+023: 5054
+024: 4161
+025: 1173
+026: 8035
+027: 8183
+028: 0484
+029: 7000 Error: jfWmCFUGcej is not defined; zero used
+030: 3000 Error: unkx3XmO5gbS6u2 is not defined; zero used
+031: 9505
+032: 3294
+033: 4206
+034: 7151
+035: 6219
+036: 4418
+037: 6102
+038: 8046
+039: 0000 Error: Absolute address exceeds machine size; zero used
+040: 0465
+041: 4138
+042: 9054
+043: 0000 Error: Absolute address exceeds machine size; zero used
+044: 0250
+045: 1091
+046: 4244
+047: 0000 Error: Absolute address exceeds machine size; zero used
+048: 2122
+049: 8141
+050: 1214
+051: 3335
+052: 2439
+053: 4030
+054: 7415
+055: 7000 Error: ji1 is not defined; zero used
+056: 6119
+057: 1065
+058: 6149
+059: 8000 Error: cT3qslT is not defined; zero used
+060: 2000 Error: unkx3XmO5gbS6u2 is not defined; zero used
+061: 6472
+062: 0475
+063: 1453
+064: 4276
+065: 9000 Error: i0MMH3QBnt9X is not defined; zero used
+066: 1363
+067: 6136
+068: 8181
+069: 5136
+070: 0290
+071: 9000 Error: iDRBrMf45 is not defined; zero used
+072: 0317
+073: 4000 Error: t is not defined; zero used
+074: 2000 Error: Absolute address exceeds machine size; zero used
+075: 3068
+076: 0000 Error: i0MMH3QBnt9X is not defined; zero used
+077: 0000 Error: emSud is not defined; zero used
+078: 5027
+079: 1000 Error: xEQkSKcky is not defined; zero used
+080: 7016
+081: 8000 Error: ji1 is not defined; zero used
+082: 7000 Error: ji1 is not defined; zero used
+083: 1107
+084: 0223
+085: 0000 Error: Absolute address exceeds machine size; zero used
+086: 9504
+087: 7000 Error: Relative address exceeds module size; zero used
+088: 7145
+089: 5385
+090: 9510
+091: 3036
+092: 5000 Error: unkx3XmO5gbS6u2 is not defined; zero used
+093: 9019
+094: 6328
+095: 1000 Error: ji1 is not defined; zero used
+096: 4000 Error: unkx3XmO5gbS6u2 is not defined; zero used
+097: 0242
+098: 0284
+099: 1245
+100: 1077
+101: 5189
+102: 0012
+103: 9000 Error: g is not defined; zero used
+104: 7240
+105: 2137
+106: 0511
+107: 0000 Error: g is not defined; zero used
+108: 0314
+109: 0116
+110: 9000 Error: i0MMH3QBnt9X is not defined; zero used
+111: 2345
+112: 1034
+113: 1382
+114: 7000 Error: g is not defined; zero used
+115: 2009
+116: 0000 Error: cT3qslT is not defined; zero used
+117: 9999 Error: Illegal opcode; treated as 9999
+118: 6392
+119: 6000 Error: nRla7knK8qfawv is not defined; zero used
+120: 1000 Error: nRla7knK8qfawv is not defined; zero used
+121: 9001
+122: 2000 Error: cT3qslT is not defined; zero used
+123: 1048
+124: 6062
+125: 0183
+126: 2000 Error: iDRBrMf45 is not defined; zero used
+127: 2000 Error: iDRBrMf45 is not defined; zero used
+128: 3161
+129: 0447
+130: 0000 Error: unkx3XmO5gbS6u2 is not defined; zero used
+131: 9000 Error: cT3qslT is not defined; zero used
+132: 8286
+133: 5130
+134: 0435
+135: 0000 Error: cT3qslT is not defined; zero used
+136: 2000 Error: iDRBrMf45 is not defined; zero used
+137: 1444
+138: 9999 Error: Illegal opcode; treated as 9999
+139: 4064
+140: 5027
+141: 8000 Error: i0MMH3QBnt9X is not defined; zero used
+142: 7216
+143: 1341
+144: 2000 Error: t is not defined; zero used
+145: 5210
+146: 1000 Error: iDRBrMf45 is not defined; zero used
+Warning: Module 1: cHu9 appeared in the uselist but was not actually used
+
+Warning: Module 1: zCVFrpUZm was defined but never used
+Warning: Module 1: miwL7hZTVFAFX was defined but never used
+Warning: Module 1: gUjbkmB0Fx was defined but never used
+Warning: Module 1: fZSc7D was defined but never used
+Warning: Module 1: kXQ1dHLP2jZ was defined but never used
+Warning: Module 1: naOSfg was defined but never used
+Warning: Module 1: q0q was defined but never used
+

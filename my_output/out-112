@@ -1,0 +1,459 @@
+Warning: Module 1: i4z9krIAt0m redefined and ignored
+Symbol Table
+aiCEE=117
+i4z9krIAt0m=24 Error: This variable is multiple times defined; first value used
+kAhL0CLFl=56
+iksOJfthhW7y=91
+eR0mvEeBcYS=183
+ssl2wuaK2W=208
+m=124
+htpIenfl2=119
+guJSFfOeL4KmD=35
+s3Vhl56=4
+ljljgn=132
+uQgR69=215
+nloqFl2icC=172
+d=373
+gjNCdpN31U=245
+iMx6LEMQ=383
+al5c4Ym42=294
+oSJhAuTyU=397
+yvcOadJ=273
+aei15JJuCEQehTE=296
+zv5soc1znS=297
+rc4LPzgtow=224
+aupTaHzVbR1=330
+
+Memory Map
+000: 4000 Error: gIFKEmH is not defined; zero used
+001: 7000 Error: gIFKEmH is not defined; zero used
+002: 7346
+003: 7292
+004: 8285
+005: 8000 Error: gIFKEmH is not defined; zero used
+006: 2000 Error: gIFKEmH is not defined; zero used
+007: 5201
+008: 9214
+009: 8000 Error: gIFKEmH is not defined; zero used
+010: 3159
+011: 8144
+012: 9241
+013: 0000 Error: Absolute address exceeds machine size; zero used
+014: 5000 Error: gIFKEmH is not defined; zero used
+015: 0214
+016: 0974
+017: 7000 Error: gIFKEmH is not defined; zero used
+018: 7000 Error: gIFKEmH is not defined; zero used
+019: 8284
+020: 0000 Error: gIFKEmH is not defined; zero used
+021: 6000 Error: gIFKEmH is not defined; zero used
+022: 1072
+023: 0167
+024: 5299
+025: 0213
+026: 8106
+027: 9000 Error: gIFKEmH is not defined; zero used
+028: 0333
+029: 4000 Error: gIFKEmH is not defined; zero used
+030: 0227
+031: 5564
+032: 2000 Error: gIFKEmH is not defined; zero used
+033: 8333
+034: 7000 Error: gIFKEmH is not defined; zero used
+035: 7295
+036: 9180
+037: 0506
+038: 6498
+039: 2439
+040: 1356
+041: 8080
+042: 7431
+043: 6462
+044: 3092
+045: 6440
+046: 1207
+047: 1181
+048: 3203
+049: 3159
+050: 0402
+051: 5031
+052: 5000 Error: gIFKEmH is not defined; zero used
+053: 2000 Error: gIFKEmH is not defined; zero used
+054: 8000 Error: gIFKEmH is not defined; zero used
+055: 4069
+056: 0000 Error: Absolute address exceeds machine size; zero used
+057: 0000 Error: gIFKEmH is not defined; zero used
+058: 4101
+059: 0000 Error: gIFKEmH is not defined; zero used
+060: 4000 Error: gIFKEmH is not defined; zero used
+061: 0231
+062: 0000 Error: gIFKEmH is not defined; zero used
+063: 8266
+064: 9000 Error: gIFKEmH is not defined; zero used
+065: 1107
+066: 7000 Error: gIFKEmH is not defined; zero used
+067: 7411
+068: 0137
+069: 3077
+070: 5503
+071: 0000 Error: Absolute address exceeds machine size; zero used
+072: 4415
+073: 4000 Error: gIFKEmH is not defined; zero used
+074: 3197
+075: 9000 Error: gIFKEmH is not defined; zero used
+076: 3363
+077: 9250
+078: 1001 Error: External address exceeds length of uselist; treated as immediate
+079: 4023
+080: 5000 Error: gIFKEmH is not defined; zero used
+081: 3000 Error: gIFKEmH is not defined; zero used
+082: 0000 Error: Absolute address exceeds machine size; zero used
+083: 1000 Error: gIFKEmH is not defined; zero used
+084: 0085
+085: 2220
+086: 9043
+087: 9999 Error: Illegal immediate value; treated as 9999
+088: 0327
+089: 3221
+090: 9303
+091: 9000 Error: Relative address exceeds module size; zero used
+092: 4397
+093: 8175
+094: 6193
+095: 2220
+096: 1000 Error: gIFKEmH is not defined; zero used
+097: 5119
+098: 3091
+099: 8000 Error: gIFKEmH is not defined; zero used
+100: 0191
+101: 8334
+102: 0981
+103: 0147
+104: 0753
+105: 8000 Error: gIFKEmH is not defined; zero used
+106: 6000 Error: gIFKEmH is not defined; zero used
+107: 9247
+108: 1385
+109: 1000 Error: gIFKEmH is not defined; zero used
+110: 5000 Error: gIFKEmH is not defined; zero used
+111: 9084
+112: 1105
+113: 3154
+114: 4250
+115: 0464
+116: 5315
+117: 9461
+118: 8190
+119: 3469
+120: 0000 Error: gIFKEmH is not defined; zero used
+121: 5475
+122: 4209
+123: 6498
+124: 2164
+125: 7000 Error: gIFKEmH is not defined; zero used
+126: 4482
+127: 2000 Error: gIFKEmH is not defined; zero used
+128: 7026 Error: External address exceeds length of uselist; treated as immediate
+129: 9000 Error: gIFKEmH is not defined; zero used
+130: 8415
+131: 2184
+132: 6428
+133: 3000 Error: gIFKEmH is not defined; zero used
+134: 4108
+135: 9203
+136: 6266
+137: 0294
+138: 4105
+139: 9275
+140: 5168
+141: 9492
+142: 2181
+143: 5131
+144: 8003 Error: External address exceeds length of uselist; treated as immediate
+145: 7000 Error: gIFKEmH is not defined; zero used
+146: 7159
+147: 6434
+148: 0000 Error: gIFKEmH is not defined; zero used
+149: 5444
+150: 9999 Error: Illegal immediate value; treated as 9999
+151: 0247
+152: 7232
+153: 9241
+154: 0038
+155: 0488
+156: 8444
+157: 8000 Error: gIFKEmH is not defined; zero used
+158: 9000 Error: Absolute address exceeds machine size; zero used
+159: 5355
+160: 7199
+161: 5000 Error: gIFKEmH is not defined; zero used
+162: 5000 Error: gIFKEmH is not defined; zero used
+163: 9000 Error: gIFKEmH is not defined; zero used
+164: 7279
+165: 7000 Error: gIFKEmH is not defined; zero used
+166: 8196
+167: 3508
+168: 3263
+169: 4134
+170: 0069
+171: 0082
+172: 4165
+173: 9367
+174: 4198
+175: 4000 Error: gIFKEmH is not defined; zero used
+176: 6088
+177: 5000 Error: gIFKEmH is not defined; zero used
+178: 8303
+179: 5127
+180: 0949
+181: 0020 Error: External address exceeds length of uselist; treated as immediate
+182: 5505
+183: 9364
+184: 2000 Error: gIFKEmH is not defined; zero used
+185: 0000 Error: gIFKEmH is not defined; zero used
+186: 7125
+187: 7150
+188: 3000 Error: gIFKEmH is not defined; zero used
+189: 0000 Error: gIFKEmH is not defined; zero used
+190: 7236
+191: 7197
+192: 9452
+193: 3182
+194: 1119
+195: 2130
+196: 3204
+197: 0368
+198: 0013
+199: 8135
+200: 0011
+201: 7108
+202: 8000 Error: gIFKEmH is not defined; zero used
+203: 0185
+204: 1169
+205: 8000 Error: gIFKEmH is not defined; zero used
+206: 2374
+207: 0464
+208: 7083
+209: 8000 Error: Absolute address exceeds machine size; zero used
+210: 1005
+211: 8017
+212: 0023
+213: 7085
+214: 0501
+215: 3181
+216: 9448
+217: 1213
+218: 7026
+219: 2391
+220: 3132
+221: 7149
+222: 7271
+223: 0000 Error: b3KmpO3NSW4 is not defined; zero used
+224: 6249
+225: 5000 Error: zN is not defined; zero used
+226: 6000 Error: iKUBNkasaZeeT1I is not defined; zero used
+227: 9314
+228: 4286
+229: 1388
+230: 9000 Error: wKDN5YOn is not defined; zero used
+231: 3431
+232: 0003
+233: 4297
+234: 8452
+235: 3236
+236: 0335
+237: 8374
+238: 6487
+239: 3378
+240: 4000 Error: zN is not defined; zero used
+241: 3121
+242: 1302
+243: 7132
+244: 4313
+245: 6000 Error: zN is not defined; zero used
+246: 0259
+247: 5384
+248: 5000 Error: eqWuertE is not defined; zero used
+249: 3319
+250: 9000 Error: zN is not defined; zero used
+251: 0418
+252: 8243
+253: 9999 Error: Illegal immediate value; treated as 9999
+254: 9168
+255: 8000 Error: vXAWYeQ085WX is not defined; zero used
+256: 1156
+257: 3396
+258: 2107
+259: 5220 Error: Relative address exceeds module size; zero used
+260: 4395
+261: 4214
+262: 7000 Error: iKUBNkasaZeeT1I is not defined; zero used
+263: 9999 Error: Illegal immediate value; treated as 9999
+264: 9285
+265: 5332
+266: 1283
+267: 1343
+268: 4234
+269: 0192
+270: 7403
+271: 6395
+272: 0405
+273: 8191
+274: 9126
+275: 0420
+276: 0010
+277: 8410
+278: 3000 Error: vXAWYeQ085WX is not defined; zero used
+279: 0185
+280: 5341
+281: 4345
+282: 0053
+283: 7186
+284: 0132
+285: 2388
+286: 9000 Error: iKUBNkasaZeeT1I is not defined; zero used
+287: 7480
+288: 3203
+289: 7000 Error: eqWuertE is not defined; zero used
+290: 5453
+291: 7310
+292: 2201
+293: 5303
+294: 4000 Error: eqWuertE is not defined; zero used
+295: 0000 Error: iKUBNkasaZeeT1I is not defined; zero used
+296: 1123
+297: 0000 Error: wKDN5YOn is not defined; zero used
+298: 9176
+299: 5356
+300: 6000 Error: wKDN5YOn is not defined; zero used
+301: 0000 Error: aZBvTw is not defined; zero used
+302: 8334
+303: 2284
+304: 9999 Error: Illegal opcode; treated as 9999
+305: 3265
+306: 8132
+307: 4425
+308: 9333
+309: 4494
+310: 8168
+311: 0241
+312: 0363
+313: 0382
+314: 7155
+315: 5000 Error: iKUBNkasaZeeT1I is not defined; zero used
+316: 3000 Error: eqWuertE is not defined; zero used
+317: 4399
+318: 0055
+319: 9009 Error: External address exceeds length of uselist; treated as immediate
+320: 9327
+321: 7335
+322: 8302
+323: 1474
+324: 5371
+325: 4232
+326: 6302
+327: 3132
+328: 3330
+329: 0218
+330: 6199
+331: 1334
+332: 4395
+333: 7380
+334: 1000 Error: eqWuertE is not defined; zero used
+335: 9000 Error: aZBvTw is not defined; zero used
+336: 9258
+337: 2423
+338: 0267
+339: 1000 Error: aZBvTw is not defined; zero used
+340: 2000 Error: b3KmpO3NSW4 is not defined; zero used
+341: 6310
+342: 9424
+343: 3187
+344: 1266
+345: 3290
+346: 5343
+347: 0354
+348: 9301
+349: 1415
+350: 6000 Error: iKUBNkasaZeeT1I is not defined; zero used
+351: 0000 Error: aZBvTw is not defined; zero used
+352: 5334
+353: 0329
+354: 1503
+355: 6395
+356: 3503
+357: 0000 Error: Absolute address exceeds machine size; zero used
+358: 8220 Error: Relative address exceeds module size; zero used
+359: 5000 Error: b3KmpO3NSW4 is not defined; zero used
+360: 6132
+361: 0231
+362: 6167
+363: 0000 Error: Absolute address exceeds machine size; zero used
+364: 0000 Error: Absolute address exceeds machine size; zero used
+365: 7274
+366: 2000 Error: aZBvTw is not defined; zero used
+367: 6288
+368: 1000 Error: eqWuertE is not defined; zero used
+369: 5406
+370: 0000 Error: Absolute address exceeds machine size; zero used
+371: 6158
+372: 0000 Error: Absolute address exceeds machine size; zero used
+373: 8000 Error: vXAWYeQ085WX is not defined; zero used
+374: 3000 Error: aZBvTw is not defined; zero used
+375: 4322
+376: 2257
+377: 0000 Error: Absolute address exceeds machine size; zero used
+378: 9000 Error: b3KmpO3NSW4 is not defined; zero used
+379: 0000 Error: zN is not defined; zero used
+380: 0355
+381: 8479
+382: 8339
+383: 3357
+384: 8396
+385: 5278
+386: 4332
+387: 1000 Error: aZBvTw is not defined; zero used
+388: 3000 Error: aZBvTw is not defined; zero used
+389: 6227
+390: 4360
+391: 9132
+392: 2000 Error: eqWuertE is not defined; zero used
+393: 5000 Error: zN is not defined; zero used
+394: 1511
+395: 0333
+396: 9351
+397: 4320
+398: 9207
+399: 0000 Error: zN is not defined; zero used
+400: 8244
+401: 0000 Error: eqWuertE is not defined; zero used
+402: 9284
+403: 1390
+404: 2263
+405: 0296
+406: 7475
+407: 0000 Error: Absolute address exceeds machine size; zero used
+
+Warning: Module 1: aiCEE was defined but never used
+Warning: Module 1: i4z9krIAt0m was defined but never used
+Warning: Module 1: kAhL0CLFl was defined but never used
+Warning: Module 1: iksOJfthhW7y was defined but never used
+Warning: Module 1: eR0mvEeBcYS was defined but never used
+Warning: Module 1: ssl2wuaK2W was defined but never used
+Warning: Module 1: m was defined but never used
+Warning: Module 1: htpIenfl2 was defined but never used
+Warning: Module 1: guJSFfOeL4KmD was defined but never used
+Warning: Module 1: s3Vhl56 was defined but never used
+Warning: Module 1: uQgR69 was defined but never used
+Warning: Module 1: nloqFl2icC was defined but never used
+Warning: Module 2: d was defined but never used
+Warning: Module 2: gjNCdpN31U was defined but never used
+Warning: Module 2: iMx6LEMQ was defined but never used
+Warning: Module 2: al5c4Ym42 was defined but never used
+Warning: Module 2: oSJhAuTyU was defined but never used
+Warning: Module 2: yvcOadJ was defined but never used
+Warning: Module 2: aei15JJuCEQehTE was defined but never used
+Warning: Module 2: zv5soc1znS was defined but never used
+Warning: Module 2: rc4LPzgtow was defined but never used
+Warning: Module 2: aupTaHzVbR1 was defined but never used
+

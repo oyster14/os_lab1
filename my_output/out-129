@@ -1,0 +1,530 @@
+Warning: Module 1: g2Fs redefined and ignored
+Symbol Table
+wbcMsF7e7KfxA0Jr=263
+pm9uHAhYDRd4UKq=314
+g2Fs=234 Error: This variable is multiple times defined; first value used
+wKWnvSUKJEN3Mp=475
+o1HoVXIBFb=486
+gU7F9X1Abf=2
+ju2bvA8za8y=226
+x=357
+vzDkasww5ak=128
+gfnI=144
+f=260
+i2CLByAEe1AW1=10
+
+Memory Map
+000: 0076
+001: 2049
+002: 7000 Error: mpyXsiVP2AcV is not defined; zero used
+003: 0000 Error: mpyXsiVP2AcV is not defined; zero used
+004: 4258
+005: 5155
+006: 4442
+007: 5504
+008: 2372
+009: 8119
+010: 1003 Error: External address exceeds length of uselist; treated as immediate
+011: 5319
+012: 7000 Error: yuoBlW9YgkHW is not defined; zero used
+013: 3302
+014: 9071
+015: 9471
+016: 0000 Error: Absolute address exceeds machine size; zero used
+017: 7053
+018: 2000 Error: yuoBlW9YgkHW is not defined; zero used
+019: 6241
+020: 8400
+021: 8000 Error: mpyXsiVP2AcV is not defined; zero used
+022: 3199
+023: 2043
+024: 6230
+025: 0239
+026: 0320
+027: 0000 Error: mpyXsiVP2AcV is not defined; zero used
+028: 0018
+029: 8300
+030: 5232
+031: 7318
+032: 0292
+033: 1217
+034: 9241
+035: 0000 Error: yuoBlW9YgkHW is not defined; zero used
+036: 5000 Error: mpyXsiVP2AcV is not defined; zero used
+037: 8110
+038: 8000 Error: mpyXsiVP2AcV is not defined; zero used
+039: 9000 Error: yuoBlW9YgkHW is not defined; zero used
+040: 2462
+041: 7460
+042: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+043: 0488
+044: 0000 Error: yuoBlW9YgkHW is not defined; zero used
+045: 7000 Error: yuoBlW9YgkHW is not defined; zero used
+046: 9422
+047: 4292
+048: 0000 Error: Absolute address exceeds machine size; zero used
+049: 0000 Error: yuoBlW9YgkHW is not defined; zero used
+050: 0384
+051: 8439
+052: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+053: 6392
+054: 8250
+055: 7215
+056: 7381
+057: 5054
+058: 9139
+059: 1388
+060: 3000 Error: yuoBlW9YgkHW is not defined; zero used
+061: 0168
+062: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+063: 7199
+064: 5328
+065: 7151
+066: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+067: 0817
+068: 5185
+069: 9448
+070: 7239
+071: 8307
+072: 9999 Error: Illegal opcode; treated as 9999
+073: 0157
+074: 5371
+075: 0172
+076: 2370
+077: 1508
+078: 1417
+079: 4189
+080: 0462
+081: 2104
+082: 7136
+083: 8380
+084: 8279
+085: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+086: 5078
+087: 8000 Error: mpyXsiVP2AcV is not defined; zero used
+088: 9342
+089: 3425
+090: 0419
+091: 0000 Error: Absolute address exceeds machine size; zero used
+092: 7000 Error: yuoBlW9YgkHW is not defined; zero used
+093: 3000 Error: mpyXsiVP2AcV is not defined; zero used
+094: 8225
+095: 2491
+096: 6382
+097: 6187
+098: 6000 Error: yuoBlW9YgkHW is not defined; zero used
+099: 0163
+100: 0360
+101: 2217
+102: 4385
+103: 0000 Error: Absolute address exceeds machine size; zero used
+104: 1366
+105: 6189
+106: 1507
+107: 2310
+108: 9454
+109: 5386
+110: 9256
+111: 9465
+112: 8443
+113: 3198
+114: 9184
+115: 3029
+116: 6406
+117: 0626
+118: 2000 Error: yuoBlW9YgkHW is not defined; zero used
+119: 0000 Error: yuoBlW9YgkHW is not defined; zero used
+120: 4000 Error: yuoBlW9YgkHW is not defined; zero used
+121: 5129
+122: 4000 Error: mpyXsiVP2AcV is not defined; zero used
+123: 0000 Error: mpyXsiVP2AcV is not defined; zero used
+124: 4132
+125: 1174
+126: 2011
+127: 8295
+128: 4000 Error: mpyXsiVP2AcV is not defined; zero used
+129: 3000 Error: mpyXsiVP2AcV is not defined; zero used
+130: 8006
+131: 7165
+132: 3476
+133: 2000 Error: yuoBlW9YgkHW is not defined; zero used
+134: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+135: 8287
+136: 0396
+137: 3000 Error: mpyXsiVP2AcV is not defined; zero used
+138: 0110
+139: 0345
+140: 0000 Error: Absolute address exceeds machine size; zero used
+141: 9287
+142: 9005 Error: External address exceeds length of uselist; treated as immediate
+143: 2354
+144: 7000 Error: yuoBlW9YgkHW is not defined; zero used
+145: 6000 Error: yuoBlW9YgkHW is not defined; zero used
+146: 8443
+147: 4000 Error: yuoBlW9YgkHW is not defined; zero used
+148: 9000 Error: mpyXsiVP2AcV is not defined; zero used
+149: 4000 Error: mpyXsiVP2AcV is not defined; zero used
+150: 1186
+151: 3461
+152: 3000 Error: mpyXsiVP2AcV is not defined; zero used
+153: 9412
+154: 0000 Error: Absolute address exceeds machine size; zero used
+155: 7143
+156: 9007 Error: External address exceeds length of uselist; treated as immediate
+157: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+158: 4000 Error: mpyXsiVP2AcV is not defined; zero used
+159: 6000 Error: yuoBlW9YgkHW is not defined; zero used
+160: 9207
+161: 0159
+162: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+163: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+164: 5177
+165: 4462
+166: 1108
+167: 1083
+168: 0178
+169: 4338
+170: 7274
+171: 0021
+172: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+173: 1213
+174: 5133
+175: 9141
+176: 4299
+177: 0374
+178: 0000 Error: Absolute address exceeds machine size; zero used
+179: 6000 Error: yuoBlW9YgkHW is not defined; zero used
+180: 0240
+181: 2000 Error: mpyXsiVP2AcV is not defined; zero used
+182: 8402
+183: 2096
+184: 5000 Error: yuoBlW9YgkHW is not defined; zero used
+185: 8430
+186: 0029
+187: 2268
+188: 2234
+189: 6373
+190: 0495
+191: 9351
+192: 1135
+193: 0227
+194: 2105
+195: 8000 Error: mpyXsiVP2AcV is not defined; zero used
+196: 0094
+197: 1140
+198: 3317
+199: 0861
+200: 5340
+201: 2446
+202: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+203: 9438
+204: 8000 Error: mpyXsiVP2AcV is not defined; zero used
+205: 0390
+206: 4000 Error: yuoBlW9YgkHW is not defined; zero used
+207: 6000 Error: yuoBlW9YgkHW is not defined; zero used
+208: 2000 Error: mpyXsiVP2AcV is not defined; zero used
+209: 0835
+210: 3192
+211: 4284
+212: 2307
+213: 3341
+214: 8123
+215: 6000 Error: yuoBlW9YgkHW is not defined; zero used
+216: 9999 Error: Illegal immediate value; treated as 9999
+217: 5427
+218: 0663
+219: 5491
+220: 3246
+221: 2314
+222: 7317
+223: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+224: 0129
+225: 8000 Error: yuoBlW9YgkHW is not defined; zero used
+226: 5238
+227: 9000 Error: yuoBlW9YgkHW is not defined; zero used
+228: 1123
+229: 3015 Error: External address exceeds length of uselist; treated as immediate
+230: 5309
+231: 6441
+232: 0053
+233: 6109
+234: 0219
+235: 4101
+236: 0418
+237: 0498
+238: 7325
+239: 9318
+240: 5451
+241: 7303
+242: 8000 Error: yuoBlW9YgkHW is not defined; zero used
+243: 9327
+244: 6381
+245: 5459
+246: 0213
+247: 2267
+248: 9999 Error: Illegal immediate value; treated as 9999
+249: 5238
+250: 7219
+251: 9011
+252: 1480
+253: 5466
+254: 6183
+255: 8000 Error: yuoBlW9YgkHW is not defined; zero used
+256: 1254
+257: 9441
+258: 4404
+259: 6188
+260: 4000 Error: yuoBlW9YgkHW is not defined; zero used
+261: 1429
+262: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+263: 1000 Error: Absolute address exceeds machine size; zero used
+264: 4134
+265: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+266: 3011 Error: External address exceeds length of uselist; treated as immediate
+267: 5376
+268: 8284
+269: 3152
+270: 0080
+271: 0073
+272: 7000 Error: yuoBlW9YgkHW is not defined; zero used
+273: 2168
+274: 7307
+275: 3239
+276: 2326
+277: 2000 Error: mpyXsiVP2AcV is not defined; zero used
+278: 4000 Error: yuoBlW9YgkHW is not defined; zero used
+279: 4141
+280: 1195
+281: 4368
+282: 7344
+283: 0000 Error: Absolute address exceeds machine size; zero used
+284: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+285: 9204
+286: 6251
+287: 3416
+288: 4430
+289: 0086
+290: 5246
+291: 2157
+292: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+293: 6488
+294: 0376
+295: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+296: 7000 Error: mpyXsiVP2AcV is not defined; zero used
+297: 8000 Error: mpyXsiVP2AcV is not defined; zero used
+298: 1081
+299: 6000 Error: yuoBlW9YgkHW is not defined; zero used
+300: 7370
+301: 3212
+302: 8132
+303: 9999 Error: Illegal immediate value; treated as 9999
+304: 9999 Error: Illegal opcode; treated as 9999
+305: 0267
+306: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+307: 2160
+308: 7213
+309: 7230
+310: 4248
+311: 5000 Error: yuoBlW9YgkHW is not defined; zero used
+312: 5000 Error: mpyXsiVP2AcV is not defined; zero used
+313: 3000 Error: mpyXsiVP2AcV is not defined; zero used
+314: 9999 Error: Illegal opcode; treated as 9999
+315: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+316: 9414
+317: 4000 Error: mpyXsiVP2AcV is not defined; zero used
+318: 0115
+319: 4439
+320: 3254
+321: 3275
+322: 1256
+323: 4313
+324: 7480
+325: 4171
+326: 1212
+327: 0000 Error: yuoBlW9YgkHW is not defined; zero used
+328: 0408
+329: 1447
+330: 3000 Error: yuoBlW9YgkHW is not defined; zero used
+331: 2312
+332: 6229
+333: 3244
+334: 3496
+335: 0413
+336: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+337: 6287
+338: 1017
+339: 3380
+340: 2160
+341: 1466
+342: 0000 Error: Absolute address exceeds machine size; zero used
+343: 3249
+344: 1155
+345: 1149
+346: 0424
+347: 2024
+348: 0454
+349: 8171
+350: 0090
+351: 9398
+352: 0214
+353: 2460
+354: 6472
+355: 0000 Error: mpyXsiVP2AcV is not defined; zero used
+356: 6179
+357: 4000 Error: yuoBlW9YgkHW is not defined; zero used
+358: 2000 Error: mpyXsiVP2AcV is not defined; zero used
+359: 2000 Error: mpyXsiVP2AcV is not defined; zero used
+360: 1279
+361: 5000 Error: mpyXsiVP2AcV is not defined; zero used
+362: 2422
+363: 4187
+364: 0074
+365: 0000 Error: mpyXsiVP2AcV is not defined; zero used
+366: 5186
+367: 9140
+368: 3000 Error: mpyXsiVP2AcV is not defined; zero used
+369: 5000 Error: mpyXsiVP2AcV is not defined; zero used
+370: 1000 Error: yuoBlW9YgkHW is not defined; zero used
+371: 4028 Error: External address exceeds length of uselist; treated as immediate
+372: 6427
+373: 2467
+374: 8292
+375: 3419
+376: 3240
+377: 5329
+378: 9205
+379: 3465
+380: 9999 Error: Illegal opcode; treated as 9999
+381: 5000 Error: mpyXsiVP2AcV is not defined; zero used
+382: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+383: 2134
+384: 8333
+385: 4397
+386: 2000 Error: yuoBlW9YgkHW is not defined; zero used
+387: 8375
+388: 6371
+389: 5155
+390: 0310
+391: 0481
+392: 1371
+393: 4000 Error: yuoBlW9YgkHW is not defined; zero used
+394: 0077
+395: 2326
+396: 0037
+397: 7040
+398: 2000 Error: yuoBlW9YgkHW is not defined; zero used
+399: 9152
+400: 8000 Error: yuoBlW9YgkHW is not defined; zero used
+401: 9398
+402: 9999 Error: Illegal immediate value; treated as 9999
+403: 8293
+404: 4447
+405: 8000 Error: yuoBlW9YgkHW is not defined; zero used
+406: 0263
+407: 4188
+408: 3289
+409: 3160
+410: 9422
+411: 3410
+412: 7227
+413: 1485
+414: 8000 Error: mpyXsiVP2AcV is not defined; zero used
+415: 5457
+416: 0591
+417: 9999 Error: Illegal opcode; treated as 9999
+418: 5000 Error: yuoBlW9YgkHW is not defined; zero used
+419: 8148
+420: 5220
+421: 6224
+422: 6352
+423: 9243
+424: 6109
+425: 0509
+426: 5000 Error: mpyXsiVP2AcV is not defined; zero used
+427: 0351
+428: 4443
+429: 6000 Error: mpyXsiVP2AcV is not defined; zero used
+430: 7471
+431: 5000 Error: Absolute address exceeds machine size; zero used
+432: 0024
+433: 9429
+434: 2386
+435: 4000 Error: mpyXsiVP2AcV is not defined; zero used
+436: 4281
+437: 3177
+438: 9378
+439: 9999 Error: Illegal opcode; treated as 9999
+440: 8355
+441: 3200
+442: 0000 Error: yuoBlW9YgkHW is not defined; zero used
+443: 0142
+444: 6472
+445: 9157
+446: 4283
+447: 0163
+448: 0239
+449: 3286
+450: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+451: 2392
+452: 0000 Error: yuoBlW9YgkHW is not defined; zero used
+453: 4000 Error: mpyXsiVP2AcV is not defined; zero used
+454: 5150
+455: 4161
+456: 1290
+457: 6159
+458: 3246
+459: 3178
+460: 9471
+461: 0511
+462: 7429
+463: 9427
+464: 0406
+465: 4233
+466: 2000 Error: yuoBlW9YgkHW is not defined; zero used
+467: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+468: 1274
+469: 0170
+470: 2301
+471: 4062
+472: 0677
+473: 7000 Error: mpyXsiVP2AcV is not defined; zero used
+474: 7000 Error: yuoBlW9YgkHW is not defined; zero used
+475: 9226
+476: 0098
+477: 8299
+478: 0195
+479: 6051
+480: 2230
+481: 9000 Error: yuoBlW9YgkHW is not defined; zero used
+482: 0387
+483: 3197
+484: 9000 Error: yuoBlW9YgkHW is not defined; zero used
+485: 0000 Error: Absolute address exceeds machine size; zero used
+486: 3422
+487: 0239
+488: 7403
+489: 7000 Error: yuoBlW9YgkHW is not defined; zero used
+490: 3487
+491: 7000 Error: mpyXsiVP2AcV is not defined; zero used
+492: 1000 Error: mpyXsiVP2AcV is not defined; zero used
+493: 3258
+494: 5459
+495: 2115
+496: 6462
+497: 3050
+498: 2000 Error: yuoBlW9YgkHW is not defined; zero used
+499: 6024 Error: External address exceeds length of uselist; treated as immediate
+
+Warning: Module 1: wbcMsF7e7KfxA0Jr was defined but never used
+Warning: Module 1: pm9uHAhYDRd4UKq was defined but never used
+Warning: Module 1: g2Fs was defined but never used
+Warning: Module 1: wKWnvSUKJEN3Mp was defined but never used
+Warning: Module 1: o1HoVXIBFb was defined but never used
+Warning: Module 1: gU7F9X1Abf was defined but never used
+Warning: Module 1: ju2bvA8za8y was defined but never used
+Warning: Module 1: x was defined but never used
+Warning: Module 1: vzDkasww5ak was defined but never used
+Warning: Module 1: gfnI was defined but never used
+Warning: Module 1: f was defined but never used
+Warning: Module 1: i2CLByAEe1AW1 was defined but never used
+

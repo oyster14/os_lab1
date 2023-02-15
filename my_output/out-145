@@ -1,0 +1,413 @@
+Warning: Module 1: kRpE4hral8omzr redefined and ignored
+Symbol Table
+kRpE4hral8omzr=297 Error: This variable is multiple times defined; first value used
+muS1=173
+mkHe6UURf7VZfCc4=25
+urke2=379
+
+Memory Map
+000: 7289
+001: 5508
+002: 7000 Error: fjbhV9 is not defined; zero used
+003: 6503
+004: 4344
+005: 6320
+006: 4235
+007: 3163
+008: 9297
+009: 0397
+010: 0288
+011: 1107
+012: 0170
+013: 9259
+014: 0425
+015: 5000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+016: 1406
+017: 4265
+018: 8181
+019: 4474
+020: 0681
+021: 9000 Error: oWrdmjg3 is not defined; zero used
+022: 7000 Error: msu9GARzfLw is not defined; zero used
+023: 9000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+024: 9206
+025: 9220
+026: 1203
+027: 0000 Error: dL is not defined; zero used
+028: 9258
+029: 2254
+030: 4241
+031: 3399
+032: 6178
+033: 5000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+034: 2000 Error: vxDm2Kc is not defined; zero used
+035: 5305
+036: 8000 Error: vxDm2Kc is not defined; zero used
+037: 9000 Error: vxDm2Kc is not defined; zero used
+038: 7406
+039: 5000 Error: iZxRN2 is not defined; zero used
+040: 5202
+041: 4445
+042: 3263
+043: 1000 Error: msu9GARzfLw is not defined; zero used
+044: 6000 Error: iZxRN2 is not defined; zero used
+045: 7000 Error: wCt is not defined; zero used
+046: 1000 Error: d02S is not defined; zero used
+047: 0024
+048: 6063
+049: 5000 Error: iZxRN2 is not defined; zero used
+050: 7024 Error: External address exceeds length of uselist; treated as immediate
+051: 3050
+052: 6362
+053: 3057
+054: 5348
+055: 4021 Error: External address exceeds length of uselist; treated as immediate
+056: 5233
+057: 3104
+058: 4278
+059: 0359
+060: 1497
+061: 9999 Error: Illegal immediate value; treated as 9999
+062: 5242
+063: 1370
+064: 3159
+065: 3151
+066: 1220
+067: 9999 Error: Illegal opcode; treated as 9999
+068: 8314
+069: 4193
+070: 0153
+071: 9424
+072: 0000 Error: Absolute address exceeds machine size; zero used
+073: 8237
+074: 3000 Error: fjbhV9 is not defined; zero used
+075: 9000 Error: dL is not defined; zero used
+076: 1343
+077: 1000 Error: msu9GARzfLw is not defined; zero used
+078: 4000 Error: dL is not defined; zero used
+079: 0028
+080: 3304
+081: 4480
+082: 2024
+083: 1048
+084: 5000 Error: dL is not defined; zero used
+085: 4104
+086: 0380
+087: 3155
+088: 4172
+089: 3214
+090: 2318
+091: 0193
+092: 0780
+093: 3381
+094: 2287
+095: 0441
+096: 6150
+097: 1228
+098: 7254
+099: 5011
+100: 4214
+101: 3104
+102: 7167
+103: 7000 Error: nn38P6STPTIy3t is not defined; zero used
+104: 6193
+105: 0118
+106: 6019
+107: 1184
+108: 9181
+109: 3000 Error: wCt is not defined; zero used
+110: 0492
+111: 0860
+112: 0152
+113: 5068
+114: 9197
+115: 0384
+116: 0211
+117: 9447
+118: 9000 Error: hVtB2lZfaEDTf is not defined; zero used
+119: 3000 Error: anloD9Dx63lJ5JY is not defined; zero used
+120: 2000 Error: msu9GARzfLw is not defined; zero used
+121: 8106
+122: 4350
+123: 3348
+124: 0212
+125: 1270
+126: 0176
+127: 1343
+128: 5146
+129: 8000 Error: iZxRN2 is not defined; zero used
+130: 0947
+131: 3440
+132: 0581
+133: 9311
+134: 1079
+135: 3370
+136: 0000 Error: oWrdmjg3 is not defined; zero used
+137: 2075
+138: 3071
+139: 1320
+140: 7013
+141: 2000 Error: oWrdmjg3 is not defined; zero used
+142: 2348
+143: 0152
+144: 9443
+145: 6000 Error: vxDm2Kc is not defined; zero used
+146: 9114
+147: 7163
+148: 4067
+149: 8335
+150: 2267
+151: 5000 Error: dL is not defined; zero used
+152: 7000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+153: 0482
+154: 1142
+155: 8000 Error: vxDm2Kc is not defined; zero used
+156: 3000 Error: anloD9Dx63lJ5JY is not defined; zero used
+157: 4007
+158: 6119
+159: 9185
+160: 1290
+161: 1465
+162: 0926
+163: 6208
+164: 6207
+165: 4000 Error: oWrdmjg3 is not defined; zero used
+166: 7000 Error: wCt is not defined; zero used
+167: 7407
+168: 1000 Error: vxDm2Kc is not defined; zero used
+169: 2490
+170: 2233
+171: 7248
+172: 9999 Error: Illegal opcode; treated as 9999
+173: 6434
+174: 5282
+175: 9195
+176: 8000 Error: msu9GARzfLw is not defined; zero used
+177: 2323
+178: 7195
+179: 0156
+180: 1161
+181: 1000 Error: msu9GARzfLw is not defined; zero used
+182: 7336
+183: 8309
+184: 7156
+185: 6390
+186: 8275
+187: 0464
+188: 9257
+189: 2332
+190: 0169
+191: 0002
+192: 7179
+193: 9000 Error: hVtB2lZfaEDTf is not defined; zero used
+194: 9999 Error: Illegal opcode; treated as 9999
+195: 7353
+196: 4270
+197: 1137
+198: 0000 Error: oWrdmjg3 is not defined; zero used
+199: 9199
+200: 8000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+201: 5000 Error: oWrdmjg3 is not defined; zero used
+202: 5254
+203: 2000 Error: fZDYsEkBtRLsT17 is not defined; zero used
+204: 0289
+205: 0316
+206: 5357
+207: 1330
+208: 1114
+209: 5146
+210: 3000 Error: iZxRN2 is not defined; zero used
+211: 3000 Error: msu9GARzfLw is not defined; zero used
+212: 2481
+213: 0475
+214: 2221
+215: 9339
+216: 6000 Error: nn38P6STPTIy3t is not defined; zero used
+217: 5131
+218: 9083
+219: 0765
+220: 8247
+221: 9189
+222: 1000 Error: dL is not defined; zero used
+223: 9000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+224: 0151
+225: 6236
+226: 6275
+227: 1348
+228: 4190
+229: 3083
+230: 9999 Error: Illegal opcode; treated as 9999
+231: 6311
+232: 8141
+233: 0000 Error: Absolute address exceeds machine size; zero used
+234: 8000 Error: iZxRN2 is not defined; zero used
+235: 3475
+236: 5309
+237: 6122
+238: 4061
+239: 6000 Error: d02S is not defined; zero used
+240: 3000 Error: vxDm2Kc is not defined; zero used
+241: 8489
+242: 5113
+243: 4164
+244: 5131
+245: 4009
+246: 7217
+247: 3454
+248: 8014
+249: 7000 Error: wCt is not defined; zero used
+250: 2000 Error: vxDm2Kc is not defined; zero used
+251: 2370
+252: 9000 Error: fjbhV9 is not defined; zero used
+253: 7357
+254: 0000 Error: Absolute address exceeds machine size; zero used
+255: 4000 Error: fjbhV9 is not defined; zero used
+256: 0502
+257: 9098
+258: 8000 Error: anloD9Dx63lJ5JY is not defined; zero used
+259: 7035
+260: 6236
+261: 7216
+262: 7189
+263: 4000 Error: fZDYsEkBtRLsT17 is not defined; zero used
+264: 9180
+265: 6443
+266: 3185
+267: 1393
+268: 0109
+269: 6000 Error: iZxRN2 is not defined; zero used
+270: 7000 Error: h3Q6Srx111gdl8q is not defined; zero used
+271: 0436
+272: 7000 Error: nn38P6STPTIy3t is not defined; zero used
+273: 9447
+274: 7289
+275: 9999 Error: Illegal immediate value; treated as 9999
+276: 6000 Error: Relative address exceeds module size; zero used
+277: 8000 Error: dL is not defined; zero used
+278: 4000 Error: fZDYsEkBtRLsT17 is not defined; zero used
+279: 9325
+280: 5000 Error: msu9GARzfLw is not defined; zero used
+281: 5072
+282: 9463
+283: 8000 Error: dL is not defined; zero used
+284: 0000 Error: fZDYsEkBtRLsT17 is not defined; zero used
+285: 1000 Error: anloD9Dx63lJ5JY is not defined; zero used
+286: 2293
+287: 5222
+288: 8269
+289: 9999 Error: Illegal opcode; treated as 9999
+290: 5166
+291: 3201
+292: 2183
+293: 0386
+294: 6021
+295: 3000 Error: dL is not defined; zero used
+296: 8098
+297: 9999 Error: Illegal immediate value; treated as 9999
+298: 4327
+299: 2000 Error: wCt is not defined; zero used
+300: 8009
+301: 7000 Error: anloD9Dx63lJ5JY is not defined; zero used
+302: 0000 Error: fZDYsEkBtRLsT17 is not defined; zero used
+303: 8197
+304: 4396
+305: 4121
+306: 8024
+307: 2259
+308: 1180
+309: 1000 Error: vxDm2Kc is not defined; zero used
+310: 4000 Error: d02S is not defined; zero used
+311: 9275
+312: 9999 Error: Illegal opcode; treated as 9999
+313: 7389
+314: 1000 Error: anloD9Dx63lJ5JY is not defined; zero used
+315: 1369
+316: 2000 Error: iZxRN2 is not defined; zero used
+317: 8343
+318: 8000 Error: vxDm2Kc is not defined; zero used
+319: 8000 Error: hVtB2lZfaEDTf is not defined; zero used
+320: 2358
+321: 1156
+322: 0372
+323: 4000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+324: 8461
+325: 0125
+326: 0253
+327: 5083
+328: 9999 Error: Illegal opcode; treated as 9999
+329: 1217
+330: 2154
+331: 9000 Error: fjbhV9 is not defined; zero used
+332: 7268
+333: 2142
+334: 9999 Error: Illegal opcode; treated as 9999
+335: 0137
+336: 0282
+337: 3258
+338: 0473
+339: 3000 Error: wCt is not defined; zero used
+340: 5000 Error: msu9GARzfLw is not defined; zero used
+341: 9000 Error: vxDm2Kc is not defined; zero used
+342: 1229
+343: 9000 Error: fjbhV9 is not defined; zero used
+344: 4000 Error: anloD9Dx63lJ5JY is not defined; zero used
+345: 9122
+346: 9347
+347: 1000 Error: h3Q6Srx111gdl8q is not defined; zero used
+348: 7373
+349: 4084
+350: 6291
+351: 9122
+352: 8510
+353: 6391
+354: 3264
+355: 3000 Error: vxDm2Kc is not defined; zero used
+356: 4405
+357: 9999 Error: Illegal immediate value; treated as 9999
+358: 1326
+359: 6053
+360: 0058
+361: 4388
+362: 7227
+363: 7258
+364: 7000 Error: fZDYsEkBtRLsT17 is not defined; zero used
+365: 0440
+366: 8000 Error: fZDYsEkBtRLsT17 is not defined; zero used
+367: 8000 Error: wCt is not defined; zero used
+368: 3000 Error: d02S is not defined; zero used
+369: 8262
+370: 5362
+371: 0449
+372: 4000 Error: nn38P6STPTIy3t is not defined; zero used
+373: 9999 Error: Illegal immediate value; treated as 9999
+374: 8317
+375: 0000 Error: h3Q6Srx111gdl8q is not defined; zero used
+376: 8111
+377: 0290
+378: 2387
+379: 9000 Error: d02S is not defined; zero used
+380: 9999 Error: Illegal opcode; treated as 9999
+381: 7000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+382: 1240
+383: 3119
+384: 8000 Error: msu9GARzfLw is not defined; zero used
+385: 2000 Error: d02S is not defined; zero used
+386: 8000 Error: fjbhV9 is not defined; zero used
+387: 1000 Error: msu9GARzfLw is not defined; zero used
+388: 6039
+389: 2114
+390: 0000 Error: fF80U6QmjDsbRaW2 is not defined; zero used
+391: 0077
+392: 1278
+393: 8000 Error: iZxRN2 is not defined; zero used
+394: 6321
+395: 8204
+396: 0371
+397: 6148
+398: 9999 Error: Illegal opcode; treated as 9999
+
+Warning: Module 1: kRpE4hral8omzr was defined but never used
+Warning: Module 1: muS1 was defined but never used
+Warning: Module 1: mkHe6UURf7VZfCc4 was defined but never used
+Warning: Module 1: urke2 was defined but never used
+

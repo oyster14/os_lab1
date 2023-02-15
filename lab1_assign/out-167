@@ -1,0 +1,582 @@
+Warning: Module 2: xcKR redefined and ignored
+Symbol Table
+zl6lGsHbCpYp=237
+wu=223
+daeH4EI2ZMuTLjrR=25
+dfptayLQDp=221
+erQJ3915=106
+n6TrhY=67
+xcKR=324 Error: This variable is multiple times defined; first value used
+gM=335
+lsqG17vxXe=361
+dURplSe=355
+p=362
+t6Ng1=393
+a=477
+e9M4z5UroW=475
+qgmzDF6=497
+o=500
+q3pMAXQ2=500
+xCJGjIEOFfbfd3Hj=500
+kxa9Qe=497
+hFTqPithQ=498
+cPRu2ET=501
+s5=495
+tKhUmSvR=499
+twUuDJLtN7aOL1=497
+rn3yrkNfFx5FI7=503
+wOBSFWIFiq8c=504
+
+Memory Map
+000: 3000 Error: eG is not defined; zero used
+001: 7000 Error: eG is not defined; zero used
+002: 9000 Error: eG is not defined; zero used
+003: 2000 Error: eG is not defined; zero used
+004: 9000 Error: dgsyWs is not defined; zero used
+005: 1000 Error: eG is not defined; zero used
+006: 9999 Error: Illegal immediate value; treated as 9999
+007: 8441
+008: 9000 Error: eG is not defined; zero used
+009: 4000 Error: eG is not defined; zero used
+010: 1291
+011: 0000 Error: Absolute address exceeds machine size; zero used
+012: 3000 Error: dgsyWs is not defined; zero used
+013: 6004
+014: 9065
+015: 7156
+016: 5006 Error: External address exceeds length of uselist; treated as immediate
+017: 7140
+018: 2103
+019: 0170
+020: 7136
+021: 9000 Error: dgsyWs is not defined; zero used
+022: 5267
+023: 4000 Error: eG is not defined; zero used
+024: 4000 Error: dgsyWs is not defined; zero used
+025: 5265
+026: 6482
+027: 3000 Error: eG is not defined; zero used
+028: 7390
+029: 8000 Error: eG is not defined; zero used
+030: 1394
+031: 0000 Error: Absolute address exceeds machine size; zero used
+032: 7038
+033: 6000 Error: dgsyWs is not defined; zero used
+034: 2118
+035: 9000 Error: eG is not defined; zero used
+036: 7061
+037: 6060
+038: 4000 Error: dgsyWs is not defined; zero used
+039: 3000 Error: eG is not defined; zero used
+040: 0000 Error: dgsyWs is not defined; zero used
+041: 2141
+042: 6081
+043: 4288
+044: 0000 Error: dgsyWs is not defined; zero used
+045: 7301
+046: 4136
+047: 4000 Error: eG is not defined; zero used
+048: 7068
+049: 1000 Error: dgsyWs is not defined; zero used
+050: 0066
+051: 2000 Error: eG is not defined; zero used
+052: 6000 Error: eG is not defined; zero used
+053: 5164
+054: 3279
+055: 9108
+056: 3172
+057: 0827
+058: 6001
+059: 5200
+060: 2039
+061: 4000 Error: eG is not defined; zero used
+062: 9209
+063: 0000 Error: dgsyWs is not defined; zero used
+064: 1310
+065: 7244
+066: 0460
+067: 0073
+068: 0260
+069: 9422
+070: 7367
+071: 0000 Error: Absolute address exceeds machine size; zero used
+072: 6207
+073: 4141
+074: 5153
+075: 2061
+076: 2009 Error: External address exceeds length of uselist; treated as immediate
+077: 1000 Error: dgsyWs is not defined; zero used
+078: 1000 Error: dgsyWs is not defined; zero used
+079: 0270
+080: 2000 Error: dgsyWs is not defined; zero used
+081: 2389
+082: 3262
+083: 5271
+084: 3012
+085: 5000 Error: eG is not defined; zero used
+086: 4335
+087: 4000 Error: Relative address exceeds module size; zero used
+088: 5034
+089: 1375
+090: 7394
+091: 9183
+092: 3272
+093: 6195
+094: 4000 Error: dgsyWs is not defined; zero used
+095: 2000 Error: eG is not defined; zero used
+096: 5268
+097: 5506
+098: 6155
+099: 9000 Error: dgsyWs is not defined; zero used
+100: 0550
+101: 8310
+102: 7275
+103: 4248
+104: 1196
+105: 0000 Error: Absolute address exceeds machine size; zero used
+106: 6000 Error: dgsyWs is not defined; zero used
+107: 9197
+108: 9000 Error: dgsyWs is not defined; zero used
+109: 8329
+110: 1000 Error: eG is not defined; zero used
+111: 9000 Error: dgsyWs is not defined; zero used
+112: 0147
+113: 0000 Error: dgsyWs is not defined; zero used
+114: 1000 Error: eG is not defined; zero used
+115: 0303
+116: 0000 Error: dgsyWs is not defined; zero used
+117: 7000 Error: eG is not defined; zero used
+118: 6006
+119: 4175
+120: 9000 Error: dgsyWs is not defined; zero used
+121: 0748
+122: 5000 Error: dgsyWs is not defined; zero used
+123: 7157
+124: 2115
+125: 2280
+126: 3000 Error: dgsyWs is not defined; zero used
+127: 6274
+128: 3181
+129: 5344
+130: 9147
+131: 7000 Error: eG is not defined; zero used
+132: 9999 Error: Illegal opcode; treated as 9999
+133: 9999 Error: Illegal opcode; treated as 9999
+134: 4455
+135: 1027
+136: 7331
+137: 6149
+138: 8143
+139: 2000 Error: eG is not defined; zero used
+140: 0417
+141: 0014
+142: 7144
+143: 8000 Error: dgsyWs is not defined; zero used
+144: 9371
+145: 0053
+146: 5203
+147: 1241
+148: 9000 Error: eG is not defined; zero used
+149: 4370
+150: 7000 Error: dgsyWs is not defined; zero used
+151: 1203
+152: 4140
+153: 7000 Error: dgsyWs is not defined; zero used
+154: 0178
+155: 1360
+156: 2372
+157: 9032
+158: 1000 Error: dgsyWs is not defined; zero used
+159: 0093
+160: 8226
+161: 3160
+162: 7000 Error: eG is not defined; zero used
+163: 0028
+164: 2172
+165: 1130
+166: 1449
+167: 6323
+168: 4097
+169: 4016
+170: 7385
+171: 3075
+172: 4080
+173: 1397
+174: 5000 Error: eG is not defined; zero used
+175: 7178
+176: 3169
+177: 1010
+178: 4483
+179: 1182
+180: 9000 Error: eG is not defined; zero used
+181: 0000 Error: eG is not defined; zero used
+182: 5340
+183: 1169
+184: 3000 Error: eG is not defined; zero used
+185: 7182
+186: 3383
+187: 8104
+188: 1511
+189: 8000 Error: dgsyWs is not defined; zero used
+190: 3000 Error: eG is not defined; zero used
+191: 9999 Error: Illegal opcode; treated as 9999
+192: 9999 Error: Illegal opcode; treated as 9999
+193: 8000 Error: dgsyWs is not defined; zero used
+194: 5103
+195: 5265
+196: 9236
+197: 3000 Error: dgsyWs is not defined; zero used
+198: 3267
+199: 7000 Error: eG is not defined; zero used
+200: 8282
+201: 3000 Error: dgsyWs is not defined; zero used
+202: 7000 Error: dgsyWs is not defined; zero used
+203: 0207
+204: 0786
+205: 8305
+206: 5241
+207: 7332
+208: 9000 Error: eG is not defined; zero used
+209: 8186
+210: 8200
+211: 7176
+212: 1000 Error: dgsyWs is not defined; zero used
+213: 0000 Error: Absolute address exceeds machine size; zero used
+214: 8128
+215: 4444
+216: 4200
+217: 8120
+218: 7491
+219: 2000 Error: dgsyWs is not defined; zero used
+220: 5345
+221: 6392
+222: 2464
+223: 0018 Error: External address exceeds length of uselist; treated as immediate
+224: 7196
+225: 1337
+226: 4000 Error: eG is not defined; zero used
+227: 3292
+228: 4425
+229: 2104
+230: 0080
+231: 8465
+232: 1507
+233: 0041
+234: 0000 Error: eG is not defined; zero used
+235: 8000 Error: eG is not defined; zero used
+236: 5110
+237: 3196
+238: 2204
+239: 0474
+240: 0000 Error: Absolute address exceeds machine size; zero used
+241: 6000 Error: dgsyWs is not defined; zero used
+242: 6000 Error: eG is not defined; zero used
+243: 5139
+244: 0138
+245: 5162
+246: 5135
+247: 7257
+248: 0250
+249: 7000 Error: dgsyWs is not defined; zero used
+250: 1028
+251: 1000 Error: eG is not defined; zero used
+252: 0000 Error: Absolute address exceeds machine size; zero used
+253: 7203
+254: 4435
+255: 0828
+256: 3123
+257: 5000 Error: dgsyWs is not defined; zero used
+258: 1471
+259: 2430
+260: 1287
+261: 0091
+262: 3000 Error: eG is not defined; zero used
+263: 1024
+264: 0031
+265: 7156
+266: 1000 Error: eG is not defined; zero used
+267: 3118
+268: 5101
+269: 3284
+270: 0393
+271: 9283
+272: 8000 Error: eG is not defined; zero used
+273: 3090
+274: 0413
+275: 2232
+276: 2202
+277: 9162
+278: 9000 Error: eG is not defined; zero used
+279: 1000 Error: dgsyWs is not defined; zero used
+280: 0388
+281: 2442
+282: 8143
+283: 9163
+284: 0000 Error: eG is not defined; zero used
+285: 5000 Error: dgsyWs is not defined; zero used
+286: 2297
+287: 9184
+288: 8369
+289: 9202
+290: 2438
+291: 4278
+292: 7283
+293: 4330
+294: 0248
+295: 0244
+296: 7435
+297: 0460
+298: 9000 Error: dgsyWs is not defined; zero used
+299: 4025
+300: 5283
+301: 7000 Error: eG is not defined; zero used
+302: 3113
+303: 4246
+304: 5447
+305: 0046
+306: 3266
+307: 2232
+308: 2266
+309: 2000 Error: eG is not defined; zero used
+310: 0000 Error: Absolute address exceeds machine size; zero used
+311: 4197
+312: 0277
+313: 0219
+314: 0149
+315: 5262
+316: 6001 Error: External address exceeds length of uselist; treated as immediate
+317: 0952
+318: 5330
+319: 3017 Error: External address exceeds length of uselist; treated as immediate
+320: 8353
+321: 3012 Error: External address exceeds length of uselist; treated as immediate
+322: 9006 Error: External address exceeds length of uselist; treated as immediate
+323: 5325
+324: 5000 Error: External address exceeds length of uselist; treated as immediate
+325: 4019 Error: External address exceeds length of uselist; treated as immediate
+326: 7285
+327: 5332
+328: 5315 Error: Relative address exceeds module size; zero used
+329: 7331
+330: 3015 Error: External address exceeds length of uselist; treated as immediate
+331: 5015 Error: External address exceeds length of uselist; treated as immediate
+332: 0344
+333: 4315
+334: 5026 Error: External address exceeds length of uselist; treated as immediate
+335: 8296
+336: 9183
+337: 1366
+338: 8007 Error: External address exceeds length of uselist; treated as immediate
+339: 6314
+340: 0087
+341: 0324
+342: 6008 Error: External address exceeds length of uselist; treated as immediate
+343: 0063
+344: 0345
+345: 3166
+346: 2245
+347: 5280
+348: 0347
+349: 9352
+350: 8315 Error: Relative address exceeds module size; zero used
+351: 6114
+352: 8289
+353: 8333
+354: 6021 Error: External address exceeds length of uselist; treated as immediate
+355: 0258
+356: 8345
+357: 8189
+358: 8338
+359: 2143
+360: 5330
+361: 9107
+362: 8320
+363: 9008 Error: External address exceeds length of uselist; treated as immediate
+364: 8326
+365: 5376
+366: 5277
+367: 4432
+368: 9999 Error: Illegal opcode; treated as 9999
+369: 7000 Error: w5nj2Z4DQx is not defined; zero used
+370: 7369
+371: 0000 Error: Absolute address exceeds machine size; zero used
+372: 9364
+373: 5000 Error: w5nj2Z4DQx is not defined; zero used
+374: 0473
+375: 0130
+376: 8000 Error: w5nj2Z4DQx is not defined; zero used
+377: 5400
+378: 3411
+379: 6364 Error: Relative address exceeds module size; zero used
+380: 9000 Error: d2FfP1n6CVfG8NH is not defined; zero used
+381: 0328
+382: 4425
+383: 5442
+384: 0171
+385: 2329
+386: 4243
+387: 4000 Error: tYp5B4NxlPGv is not defined; zero used
+388: 0136
+389: 9493
+390: 0083
+391: 0062
+392: 6000 Error: d2FfP1n6CVfG8NH is not defined; zero used
+393: 0443
+394: 9473
+395: 0459
+396: 9425
+397: 5492
+398: 0000 Error: iRPfVPQuMJ2OI is not defined; zero used
+399: 9999 Error: Illegal opcode; treated as 9999
+400: 0000 Error: Absolute address exceeds machine size; zero used
+401: 2029 Error: External address exceeds length of uselist; treated as immediate
+402: 7453
+403: 2429
+404: 9213
+405: 8502
+406: 4125
+407: 8351
+408: 3364 Error: Relative address exceeds module size; zero used
+409: 0430
+410: 8183
+411: 7150
+412: 1489
+413: 8359
+414: 6433
+415: 9157
+416: 5283
+417: 3132
+418: 0364
+419: 2143
+420: 8230
+421: 9395
+422: 6000 Error: lTCQreWcVPhoEcI is not defined; zero used
+423: 5000 Error: ulMw52ake is not defined; zero used
+424: 7000 Error: iRPfVPQuMJ2OI is not defined; zero used
+425: 2389
+426: 0000 Error: iRPfVPQuMJ2OI is not defined; zero used
+427: 1000 Error: tYp5B4NxlPGv is not defined; zero used
+428: 6000 Error: lTCQreWcVPhoEcI is not defined; zero used
+429: 7452
+430: 9478
+431: 5000 Error: ulMw52ake is not defined; zero used
+432: 7425
+433: 1365
+434: 1000 Error: v is not defined; zero used
+435: 9000 Error: iRPfVPQuMJ2OI is not defined; zero used
+436: 0000 Error: Absolute address exceeds machine size; zero used
+437: 4000 Error: lTCQreWcVPhoEcI is not defined; zero used
+438: 7000 Error: v is not defined; zero used
+439: 7000 Error: ulMw52ake is not defined; zero used
+440: 0218
+441: 0221
+442: 8116
+443: 3000 Error: iRPfVPQuMJ2OI is not defined; zero used
+444: 8430
+445: 7488
+446: 7141
+447: 1341
+448: 1433
+449: 1456
+450: 2160
+451: 4377
+452: 2349
+453: 5000 Error: tYp5B4NxlPGv is not defined; zero used
+454: 5432
+455: 2334
+456: 1264
+457: 0017
+458: 7112
+459: 3481
+460: 5306
+461: 8000 Error: ySDP3fze9p2m is not defined; zero used
+462: 4436
+463: 6000 Error: ulMw52ake is not defined; zero used
+464: 0442
+465: 0160
+466: 9999 Error: Illegal opcode; treated as 9999
+467: 7000 Error: w5nj2Z4DQx is not defined; zero used
+468: 0000 Error: Absolute address exceeds machine size; zero used
+469: 0077
+470: 1491
+471: 4435
+472: 2000 Error: lTCQreWcVPhoEcI is not defined; zero used
+473: 7454
+474: 2000 Error: w5nj2Z4DQx is not defined; zero used
+475: 0364 Error: Relative address exceeds module size; zero used
+476: 0475
+477: 8452
+478: 3405
+479: 5187
+480: 6000 Error: v is not defined; zero used
+481: 4448
+482: 1481
+483: 6299
+484: 8192
+485: 2100
+486: 0162
+487: 7000 Error: d2FfP1n6CVfG8NH is not defined; zero used
+488: 7446
+489: 2416
+490: 6106
+491: 8152
+492: 2356
+493: 0423
+494: 5210
+495: 8500
+496: 3314
+497: 7000 Error: h3KJ1i9FyO is not defined; zero used
+498: 7286
+499: 3495
+500: 6350
+501: 1408
+502: 0502
+Warning: Module 4: dBLeEvvZo appeared in the uselist but was not actually used
+Warning: Module 4: v4RoSnwSkiArX appeared in the uselist but was not actually used
+Warning: Module 4: whLXMdtKJCA6VFJu appeared in the uselist but was not actually used
+Warning: Module 4: dWZtSq3AiyQe appeared in the uselist but was not actually used
+Warning: Module 4: bCh8dU4MBkX2m appeared in the uselist but was not actually used
+Warning: Module 4: y appeared in the uselist but was not actually used
+Warning: Module 4: cG appeared in the uselist but was not actually used
+Warning: Module 4: biZRhy appeared in the uselist but was not actually used
+Warning: Module 4: jjYjiHvLNPbHWx appeared in the uselist but was not actually used
+Warning: Module 4: euVmgbFj appeared in the uselist but was not actually used
+Warning: Module 4: hcKkuF1L2sZwMiN appeared in the uselist but was not actually used
+Warning: Module 4: dkECI4e appeared in the uselist but was not actually used
+503: 5028 Error: External address exceeds length of uselist; treated as immediate
+504: 0061
+505: 1503
+Warning: Module 5: f2HNwTYATPe appeared in the uselist but was not actually used
+Warning: Module 5: rz7YLnfQxnQ30Oe appeared in the uselist but was not actually used
+Warning: Module 5: ljyRs appeared in the uselist but was not actually used
+Warning: Module 5: wjhXDA0sjf appeared in the uselist but was not actually used
+Warning: Module 5: z appeared in the uselist but was not actually used
+Warning: Module 5: hIFzHgjPPKma appeared in the uselist but was not actually used
+
+Warning: Module 1: zl6lGsHbCpYp was defined but never used
+Warning: Module 1: wu was defined but never used
+Warning: Module 1: daeH4EI2ZMuTLjrR was defined but never used
+Warning: Module 1: dfptayLQDp was defined but never used
+Warning: Module 1: erQJ3915 was defined but never used
+Warning: Module 1: n6TrhY was defined but never used
+Warning: Module 2: xcKR was defined but never used
+Warning: Module 2: gM was defined but never used
+Warning: Module 2: lsqG17vxXe was defined but never used
+Warning: Module 2: dURplSe was defined but never used
+Warning: Module 2: p was defined but never used
+Warning: Module 3: t6Ng1 was defined but never used
+Warning: Module 3: a was defined but never used
+Warning: Module 3: e9M4z5UroW was defined but never used
+Warning: Module 4: qgmzDF6 was defined but never used
+Warning: Module 4: o was defined but never used
+Warning: Module 4: q3pMAXQ2 was defined but never used
+Warning: Module 4: xCJGjIEOFfbfd3Hj was defined but never used
+Warning: Module 4: kxa9Qe was defined but never used
+Warning: Module 4: hFTqPithQ was defined but never used
+Warning: Module 4: cPRu2ET was defined but never used
+Warning: Module 4: s5 was defined but never used
+Warning: Module 4: tKhUmSvR was defined but never used
+Warning: Module 4: twUuDJLtN7aOL1 was defined but never used
+Warning: Module 5: rn3yrkNfFx5FI7 was defined but never used
+Warning: Module 5: wOBSFWIFiq8c was defined but never used
+

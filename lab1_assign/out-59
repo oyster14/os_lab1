@@ -1,0 +1,242 @@
+Symbol Table
+b26h7Y=227
+
+Memory Map
+000: 2055
+001: 1474
+002: 6465
+003: 1064
+004: 4494
+005: 9008
+006: 0083
+007: 6304
+008: 8246
+009: 2000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+010: 8000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+011: 1184
+012: 5511
+013: 2221
+014: 0453
+015: 4000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+016: 0279
+017: 6211
+018: 9065
+019: 8027
+020: 4064
+021: 6000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+022: 0197
+023: 4857
+024: 4056
+025: 6033
+026: 0205
+027: 4288
+028: 3005 Error: External address exceeds length of uselist; treated as immediate
+029: 2336
+030: 6211
+031: 3247
+032: 9143
+033: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+034: 0000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+035: 4433
+036: 6323
+037: 7000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+038: 7000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+039: 4430
+040: 9162
+041: 9000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+042: 0414
+043: 9022
+044: 3006
+045: 0237
+046: 0166
+047: 0304
+048: 0358
+049: 4000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+050: 9000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+051: 5425
+052: 3136
+053: 9359
+054: 5256
+055: 8337
+056: 5000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+057: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+058: 2458
+059: 0061
+060: 9000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+061: 0858
+062: 1000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+063: 5000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+064: 3226
+065: 2077
+066: 6321
+067: 8201
+068: 7000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+069: 8233
+070: 5000 Error: Relative address exceeds module size; zero used
+071: 0000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+072: 2000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+073: 8163
+074: 2228
+075: 8308
+076: 0337
+077: 2000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+078: 4264
+079: 8228
+080: 0000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+081: 0298
+082: 0711
+083: 8325
+084: 5047
+085: 9406
+086: 6069
+087: 6061
+088: 5129
+089: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+090: 8000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+091: 8000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+092: 5163
+093: 4123
+094: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+095: 0388
+096: 3211
+097: 1195
+098: 7308
+099: 3176
+100: 7422
+101: 6246
+102: 9225
+103: 2237
+104: 0018
+105: 9999 Error: Illegal opcode; treated as 9999
+106: 4459
+107: 2153
+108: 0121
+109: 3174
+110: 5052
+111: 9455
+112: 7730
+113: 0006 Error: External address exceeds length of uselist; treated as immediate
+114: 4265
+115: 9108
+116: 6330
+117: 0000 Error: Absolute address exceeds machine size; zero used
+118: 6352
+119: 6265
+120: 4492
+121: 8000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+122: 1206
+123: 3024
+124: 4201
+125: 2444
+126: 6000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+127: 8045
+128: 0029
+129: 9000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+130: 0215
+131: 4197
+132: 8164
+133: 7135
+134: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+135: 0342
+136: 4401
+137: 0466
+138: 2328
+139: 7358
+140: 9067
+141: 6173
+142: 2000 Error: Relative address exceeds module size; zero used
+143: 4000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+144: 2408
+145: 2481
+146: 3231
+147: 9126
+148: 9204
+149: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+150: 2053
+151: 9216
+152: 0000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+153: 1000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+154: 5000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+155: 4296
+156: 8100
+157: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+158: 0484
+159: 2213
+160: 6000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+161: 4393
+162: 2000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+163: 2000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+164: 9043
+165: 5167
+166: 9219
+167: 1106
+168: 4000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+169: 2471
+170: 3172
+171: 1000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+172: 0000 Error: Absolute address exceeds machine size; zero used
+173: 8432
+174: 5369
+175: 9127
+176: 4134
+177: 0459
+178: 9000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+179: 8000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+180: 7287
+181: 1126
+182: 0381
+183: 7161
+184: 2001
+185: 6050
+186: 8000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+187: 6000 Error: Relative address exceeds module size; zero used
+188: 0643
+189: 0522
+190: 0137
+191: 3134
+192: 7132
+193: 0147
+194: 5041
+195: 2468
+196: 4199
+197: 9208
+198: 6000 Error: Relative address exceeds module size; zero used
+199: 5166
+200: 6000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+201: 9213
+202: 3088
+203: 1209
+204: 2147
+205: 0216
+206: 1000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+207: 4000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+208: 4233
+209: 4434
+210: 9080
+211: 4074
+212: 0180
+213: 2097
+214: 8122
+215: 2402
+216: 8239
+217: 0000 Error: Absolute address exceeds machine size; zero used
+218: 8000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+219: 5182
+220: 5147
+221: 1312
+222: 2000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+223: 3000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+224: 2295
+225: 0000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+226: 5113
+227: 6000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+228: 9190
+229: 7000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+230: 7259
+231: 9212
+232: 4000 Error: eIiyDJsM0aRzPAW is not defined; zero used
+233: 1105
+234: 1260
+
+Warning: Module 1: b26h7Y was defined but never used
+

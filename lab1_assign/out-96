@@ -1,0 +1,67 @@
+Warning: Module 1: nvnP redefined and ignored
+Symbol Table
+mVKP6U=6
+nvnP=4 Error: This variable is multiple times defined; first value used
+q0H6BTsaj5sJKu=41
+faNpNF=8
+b6AqrFD0VeiDaHp2=32
+e9=26
+xhE8qNsuEHpEwGLM=29
+xbnyqu1Dvn8nH1=24
+shkqsFU=26
+
+Memory Map
+000: 4184
+001: 6000 Error: rbFpCNOxlifq4 is not defined; zero used
+002: 1338
+003: 0089
+004: 9000 Error: z1 is not defined; zero used
+005: 7176
+006: 0648
+007: 6029
+008: 2007
+009: 1000 Error: lnaT4gXADSnlgGy is not defined; zero used
+010: 2000 Error: lnaT4gXADSnlgGy is not defined; zero used
+011: 9999 Error: Illegal immediate value; treated as 9999
+012: 0014
+013: 0000 Error: lnaT4gXADSnlgGy is not defined; zero used
+014: 7000 Error: lnaT4gXADSnlgGy is not defined; zero used
+015: 0270
+016: 9999 Error: Illegal opcode; treated as 9999
+017: 1000 Error: lnaT4gXADSnlgGy is not defined; zero used
+018: 3342
+019: 5000 Error: lnaT4gXADSnlgGy is not defined; zero used
+020: 3000 Error: rbFpCNOxlifq4 is not defined; zero used
+021: 6405
+022: 8042
+023: 1377
+024: 9999 Error: Illegal opcode; treated as 9999
+025: 9999 Error: Illegal immediate value; treated as 9999
+026: 3365
+027: 5483
+028: 1000 Error: lnaT4gXADSnlgGy is not defined; zero used
+029: 0041
+030: 5017
+031: 4145
+032: 1000 Error: lnaT4gXADSnlgGy is not defined; zero used
+033: 8000 Error: rbFpCNOxlifq4 is not defined; zero used
+034: 1438
+035: 1000 Error: lnaT4gXADSnlgGy is not defined; zero used
+036: 1425
+037: 0014
+038: 8109
+039: 4000 Error: z1 is not defined; zero used
+040: 2000 Error: rbFpCNOxlifq4 is not defined; zero used
+041: 0789
+042: 1107
+
+Warning: Module 1: mVKP6U was defined but never used
+Warning: Module 1: nvnP was defined but never used
+Warning: Module 1: q0H6BTsaj5sJKu was defined but never used
+Warning: Module 1: faNpNF was defined but never used
+Warning: Module 1: b6AqrFD0VeiDaHp2 was defined but never used
+Warning: Module 1: e9 was defined but never used
+Warning: Module 1: xhE8qNsuEHpEwGLM was defined but never used
+Warning: Module 1: xbnyqu1Dvn8nH1 was defined but never used
+Warning: Module 1: shkqsFU was defined but never used
+

@@ -1,0 +1,234 @@
+Warning: Module 1: dCRyC6VB redefined and ignored
+Symbol Table
+n0scQr9tQHAhMk=84
+dCRyC6VB=116 Error: This variable is multiple times defined; first value used
+cvF5l3N0czemtwF=119
+q4XGS9YiRDh=118
+zv=55
+pemCFa93LP=104
+
+Memory Map
+000: 0084
+001: 5199
+002: 1346
+003: 5157
+004: 0084
+005: 3218
+006: 2404
+007: 8372
+008: 7492
+009: 2104
+010: 4379
+011: 1138
+012: 8417
+013: 0114
+014: 0156
+015: 3342
+016: 4509
+017: 8180
+018: 2000 Error: aagGPEKq is not defined; zero used
+019: 6121
+020: 0452
+021: 8264
+022: 6104
+023: 2000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+024: 0123
+025: 0000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+026: 1335
+027: 5084
+028: 2101
+029: 1116
+030: 5108
+031: 4473
+032: 8000 Error: aagGPEKq is not defined; zero used
+033: 4175
+034: 0104
+035: 1087
+036: 9999 Error: Illegal opcode; treated as 9999
+037: 9104
+038: 2212
+039: 8129
+040: 7195
+041: 9000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+042: 8144
+043: 0249
+044: 8209
+045: 8025 Error: External address exceeds length of uselist; treated as immediate
+046: 4486
+047: 6000 Error: aagGPEKq is not defined; zero used
+048: 9147
+049: 6104
+050: 5084
+051: 9999 Error: Illegal opcode; treated as 9999
+052: 0185
+053: 0083
+054: 7022 Error: External address exceeds length of uselist; treated as immediate
+055: 1407
+056: 2445
+057: 6104
+058: 0154
+059: 0462
+060: 8001
+061: 5151
+062: 7454
+063: 9999 Error: Illegal opcode; treated as 9999
+064: 4084
+065: 9084
+066: 6378
+067: 5396
+068: 1084
+069: 4051
+070: 1217
+071: 1000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+072: 4084
+073: 3143
+074: 9307
+075: 6064
+076: 8318
+077: 0335
+078: 5000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+079: 0524
+080: 5084
+081: 7191
+082: 1503
+083: 1272
+084: 1022 Error: External address exceeds length of uselist; treated as immediate
+085: 9104
+086: 0449
+087: 2044
+088: 5104
+089: 9110
+090: 3084
+091: 6058
+092: 9158
+093: 0000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+094: 3171
+095: 1266
+096: 4249
+097: 7343
+098: 4000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+099: 1084
+100: 0672
+101: 8376
+102: 8342
+103: 5101
+104: 5000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+105: 6000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+106: 0139
+107: 2208
+108: 8104
+109: 9129
+110: 6104
+111: 8206
+112: 2420
+113: 6428
+114: 8410
+115: 3293
+116: 0186
+117: 4203
+118: 0000 Error: aagGPEKq is not defined; zero used
+119: 6313
+120: 1376
+121: 9306
+122: 2320
+123: 5347
+124: 8268
+125: 3115
+126: 1362
+127: 6319
+128: 8202
+129: 8226
+130: 4116
+131: 5000 Error: aagGPEKq is not defined; zero used
+132: 0111
+133: 9507
+134: 4319
+135: 3046
+136: 5360
+137: 8196
+138: 5101
+139: 5000 Error: aagGPEKq is not defined; zero used
+140: 5446
+141: 9084
+142: 8458
+143: 7000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+144: 0104
+145: 0249
+146: 0618
+147: 3156
+148: 9999 Error: Illegal opcode; treated as 9999
+149: 0124
+150: 3084
+151: 7000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+152: 8073
+153: 7084
+154: 8437
+155: 3489
+156: 4394
+157: 8084
+158: 1205
+159: 1000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+160: 9234
+161: 3023
+162: 3419
+163: 2127
+164: 7104
+165: 2217
+166: 2180
+167: 0113
+168: 9104
+169: 0084
+170: 8137
+171: 5000 Error: aagGPEKq is not defined; zero used
+172: 4101
+173: 9080
+174: 3496
+175: 6000 Error: Relative address exceeds module size; zero used
+176: 3000 Error: aagGPEKq is not defined; zero used
+177: 8229
+178: 5095
+179: 6017
+180: 9218
+181: 3038
+182: 2144
+183: 5370
+184: 6000 Error: gW7h1ZzjuBgIlcQ is not defined; zero used
+185: 3147
+186: 6104
+187: 0000 Error: Absolute address exceeds machine size; zero used
+188: 8292
+189: 3198
+190: 0000 Error: aagGPEKq is not defined; zero used
+191: 7085
+192: 0179
+193: 9110
+194: 5123
+195: 0035
+196: 5084
+197: 9000 Error: aagGPEKq is not defined; zero used
+198: 7458
+199: 1386
+200: 9156
+201: 5104
+202: 5000 Error: aagGPEKq is not defined; zero used
+203: 9200
+204: 8084
+205: 0084
+206: 0166
+207: 3084
+208: 8139
+209: 4066
+210: 9084
+211: 9999 Error: Illegal immediate value; treated as 9999
+212: 8231
+213: 8257
+214: 3181
+215: 0212
+216: 9999 Error: Illegal immediate value; treated as 9999
+217: 3001
+
+Warning: Module 1: dCRyC6VB was defined but never used
+Warning: Module 1: cvF5l3N0czemtwF was defined but never used
+Warning: Module 1: q4XGS9YiRDh was defined but never used
+Warning: Module 1: zv was defined but never used
+

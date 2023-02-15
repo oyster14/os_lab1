@@ -1,0 +1,107 @@
+Symbol Table
+tFd=10
+xjBew7Ds6VFCNX=25
+fzIfrb4gpGiF7=24
+d79HzxN3IllGQ0Qj=62
+eVKu=12
+s8Q=21
+
+Memory Map
+000: 0180
+001: 5000 Error: fn8TfKUeS is not defined; zero used
+002: 0152
+003: 4000 Error: yA6EMq is not defined; zero used
+004: 2000 Error: fn8TfKUeS is not defined; zero used
+005: 4085
+006: 9000
+007: 4118
+008: 0203
+009: 9008
+010: 1000 Error: yA6EMq is not defined; zero used
+011: 9008 Error: External address exceeds length of uselist; treated as immediate
+012: 4348
+013: 6087
+014: 5068
+015: 4152
+016: 1297
+017: 4070
+018: 6070
+019: 6019
+020: 6000 Error: yA6EMq is not defined; zero used
+021: 2492
+022: 2275
+023: 4229
+024: 5000 Error: hBNno6DwDWuD is not defined; zero used
+025: 7316
+026: 4792
+027: 0032
+028: 3000 Error: fn8TfKUeS is not defined; zero used
+029: 4000 Error: hBNno6DwDWuD is not defined; zero used
+030: 4489
+031: 1000 Error: mD28bDoiephoEGT is not defined; zero used
+032: 6070
+033: 8043
+034: 7009
+035: 2347
+036: 0779
+037: 0025
+038: 4300
+039: 0000 Error: Absolute address exceeds machine size; zero used
+040: 3026
+041: 0187
+042: 4345
+043: 0472
+044: 4255
+045: 3146
+046: 0356
+047: 1085
+048: 7000 Error: mD28bDoiephoEGT is not defined; zero used
+049: 5500
+050: 3048
+051: 0066
+052: 2171
+053: 9240
+054: 0384
+055: 9454
+056: 5337
+057: 0000 Error: fn8TfKUeS is not defined; zero used
+058: 1139
+059: 1140
+060: 3225
+061: 5076
+062: 2314
+063: 4134
+064: 2014 Error: External address exceeds length of uselist; treated as immediate
+065: 0478
+066: 5015
+067: 7214
+068: 4038
+069: 9450
+070: 9000 Error: hBNno6DwDWuD is not defined; zero used
+071: 0143
+072: 1000 Error: fn8TfKUeS is not defined; zero used
+073: 3440
+074: 6084
+075: 0000 Error: Absolute address exceeds machine size; zero used
+076: 0261
+077: 0359
+078: 1270
+079: 2004
+080: 8126
+081: 1346
+082: 5180
+083: 2040
+084: 1380
+085: 6073
+086: 5059
+087: 3285
+088: 2166
+089: 0000 Error: Absolute address exceeds machine size; zero used
+
+Warning: Module 1: tFd was defined but never used
+Warning: Module 1: xjBew7Ds6VFCNX was defined but never used
+Warning: Module 1: fzIfrb4gpGiF7 was defined but never used
+Warning: Module 1: d79HzxN3IllGQ0Qj was defined but never used
+Warning: Module 1: eVKu was defined but never used
+Warning: Module 1: s8Q was defined but never used
+

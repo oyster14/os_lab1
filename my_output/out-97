@@ -1,0 +1,314 @@
+Symbol Table
+
+Memory Map
+000: 1000 Error: wuZnXXfL3Ls7l is not defined; zero used
+001: 9344
+002: 3000 Error: o00f85et is not defined; zero used
+003: 7090
+004: 0000 Error: Absolute address exceeds machine size; zero used
+005: 9999 Error: Illegal immediate value; treated as 9999
+006: 0917
+007: 6116
+008: 4281
+009: 4000 Error: zglhyPKC is not defined; zero used
+010: 9158
+011: 0347
+012: 1127
+013: 6000 Error: eePUTaGBISaOz is not defined; zero used
+014: 0000 Error: zglhyPKC is not defined; zero used
+015: 2001
+016: 9085
+017: 2168
+018: 0317
+019: 2508
+020: 2107
+021: 6249
+022: 5000 Error: wHfXDmKcrqz is not defined; zero used
+023: 3176
+024: 7375
+025: 0055
+026: 1192
+027: 7171
+028: 5243
+029: 6273
+030: 7268
+031: 1103
+032: 6000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+033: 7123
+034: 2340
+035: 8012
+036: 3000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+037: 8334
+038: 4441
+039: 7397
+040: 3000 Error: wHfXDmKcrqz is not defined; zero used
+041: 5297
+042: 8000 Error: wuZnXXfL3Ls7l is not defined; zero used
+043: 0000 Error: eePUTaGBISaOz is not defined; zero used
+044: 3069
+045: 1214
+046: 7000 Error: tZ1c1II8UTZbG is not defined; zero used
+047: 6000 Error: wHfXDmKcrqz is not defined; zero used
+048: 6000 Error: o00f85et is not defined; zero used
+049: 4080
+050: 4009
+051: 8372
+052: 2212
+053: 7205
+054: 0522
+055: 0000 Error: Absolute address exceeds machine size; zero used
+056: 1146
+057: 0359
+058: 9148
+059: 0365
+060: 4127
+061: 3000 Error: zglhyPKC is not defined; zero used
+062: 8218
+063: 8323
+064: 9285
+065: 7061
+066: 9999 Error: Illegal opcode; treated as 9999
+067: 9417
+068: 2222
+069: 0567
+070: 6175
+071: 6111
+072: 7000 Error: eePUTaGBISaOz is not defined; zero used
+073: 3000 Error: o00f85et is not defined; zero used
+074: 0000 Error: o00f85et is not defined; zero used
+075: 3000 Error: m9W6baRiq4o is not defined; zero used
+076: 7000 Error: wuZnXXfL3Ls7l is not defined; zero used
+077: 1000 Error: eePUTaGBISaOz is not defined; zero used
+078: 4377
+079: 7000 Error: tZ1c1II8UTZbG is not defined; zero used
+080: 8000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+081: 0006
+082: 1171
+083: 9268
+084: 1166
+085: 4100
+086: 2000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+087: 7116
+088: 1000 Error: wuZnXXfL3Ls7l is not defined; zero used
+089: 2000 Error: o00f85et is not defined; zero used
+090: 2000
+091: 4287
+092: 5000 Error: wuZnXXfL3Ls7l is not defined; zero used
+093: 9000 Error: m9W6baRiq4o is not defined; zero used
+094: 6041
+095: 2138
+096: 0188
+097: 1252
+098: 5000 Error: zglhyPKC is not defined; zero used
+099: 5464
+100: 8000 Error: wHfXDmKcrqz is not defined; zero used
+101: 2148
+102: 0093
+103: 3224
+104: 4428
+105: 1502
+106: 3256
+107: 5281
+108: 7000 Error: tZ1c1II8UTZbG is not defined; zero used
+109: 2000 Error: m9W6baRiq4o is not defined; zero used
+110: 5000 Error: o00f85et is not defined; zero used
+111: 6000 Error: o00f85et is not defined; zero used
+112: 4249
+113: 9000 Error: eePUTaGBISaOz is not defined; zero used
+114: 0056
+115: 7490
+116: 4000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+117: 0561
+118: 9176
+119: 9023 Error: External address exceeds length of uselist; treated as immediate
+120: 4349
+121: 0122
+122: 1000 Error: wHfXDmKcrqz is not defined; zero used
+123: 3351
+124: 5194
+125: 2000 Error: tZ1c1II8UTZbG is not defined; zero used
+126: 9063
+127: 0046
+128: 1000 Error: zglhyPKC is not defined; zero used
+129: 0063
+130: 4028
+131: 6279
+132: 6130
+133: 2000 Error: eePUTaGBISaOz is not defined; zero used
+134: 7190
+135: 0028
+136: 0141
+137: 4000 Error: tZ1c1II8UTZbG is not defined; zero used
+138: 9999 Error: Illegal opcode; treated as 9999
+139: 6000 Error: tZ1c1II8UTZbG is not defined; zero used
+140: 8000 Error: tZ1c1II8UTZbG is not defined; zero used
+141: 7000 Error: o00f85et is not defined; zero used
+142: 6374
+143: 3000 Error: Relative address exceeds module size; zero used
+144: 1304
+145: 6000 Error: wuZnXXfL3Ls7l is not defined; zero used
+146: 2396
+147: 5000 Error: m9W6baRiq4o is not defined; zero used
+148: 1000 Error: o00f85et is not defined; zero used
+149: 3251
+150: 0378
+151: 8000 Error: zglhyPKC is not defined; zero used
+152: 8310
+153: 4270
+154: 7197
+155: 2172
+156: 6130
+157: 8493
+158: 0000 Error: Absolute address exceeds machine size; zero used
+159: 3021 Error: External address exceeds length of uselist; treated as immediate
+160: 6180
+161: 4258
+162: 0000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+163: 2210
+164: 1000 Error: eePUTaGBISaOz is not defined; zero used
+165: 7358
+166: 1125
+167: 3000 Error: m9W6baRiq4o is not defined; zero used
+168: 1000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+169: 1000 Error: Relative address exceeds module size; zero used
+170: 9000 Error: m9W6baRiq4o is not defined; zero used
+171: 3000 Error: eePUTaGBISaOz is not defined; zero used
+172: 9999 Error: Illegal opcode; treated as 9999
+173: 4008 Error: External address exceeds length of uselist; treated as immediate
+174: 4478
+175: 7000 Error: zglhyPKC is not defined; zero used
+176: 4000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+177: 3000 Error: o00f85et is not defined; zero used
+178: 7507
+179: 8114
+180: 6237
+181: 6273
+182: 2307
+183: 2307
+184: 7016
+185: 0171
+186: 4038
+187: 4229
+188: 5000 Error: wHfXDmKcrqz is not defined; zero used
+189: 3141
+190: 9266
+191: 6286
+192: 6038
+193: 0070
+194: 0297
+195: 0000 Error: Absolute address exceeds machine size; zero used
+196: 5000 Error: tZ1c1II8UTZbG is not defined; zero used
+197: 3325
+198: 0518
+199: 2000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+200: 4000 Error: o00f85et is not defined; zero used
+201: 0511
+202: 7239
+203: 5410
+204: 9275
+205: 6421
+206: 9135
+207: 4000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+208: 5466
+209: 8177
+210: 0000 Error: o00f85et is not defined; zero used
+211: 4327
+212: 5183
+213: 9422
+214: 4000 Error: o00f85et is not defined; zero used
+215: 9331
+216: 7338
+217: 6475
+218: 0754
+219: 4250
+220: 7241
+221: 8199
+222: 7000 Error: wuZnXXfL3Ls7l is not defined; zero used
+223: 8274
+224: 9000 Error: zglhyPKC is not defined; zero used
+225: 6368
+226: 9999 Error: Illegal immediate value; treated as 9999
+227: 6000 Error: wuZnXXfL3Ls7l is not defined; zero used
+228: 0471
+229: 2000 Error: o00f85et is not defined; zero used
+230: 3037
+231: 6000 Error: o00f85et is not defined; zero used
+232: 2053
+233: 0103
+234: 9237
+235: 9000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+236: 7000 Error: wHfXDmKcrqz is not defined; zero used
+237: 6172
+238: 0128
+239: 1300
+240: 0589
+241: 1000 Error: tZ1c1II8UTZbG is not defined; zero used
+242: 7000 Error: wHfXDmKcrqz is not defined; zero used
+243: 8475
+244: 1293
+245: 9000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+246: 1175
+247: 8251
+248: 0000 Error: Absolute address exceeds machine size; zero used
+249: 4000 Error: eePUTaGBISaOz is not defined; zero used
+250: 8000 Error: wuZnXXfL3Ls7l is not defined; zero used
+251: 2245
+252: 2000 Error: o00f85et is not defined; zero used
+253: 3367
+254: 0299
+255: 6000 Error: tZ1c1II8UTZbG is not defined; zero used
+256: 3000 Error: wuZnXXfL3Ls7l is not defined; zero used
+257: 9000 Error: zglhyPKC is not defined; zero used
+258: 6000 Error: o00f85et is not defined; zero used
+259: 4398
+260: 2000 Error: tZ1c1II8UTZbG is not defined; zero used
+261: 2225
+262: 9999 Error: Illegal opcode; treated as 9999
+263: 0255
+264: 3494
+265: 2143
+266: 9000 Error: n84Og2SWf3U4zh0 is not defined; zero used
+267: 9000 Error: wHfXDmKcrqz is not defined; zero used
+268: 1414
+269: 9314
+270: 1269
+271: 3000 Error: zglhyPKC is not defined; zero used
+272: 1095
+273: 2191
+274: 9501
+275: 6417
+276: 7480
+277: 2184
+278: 2000 Error: tZ1c1II8UTZbG is not defined; zero used
+279: 1425
+280: 3000 Error: wHfXDmKcrqz is not defined; zero used
+281: 5072
+282: 6274
+283: 6280
+284: 1000 Error: wuZnXXfL3Ls7l is not defined; zero used
+285: 0000 Error: o00f85et is not defined; zero used
+286: 8018
+287: 1198
+288: 3347
+289: 0784
+290: 2430
+291: 6229
+292: 8379
+293: 7301
+294: 5042
+295: 3229
+296: 8309
+297: 6054
+298: 9999 Error: Illegal opcode; treated as 9999
+299: 8000 Error: o00f85et is not defined; zero used
+300: 8191
+301: 0434
+302: 6214
+303: 3415
+304: 3422
+305: 4403
+306: 8000 Error: m9W6baRiq4o is not defined; zero used
+307: 1435
+308: 0884
+
+

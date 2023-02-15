@@ -4,7 +4,7 @@ DIR1=$1
 DIR2=$2
 LOG=${3:-${DIR2}/LOG.txt}
 
-INS="`seq 1 50`"
+INS="`seq 1 200`"
 
 OUTPRE="out-"
 INPRE="input-"

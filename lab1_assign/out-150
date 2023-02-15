@@ -1,0 +1,79 @@
+Warning: Module 1: hsmiI3c redefined and ignored
+Symbol Table
+hsmiI3c=12 Error: This variable is multiple times defined; first value used
+k4C=15
+yjvSetnC9ZWgpc=11
+u0=10
+rDlWfkRkNQ=18
+earEoUKXwqB9uK=47
+kOqN1uU=16
+yqeCtHp5StzD=45
+diomY1eQYC2gfW2R=9
+
+Memory Map
+000: 7018 Error: External address exceeds length of uselist; treated as immediate
+001: 4030
+002: 0027 Error: External address exceeds length of uselist; treated as immediate
+003: 1500
+004: 1005
+005: 1035
+006: 9999 Error: Illegal opcode; treated as 9999
+007: 4027 Error: External address exceeds length of uselist; treated as immediate
+008: 7010
+009: 0041
+010: 9345
+011: 3033
+012: 5271
+013: 0630
+014: 0000 Error: Absolute address exceeds machine size; zero used
+015: 4416
+016: 6336
+017: 8047
+018: 0363
+019: 8041
+020: 4030 Error: External address exceeds length of uselist; treated as immediate
+021: 7038
+022: 7050
+023: 9278
+024: 1183
+025: 1162
+026: 0890
+027: 6041
+028: 3011
+029: 6405
+030: 0019
+031: 1480
+032: 7450
+033: 0993
+034: 5002 Error: External address exceeds length of uselist; treated as immediate
+035: 9208
+036: 9468
+037: 4235
+038: 1030 Error: External address exceeds length of uselist; treated as immediate
+039: 6140
+040: 7046
+041: 2229
+042: 9010 Error: External address exceeds length of uselist; treated as immediate
+043: 2007 Error: External address exceeds length of uselist; treated as immediate
+044: 3296
+045: 3000
+046: 5012 Error: External address exceeds length of uselist; treated as immediate
+047: 9999 Error: Illegal opcode; treated as 9999
+048: 4025 Error: External address exceeds length of uselist; treated as immediate
+049: 8014
+050: 7004
+051: 5002
+052: 9040
+053: 0281
+054: 8017 Error: External address exceeds length of uselist; treated as immediate
+
+Warning: Module 1: hsmiI3c was defined but never used
+Warning: Module 1: k4C was defined but never used
+Warning: Module 1: yjvSetnC9ZWgpc was defined but never used
+Warning: Module 1: u0 was defined but never used
+Warning: Module 1: rDlWfkRkNQ was defined but never used
+Warning: Module 1: earEoUKXwqB9uK was defined but never used
+Warning: Module 1: kOqN1uU was defined but never used
+Warning: Module 1: yqeCtHp5StzD was defined but never used
+Warning: Module 1: diomY1eQYC2gfW2R was defined but never used
+

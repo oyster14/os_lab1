@@ -1,0 +1,470 @@
+Symbol Table
+ipLcbkRNEpE9j7KE=395
+og7hBHZBvZkutH=16
+
+Memory Map
+000: 4000 Error: alrTIO9mIl2c is not defined; zero used
+001: 8000 Error: ai0C is not defined; zero used
+002: 0127
+003: 1497
+004: 6000 Error: o is not defined; zero used
+005: 3507
+006: 3246
+007: 0000 Error: k is not defined; zero used
+008: 0774
+009: 8331
+010: 6483
+011: 2000 Error: latO3Ytr4G9 is not defined; zero used
+012: 1246
+013: 6000 Error: ai0C is not defined; zero used
+014: 1256
+015: 0205
+016: 9999 Error: Illegal opcode; treated as 9999
+017: 8000 Error: k is not defined; zero used
+018: 2373
+019: 8015
+020: 7267
+021: 5314
+022: 5295
+023: 0474
+024: 5000 Error: Absolute address exceeds machine size; zero used
+025: 2395
+026: 4022
+027: 8259
+028: 3443
+029: 1267
+030: 5110
+031: 5009
+032: 7342
+033: 0000 Error: l5IiR is not defined; zero used
+034: 3000 Error: alrTIO9mIl2c is not defined; zero used
+035: 3000 Error: l5IiR is not defined; zero used
+036: 0010
+037: 4000 Error: p is not defined; zero used
+038: 1011
+039: 0256
+040: 3418
+041: 0000 Error: p is not defined; zero used
+042: 3395
+043: 5000 Error: o is not defined; zero used
+044: 4178
+045: 6000 Error: ai0C is not defined; zero used
+046: 0224
+047: 1192
+048: 9461
+049: 7491
+050: 0200
+051: 5158
+052: 0364
+053: 5000 Error: Absolute address exceeds machine size; zero used
+054: 4000 Error: alrTIO9mIl2c is not defined; zero used
+055: 1000 Error: l5IiR is not defined; zero used
+056: 0000 Error: Absolute address exceeds machine size; zero used
+057: 2000 Error: l5IiR is not defined; zero used
+058: 4426
+059: 3450
+060: 3212
+061: 0377
+062: 7353
+063: 7471
+064: 0396
+065: 9033
+066: 7000 Error: alrTIO9mIl2c is not defined; zero used
+067: 0142
+068: 5475
+069: 1000 Error: o is not defined; zero used
+070: 0326
+071: 0073
+072: 9999 Error: Illegal opcode; treated as 9999
+073: 3395
+074: 6154
+075: 3376
+076: 8369
+077: 6000 Error: hLrXAy46YXt1 is not defined; zero used
+078: 2000 Error: ai0C is not defined; zero used
+079: 5000 Error: hLrXAy46YXt1 is not defined; zero used
+080: 1433
+081: 7064
+082: 4012 Error: External address exceeds length of uselist; treated as immediate
+083: 5000 Error: p is not defined; zero used
+084: 8281
+085: 2224
+086: 1326
+087: 1398
+088: 8268
+089: 5340
+090: 7389
+091: 1000 Error: o is not defined; zero used
+092: 3253
+093: 3026
+094: 6000 Error: o is not defined; zero used
+095: 6440
+096: 0311
+097: 0000 Error: ai0C is not defined; zero used
+098: 2186
+099: 4000 Error: gvHWuac1pKN is not defined; zero used
+100: 5000 Error: hLrXAy46YXt1 is not defined; zero used
+101: 2000 Error: latO3Ytr4G9 is not defined; zero used
+102: 4169
+103: 5140
+104: 1244
+105: 7082
+106: 5000 Error: ai0C is not defined; zero used
+107: 0412
+108: 5272
+109: 1113
+110: 2398
+111: 0856
+112: 5424
+113: 1247
+114: 6152
+115: 0884
+116: 0425
+117: 5208
+118: 4509
+119: 6358
+120: 2013
+121: 7249
+122: 6000 Error: latO3Ytr4G9 is not defined; zero used
+123: 2000 Error: hLrXAy46YXt1 is not defined; zero used
+124: 1227
+125: 6047
+126: 2000 Error: p is not defined; zero used
+127: 1000 Error: k is not defined; zero used
+128: 4000 Error: ai0C is not defined; zero used
+129: 0656
+130: 3277
+131: 2237
+132: 3183
+133: 3000 Error: l5IiR is not defined; zero used
+134: 8315
+135: 3000 Error: p is not defined; zero used
+136: 7372
+137: 0113
+138: 9210
+139: 0853
+140: 1000 Error: gvHWuac1pKN is not defined; zero used
+141: 6322
+142: 0473
+143: 3260
+144: 9450
+145: 0000 Error: gvHWuac1pKN is not defined; zero used
+146: 8135
+147: 9436
+148: 9999 Error: Illegal opcode; treated as 9999
+149: 1000 Error: gvHWuac1pKN is not defined; zero used
+150: 5000 Error: alrTIO9mIl2c is not defined; zero used
+151: 0791
+152: 8183
+153: 1000 Error: alrTIO9mIl2c is not defined; zero used
+154: 9000 Error: k is not defined; zero used
+155: 0410
+156: 1254
+157: 6362
+158: 4000 Error: l5IiR is not defined; zero used
+159: 8048
+160: 6350
+161: 1000 Error: p is not defined; zero used
+162: 9999 Error: Illegal immediate value; treated as 9999
+163: 8000 Error: o is not defined; zero used
+164: 8081
+165: 4410
+166: 0329
+167: 3165
+168: 4223
+169: 1360
+170: 0339
+171: 3324
+172: 1466
+173: 9348
+174: 2000 Error: p is not defined; zero used
+175: 4317
+176: 9999 Error: Illegal opcode; treated as 9999
+177: 9000 Error: hLrXAy46YXt1 is not defined; zero used
+178: 8253
+179: 1329
+180: 9065
+181: 0000 Error: Relative address exceeds module size; zero used
+182: 8355
+183: 0141
+184: 7000 Error: ai0C is not defined; zero used
+185: 0000 Error: hLrXAy46YXt1 is not defined; zero used
+186: 0279
+187: 1341
+188: 1156
+189: 8437
+190: 8000 Error: o is not defined; zero used
+191: 0107
+192: 9000 Error: gvHWuac1pKN is not defined; zero used
+193: 0000 Error: Absolute address exceeds machine size; zero used
+194: 8213
+195: 7000 Error: latO3Ytr4G9 is not defined; zero used
+196: 7118
+197: 1482
+198: 6160
+199: 8153
+200: 1442
+201: 3003
+202: 1247
+203: 1313
+204: 8395
+205: 7000 Error: p is not defined; zero used
+206: 0425
+207: 0091
+208: 8454
+209: 5417
+210: 0000 Error: p is not defined; zero used
+211: 0636
+212: 5425
+213: 2319
+214: 3440
+215: 2361
+216: 8000 Error: p is not defined; zero used
+217: 7412
+218: 1254
+219: 3338
+220: 2000 Error: o is not defined; zero used
+221: 3173
+222: 0082
+223: 4000 Error: hLrXAy46YXt1 is not defined; zero used
+224: 3000 Error: gvHWuac1pKN is not defined; zero used
+225: 9147
+226: 6315
+227: 9146
+228: 7000 Error: latO3Ytr4G9 is not defined; zero used
+229: 0381
+230: 8229
+231: 1290
+232: 6414
+233: 4034
+234: 2335
+235: 7228
+236: 0229
+237: 0068
+238: 0494
+239: 4000 Error: ai0C is not defined; zero used
+240: 2375
+241: 3148
+242: 8000 Error: k is not defined; zero used
+243: 0496
+244: 6137
+245: 7344
+246: 0358
+247: 0212
+248: 2209
+249: 0000 Error: alrTIO9mIl2c is not defined; zero used
+250: 1118
+251: 0199
+252: 9324
+253: 2000 Error: Relative address exceeds module size; zero used
+254: 9357
+255: 0152
+256: 0442
+257: 5467
+258: 4004
+259: 9334
+260: 0000 Error: p is not defined; zero used
+261: 0170
+262: 3445
+263: 9287
+264: 6000 Error: gvHWuac1pKN is not defined; zero used
+265: 1000 Error: l5IiR is not defined; zero used
+266: 8108
+267: 7449
+268: 1103
+269: 5000 Error: hLrXAy46YXt1 is not defined; zero used
+270: 6152
+271: 5016 Error: External address exceeds length of uselist; treated as immediate
+272: 8000 Error: hLrXAy46YXt1 is not defined; zero used
+273: 1140
+274: 9336
+275: 0614
+276: 8494
+277: 8000 Error: Relative address exceeds module size; zero used
+278: 5418
+279: 6000 Error: l5IiR is not defined; zero used
+280: 0316
+281: 8000 Error: p is not defined; zero used
+282: 0938
+283: 6388
+284: 0445
+285: 9325
+286: 5000 Error: Relative address exceeds module size; zero used
+287: 9999 Error: Illegal immediate value; treated as 9999
+288: 6135
+289: 8078
+290: 6255
+291: 7000 Error: o is not defined; zero used
+292: 0078
+293: 5308
+294: 5102
+295: 6108
+296: 3383
+297: 6000 Error: ai0C is not defined; zero used
+298: 5000 Error: alrTIO9mIl2c is not defined; zero used
+299: 0301
+300: 4495
+301: 8000 Error: hLrXAy46YXt1 is not defined; zero used
+302: 7000 Error: ai0C is not defined; zero used
+303: 0112
+304: 0000 Error: p is not defined; zero used
+305: 2395
+306: 0322
+307: 4113
+308: 3000 Error: ai0C is not defined; zero used
+309: 4258
+310: 0000 Error: Absolute address exceeds machine size; zero used
+311: 4000 Error: p is not defined; zero used
+312: 3335
+313: 1294
+314: 9999 Error: Illegal immediate value; treated as 9999
+315: 0395
+316: 3129
+317: 6364
+318: 0055
+319: 2342
+320: 5331
+321: 5000 Error: alrTIO9mIl2c is not defined; zero used
+322: 1507
+323: 3000 Error: k is not defined; zero used
+324: 0000 Error: o is not defined; zero used
+325: 3178
+326: 1000 Error: gvHWuac1pKN is not defined; zero used
+327: 7022 Error: External address exceeds length of uselist; treated as immediate
+328: 8176
+329: 4000 Error: alrTIO9mIl2c is not defined; zero used
+330: 3127
+331: 8255
+332: 4000 Error: gvHWuac1pKN is not defined; zero used
+333: 3369
+334: 0000 Error: p is not defined; zero used
+335: 0193
+336: 8153
+337: 5372
+338: 7218
+339: 6281
+340: 2468
+341: 0088
+342: 1000 Error: alrTIO9mIl2c is not defined; zero used
+343: 0000 Error: Absolute address exceeds machine size; zero used
+344: 0959
+345: 5000 Error: hLrXAy46YXt1 is not defined; zero used
+346: 1347
+347: 1224
+348: 7462
+349: 2460
+350: 6407
+351: 9482
+352: 5195
+353: 3000 Error: hLrXAy46YXt1 is not defined; zero used
+354: 8469
+355: 5360
+356: 2000 Error: o is not defined; zero used
+357: 2000 Error: ai0C is not defined; zero used
+358: 6000 Error: k is not defined; zero used
+359: 8102
+360: 9999 Error: Illegal opcode; treated as 9999
+361: 7000 Error: p is not defined; zero used
+362: 0315
+363: 1000 Error: gvHWuac1pKN is not defined; zero used
+364: 3198
+365: 9492
+366: 2427
+367: 3000 Error: l5IiR is not defined; zero used
+368: 1130
+369: 2196
+370: 6336
+371: 0000 Error: latO3Ytr4G9 is not defined; zero used
+372: 2000 Error: alrTIO9mIl2c is not defined; zero used
+373: 9999 Error: Illegal immediate value; treated as 9999
+374: 9000 Error: l5IiR is not defined; zero used
+375: 0170
+376: 7300
+377: 1000 Error: latO3Ytr4G9 is not defined; zero used
+378: 1277
+379: 8327
+380: 9208
+381: 4343
+382: 9999 Error: Illegal opcode; treated as 9999
+383: 7000 Error: ai0C is not defined; zero used
+384: 7220
+385: 5244
+386: 7232
+387: 9482
+388: 3317
+389: 9000 Error: k is not defined; zero used
+390: 0116
+391: 9232
+392: 2028
+393: 6000 Error: l5IiR is not defined; zero used
+394: 7224
+395: 8000 Error: alrTIO9mIl2c is not defined; zero used
+396: 4074
+397: 9000 Error: alrTIO9mIl2c is not defined; zero used
+398: 4278
+399: 9345
+400: 7000 Error: o is not defined; zero used
+401: 9000 Error: p is not defined; zero used
+402: 2307
+403: 1474
+404: 8376
+405: 0000 Error: Absolute address exceeds machine size; zero used
+406: 8286
+407: 2000 Error: l5IiR is not defined; zero used
+408: 0153
+409: 1044
+410: 8479
+411: 5226
+412: 7176
+413: 8099
+414: 1267
+415: 2296
+416: 2000 Error: ai0C is not defined; zero used
+417: 0000 Error: o is not defined; zero used
+418: 6000 Error: l5IiR is not defined; zero used
+419: 1370
+420: 4395
+421: 8395
+422: 8000 Error: hLrXAy46YXt1 is not defined; zero used
+423: 9165
+424: 4000 Error: ai0C is not defined; zero used
+425: 3395
+426: 5000 Error: gvHWuac1pKN is not defined; zero used
+427: 4227
+428: 5164
+429: 5391
+430: 0000 Error: Absolute address exceeds machine size; zero used
+431: 6424
+432: 1235
+433: 0072
+434: 8215
+435: 9000 Error: l5IiR is not defined; zero used
+436: 7471
+437: 0448
+438: 0000 Error: hLrXAy46YXt1 is not defined; zero used
+439: 9020
+440: 0058
+441: 8107
+442: 5383
+443: 0000 Error: gvHWuac1pKN is not defined; zero used
+444: 2420
+445: 8332
+446: 3000 Error: l5IiR is not defined; zero used
+447: 2197
+448: 4000 Error: p is not defined; zero used
+449: 2000 Error: Relative address exceeds module size; zero used
+450: 1000 Error: l5IiR is not defined; zero used
+451: 7317
+452: 5206
+453: 7184
+454: 2419
+455: 8047
+456: 0879
+457: 5128
+458: 3451
+459: 9000 Error: k is not defined; zero used
+460: 0379
+461: 0277
+
+Warning: Module 1: og7hBHZBvZkutH was defined but never used
+

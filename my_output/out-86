@@ -1,0 +1,218 @@
+Warning: Module 1: dYYXi20 redefined and ignored
+Warning: Module 1: uXkqW44G8VN redefined and ignored
+Warning: Module 1: n redefined and ignored
+Symbol Table
+xvAioVas0WdWh=182
+ee7MFefxH0=160
+uXkqW44G8VN=95 Error: This variable is multiple times defined; first value used
+dYYXi20=25 Error: This variable is multiple times defined; first value used
+bs0Wk7vy=118
+xksuMmOeE8=73
+i475uPUN615EGj4=152
+a=94
+n=30 Error: This variable is multiple times defined; first value used
+sA=180
+wjKH7DYTS=22
+tON79Cpsbt3ePK5M=137
+gNOGn=145
+
+Memory Map
+000: 5097
+001: 6000 Error: ou is not defined; zero used
+002: 7146
+003: 9141
+004: 9999 Error: Illegal opcode; treated as 9999
+005: 0379
+006: 7000 Error: jKcAelh2X3F is not defined; zero used
+007: 5504
+008: 0134
+009: 8000 Error: ou is not defined; zero used
+010: 0093
+011: 4180
+012: 5000 Error: tF5IHA4PMKeQIv is not defined; zero used
+013: 2320
+014: 0344
+015: 9999 Error: Illegal immediate value; treated as 9999
+016: 2025
+017: 8362
+018: 4383
+019: 4105
+020: 5015
+021: 1029
+022: 9000 Error: h6Y5E5I0pOxPL is not defined; zero used
+023: 2000 Error: ou is not defined; zero used
+024: 9000 Error: b2YZCyX is not defined; zero used
+025: 2001
+026: 4000 Error: tF5IHA4PMKeQIv is not defined; zero used
+027: 3027
+028: 3000 Error: Relative address exceeds module size; zero used
+029: 7139
+030: 3379
+031: 4180
+032: 6012
+033: 9272
+034: 7450
+035: 7000 Error: b2YZCyX is not defined; zero used
+036: 8113
+037: 8000 Error: botuQ1Y9uAKKouu is not defined; zero used
+038: 9271
+039: 9457
+040: 5228
+041: 4043
+042: 4000 Error: ou is not defined; zero used
+043: 0942
+044: 0000 Error: Absolute address exceeds machine size; zero used
+045: 5062
+046: 2000 Error: b2YZCyX is not defined; zero used
+047: 0000 Error: tF5IHA4PMKeQIv is not defined; zero used
+048: 5403
+049: 5050
+050: 8000 Error: Relative address exceeds module size; zero used
+051: 9375
+052: 5086
+053: 0371
+054: 8060
+055: 4156
+056: 1000 Error: Absolute address exceeds machine size; zero used
+057: 5105
+058: 0000 Error: pHEVY0pRVwL5KKg is not defined; zero used
+059: 9108
+060: 6000 Error: jKcAelh2X3F is not defined; zero used
+061: 9180
+062: 2000 Error: ou is not defined; zero used
+063: 4128
+064: 0209
+065: 9000 Error: h6Y5E5I0pOxPL is not defined; zero used
+066: 4460
+067: 2102
+068: 9010
+069: 9000 Error: ou is not defined; zero used
+070: 3180
+071: 9003
+072: 0224
+073: 0455
+074: 2180
+075: 5220
+076: 0154
+077: 2197
+078: 6442
+079: 0000 Error: ou is not defined; zero used
+080: 8137
+081: 3264
+082: 0000 Error: tF5IHA4PMKeQIv is not defined; zero used
+083: 1459
+084: 4132
+085: 5163
+086: 6255
+087: 0000 Error: h6Y5E5I0pOxPL is not defined; zero used
+088: 4355
+089: 9000 Error: ou is not defined; zero used
+090: 7115
+091: 8100
+092: 1117
+093: 9143
+094: 4000 Error: Relative address exceeds module size; zero used
+095: 0488
+096: 0963
+097: 9296
+098: 9246
+099: 5428
+100: 0323
+101: 5160
+102: 2000 Error: pHEVY0pRVwL5KKg is not defined; zero used
+103: 7354
+104: 0000 Error: Absolute address exceeds machine size; zero used
+105: 5180
+106: 9999 Error: Illegal opcode; treated as 9999
+107: 8000 Error: h6Y5E5I0pOxPL is not defined; zero used
+108: 0008 Error: External address exceeds length of uselist; treated as immediate
+109: 2147
+110: 1453
+111: 1188
+112: 5175
+113: 2049
+114: 5090
+115: 0159
+116: 0010 Error: External address exceeds length of uselist; treated as immediate
+117: 0517
+118: 8198
+119: 3194
+120: 1105
+121: 0000 Error: tF5IHA4PMKeQIv is not defined; zero used
+122: 1000 Error: botuQ1Y9uAKKouu is not defined; zero used
+123: 1206
+124: 1000 Error: h6Y5E5I0pOxPL is not defined; zero used
+125: 9312
+126: 0080
+127: 6000 Error: b2YZCyX is not defined; zero used
+128: 8196
+129: 6020
+130: 5296
+131: 8020
+132: 5174
+133: 0000 Error: ou is not defined; zero used
+134: 3011
+135: 5076
+136: 6005
+137: 6107
+138: 5111
+139: 0310
+140: 9159
+141: 7000 Error: jKcAelh2X3F is not defined; zero used
+142: 8472
+143: 0298
+144: 1420
+145: 7020
+146: 2333
+147: 9999 Error: Illegal opcode; treated as 9999
+148: 2119
+149: 4000 Error: botuQ1Y9uAKKouu is not defined; zero used
+150: 7226
+151: 0366
+152: 7412
+153: 4000 Error: h6Y5E5I0pOxPL is not defined; zero used
+154: 0037
+155: 2119
+156: 8303
+157: 2172
+158: 1000 Error: b2YZCyX is not defined; zero used
+159: 8000 Error: ou is not defined; zero used
+160: 4000 Error: jKcAelh2X3F is not defined; zero used
+161: 0000 Error: Absolute address exceeds machine size; zero used
+162: 0479
+163: 8022 Error: External address exceeds length of uselist; treated as immediate
+164: 0751
+165: 8181
+166: 2000 Error: ou is not defined; zero used
+167: 8162
+168: 9999 Error: Illegal immediate value; treated as 9999
+169: 1408
+170: 0042
+171: 1064
+172: 4124
+173: 0144
+174: 8192
+175: 9000 Error: botuQ1Y9uAKKouu is not defined; zero used
+176: 0160
+177: 5145
+178: 9051
+179: 0103
+180: 3106
+181: 0000 Error: pHEVY0pRVwL5KKg is not defined; zero used
+182: 4499
+183: 2097
+184: 4146
+
+Warning: Module 1: xvAioVas0WdWh was defined but never used
+Warning: Module 1: ee7MFefxH0 was defined but never used
+Warning: Module 1: uXkqW44G8VN was defined but never used
+Warning: Module 1: dYYXi20 was defined but never used
+Warning: Module 1: bs0Wk7vy was defined but never used
+Warning: Module 1: xksuMmOeE8 was defined but never used
+Warning: Module 1: i475uPUN615EGj4 was defined but never used
+Warning: Module 1: a was defined but never used
+Warning: Module 1: n was defined but never used
+Warning: Module 1: wjKH7DYTS was defined but never used
+Warning: Module 1: tON79Cpsbt3ePK5M was defined but never used
+Warning: Module 1: gNOGn was defined but never used
+

@@ -1,0 +1,536 @@
+Warning: Module 2: hbpoYqTnq0Dy9LKN redefined and ignored
+Warning: Module 2: c3pdoFXd redefined and ignored
+Symbol Table
+sKONGj17=161
+vbJ9HrfuEHoo=42
+hbpoYqTnq0Dy9LKN=153 Error: This variable is multiple times defined; first value used
+dvP0pGaBzDk0aA=250
+ezW=263
+l0Q0Iu8lLq5Lb5s=149
+bqqztUYRBPn=175
+ge37MQCCU2EnXrM=179
+kCo8vqbGG6CDVa9u=110
+agvuFFKmWOg57=352
+u=346
+b6lvlKUM58fxctq=352
+epxNWogku=353
+c3pdoFXd=318 Error: This variable is multiple times defined; first value used
+uO7D6rD8kf2w=350
+o6gC7B0rqa5Ckk=296
+qHyQDR2Url=306
+tvWJdEv=358
+e5SDFgUYh=403
+lBC=392
+sV5pY58=452
+ufKz79aySL=446
+cuBv=442
+k5mNUAtxMHKs4J=443
+fdYMEDX=442
+pskR3=443
+p6uqtK=447
+xg=444
+zhsBSOq4OSvLf=444
+oS5XfJ61m344=444
+tcwvrY2lW6g5qyHP=448
+jCEMKOEbhzwn=448
+kwFmCz4=452
+ukP9qagm=447
+xr06zMkRX6uu=442
+
+Memory Map
+000: 8167
+001: 5000 Error: vX6 is not defined; zero used
+002: 1406
+003: 9403
+004: 4500
+005: 4435
+006: 1263
+007: 6000 Error: vX6 is not defined; zero used
+008: 4214
+009: 7164
+010: 8166
+011: 1065
+012: 9247
+013: 7000 Error: sGY51h is not defined; zero used
+014: 7000 Error: vX6 is not defined; zero used
+015: 0048
+016: 6442
+017: 4416
+018: 9000 Error: vX6 is not defined; zero used
+019: 1179
+020: 1000 Error: sGY51h is not defined; zero used
+021: 8000 Error: vX6 is not defined; zero used
+022: 3022
+023: 0000 Error: vX6 is not defined; zero used
+024: 0364
+025: 8008
+026: 7014
+027: 2462
+028: 0000 Error: Absolute address exceeds machine size; zero used
+029: 4000 Error: sGY51h is not defined; zero used
+030: 6106
+031: 9383
+032: 5162
+033: 8328
+034: 9999 Error: Illegal immediate value; treated as 9999
+035: 0000 Error: sGY51h is not defined; zero used
+036: 3166
+037: 8000 Error: sGY51h is not defined; zero used
+038: 4429
+039: 0300
+040: 2000 Error: vX6 is not defined; zero used
+041: 4071
+042: 6000 Error: sGY51h is not defined; zero used
+043: 3507
+044: 9510
+045: 8107
+046: 3000 Error: sGY51h is not defined; zero used
+047: 1250
+048: 9999 Error: Illegal opcode; treated as 9999
+049: 8141
+050: 7372
+051: 9000 Error: vX6 is not defined; zero used
+052: 2450
+053: 7000 Error: vX6 is not defined; zero used
+054: 9000 Error: sGY51h is not defined; zero used
+055: 3245
+056: 0497
+057: 1273
+058: 9999 Error: Illegal immediate value; treated as 9999
+059: 4155
+060: 6431
+061: 0000 Error: vX6 is not defined; zero used
+062: 7253
+063: 7404
+064: 0154
+065: 8000 Error: vX6 is not defined; zero used
+066: 2198
+067: 4231
+068: 0330
+069: 8146
+070: 9208
+071: 3482
+072: 6000 Error: vX6 is not defined; zero used
+073: 9999 Error: Illegal immediate value; treated as 9999
+074: 6000 Error: vX6 is not defined; zero used
+075: 4041
+076: 1000 Error: vX6 is not defined; zero used
+077: 7177
+078: 0379
+079: 2000 Error: vX6 is not defined; zero used
+080: 6132
+081: 0023
+082: 0101
+083: 2200
+084: 1029 Error: External address exceeds length of uselist; treated as immediate
+085: 1231
+086: 2222
+087: 0360
+088: 1255
+089: 9999 Error: Illegal opcode; treated as 9999
+090: 0086
+091: 1000 Error: sGY51h is not defined; zero used
+092: 8000 Error: sGY51h is not defined; zero used
+093: 9464
+094: 6047
+095: 6360
+096: 8170
+097: 9271
+098: 5000 Error: sGY51h is not defined; zero used
+099: 9354
+100: 4000 Error: sGY51h is not defined; zero used
+101: 0000 Error: Absolute address exceeds machine size; zero used
+102: 7163
+103: 5338
+104: 2029
+105: 3000 Error: sGY51h is not defined; zero used
+106: 9247
+107: 0374
+108: 0000 Error: Absolute address exceeds machine size; zero used
+109: 0406
+110: 8147
+111: 5379
+112: 2000 Error: vX6 is not defined; zero used
+113: 7338
+114: 0450
+115: 3000 Error: sGY51h is not defined; zero used
+116: 7000 Error: sGY51h is not defined; zero used
+117: 5359
+118: 9000 Error: sGY51h is not defined; zero used
+119: 7066
+120: 6245
+121: 7000 Error: sGY51h is not defined; zero used
+122: 1261
+123: 8222
+124: 9214
+125: 8310
+126: 2362
+127: 6316
+128: 5192
+129: 0331
+130: 6279
+131: 2352
+132: 2107
+133: 1468
+134: 8313
+135: 8050
+136: 0035
+137: 8500
+138: 8000 Error: vX6 is not defined; zero used
+139: 8399
+140: 3191
+141: 4090
+142: 5000 Error: sGY51h is not defined; zero used
+143: 5115
+144: 7223
+145: 4011
+146: 7070
+147: 4009 Error: External address exceeds length of uselist; treated as immediate
+148: 3000 Error: vX6 is not defined; zero used
+149: 6431
+150: 0049
+151: 2000 Error: sGY51h is not defined; zero used
+152: 2019 Error: External address exceeds length of uselist; treated as immediate
+153: 1269
+154: 2237
+155: 5000 Error: sGY51h is not defined; zero used
+156: 5000 Error: vX6 is not defined; zero used
+157: 5000 Error: sGY51h is not defined; zero used
+158: 2000 Error: sGY51h is not defined; zero used
+159: 0000 Error: sGY51h is not defined; zero used
+160: 1322
+161: 0168
+162: 4220
+163: 3105
+164: 0000 Error: sGY51h is not defined; zero used
+165: 8379
+166: 0217
+167: 8000 Error: sGY51h is not defined; zero used
+168: 9134
+169: 7188
+170: 5000 Error: sGY51h is not defined; zero used
+171: 6134
+172: 6375
+173: 2421
+174: 0887
+175: 8000 Error: sGY51h is not defined; zero used
+176: 3177
+177: 1156
+178: 0463
+179: 2227
+180: 9999 Error: Illegal opcode; treated as 9999
+181: 5246
+182: 6000 Error: vX6 is not defined; zero used
+183: 0000 Error: vX6 is not defined; zero used
+184: 0163
+185: 5226
+186: 5125
+187: 3000 Error: vX6 is not defined; zero used
+188: 6210
+189: 4213
+190: 9101
+191: 5476
+192: 0233
+193: 5000 Error: vX6 is not defined; zero used
+194: 9999 Error: Illegal opcode; treated as 9999
+195: 1024
+196: 0112
+197: 9257
+198: 9300
+199: 9012
+200: 9000 Error: sGY51h is not defined; zero used
+201: 1380
+202: 9247
+203: 0000 Error: vX6 is not defined; zero used
+204: 6000 Error: Relative address exceeds module size; zero used
+205: 9292
+206: 0743
+207: 5214
+208: 2422
+209: 8416
+210: 5311
+211: 2171
+212: 0721
+213: 3000 Error: vX6 is not defined; zero used
+214: 2274
+215: 9156
+216: 5000 Error: sGY51h is not defined; zero used
+217: 9218
+218: 7115
+219: 0274
+220: 7421
+221: 4106
+222: 3081
+223: 9000 Error: sGY51h is not defined; zero used
+224: 0142
+225: 8245
+226: 3132
+227: 7202
+228: 5069
+229: 5100
+230: 5000 Error: Relative address exceeds module size; zero used
+231: 0192
+232: 2000 Error: sGY51h is not defined; zero used
+233: 7000 Error: vX6 is not defined; zero used
+234: 7023
+235: 7000 Error: vX6 is not defined; zero used
+236: 1019
+237: 1000 Error: vX6 is not defined; zero used
+238: 3147
+239: 3188
+240: 4159
+241: 7000 Error: Relative address exceeds module size; zero used
+242: 0044
+243: 7270
+244: 4504
+245: 3000 Error: vX6 is not defined; zero used
+246: 2000 Error: vX6 is not defined; zero used
+247: 1165
+248: 0214
+249: 9191
+250: 0292
+251: 5339
+252: 0000 Error: vX6 is not defined; zero used
+253: 5000 Error: sGY51h is not defined; zero used
+254: 0480
+255: 5428
+256: 2000 Error: vX6 is not defined; zero used
+257: 4100
+258: 9330
+259: 7136
+260: 7146
+261: 5455
+262: 7197
+263: 6508
+264: 7000 Error: sGY51h is not defined; zero used
+265: 2383
+266: 4104
+267: 3390
+268: 3000 Error: vX6 is not defined; zero used
+269: 4336
+270: 8000 Error: vX6 is not defined; zero used
+271: 6055
+272: 0000 Error: Relative address exceeds module size; zero used
+273: 9237
+274: 7065
+275: 3000 Error: qkIKsKOwdH is not defined; zero used
+276: 7110
+277: 4398
+278: 4343
+279: 7356
+280: 5143
+281: 7356
+282: 1000 Error: kLGC is not defined; zero used
+283: 6234
+284: 4323
+285: 9999 Error: Illegal immediate value; treated as 9999
+286: 4341
+287: 7000 Error: ql5xlPC6nyqTc9 is not defined; zero used
+288: 6299
+289: 4316
+290: 4430
+291: 7357
+292: 2000 Error: kLGC is not defined; zero used
+293: 3308
+294: 3486
+295: 5268
+296: 6000 Error: qFULh22TpEr is not defined; zero used
+297: 0067
+298: 6000 Error: vC0LQ is not defined; zero used
+299: 1000 Error: e5FN7ct7tWAw3fJ is not defined; zero used
+300: 9338
+301: 4328
+302: 6332
+303: 0394
+304: 1000 Error: osp49qvhtA7Y is not defined; zero used
+305: 0000 Error: Absolute address exceeds machine size; zero used
+306: 4000 Error: qFULh22TpEr is not defined; zero used
+307: 4455
+308: 6100
+309: 5395
+310: 8282
+311: 0329
+312: 7203
+313: 3312
+314: 1000 Error: osp49qvhtA7Y is not defined; zero used
+315: 3329
+316: 8000 Error: bdwqq5hm3fqlowq is not defined; zero used
+317: 0089
+318: 1190
+319: 5502
+320: 3348
+321: 9999 Error: Illegal opcode; treated as 9999
+322: 0659
+323: 1301
+324: 3345
+325: 6310
+326: 0168
+327: 4282
+328: 1151
+329: 2116
+330: 1220
+331: 6337
+332: 0275
+333: 7000 Error: vC0LQ is not defined; zero used
+334: 5333
+335: 1314
+336: 3000 Error: qfLniftjU is not defined; zero used
+337: 9000 Error: maneRSZq is not defined; zero used
+338: 0655
+339: 2275
+340: 7351
+341: 4482
+342: 3393
+343: 4290
+344: 5356
+345: 9465
+346: 4296
+347: 1300
+348: 4000 Error: vC0LQ is not defined; zero used
+349: 5177
+350: 9999 Error: Illegal immediate value; treated as 9999
+351: 7292
+352: 1212
+353: 0132
+354: 7350
+355: 8184
+356: 6410
+357: 4386
+358: 5368
+Warning: Module 2: xVKIp appeared in the uselist but was not actually used
+Warning: Module 2: aO appeared in the uselist but was not actually used
+Warning: Module 2: rTv1hhDou1Aak8 appeared in the uselist but was not actually used
+Warning: Module 2: e appeared in the uselist but was not actually used
+359: 2327
+360: 4380
+361: 6340
+362: 0053
+363: 3127
+364: 5025 Error: External address exceeds length of uselist; treated as immediate
+365: 6217
+366: 9000 Error: cub7EJz6G8NF is not defined; zero used
+367: 4263
+368: 8417
+369: 0359 Error: Relative address exceeds module size; zero used
+370: 0264
+371: 0261
+372: 7263
+373: 6263
+374: 0428
+375: 7131
+376: 0371
+377: 7405
+378: 6428
+379: 1403
+380: 0056
+381: 2430
+382: 0000 Error: Absolute address exceeds machine size; zero used
+383: 9263
+384: 4416
+385: 6424
+386: 2472
+387: 9395
+388: 2359 Error: Relative address exceeds module size; zero used
+389: 8263
+390: 9437
+391: 4000 Error: cub7EJz6G8NF is not defined; zero used
+392: 2469
+393: 3228
+394: 5000 Error: cub7EJz6G8NF is not defined; zero used
+395: 7000 Error: cub7EJz6G8NF is not defined; zero used
+396: 4128
+397: 9263
+398: 9999 Error: Illegal opcode; treated as 9999
+399: 5230
+400: 8361
+401: 3477
+402: 8219
+403: 9263
+404: 0279
+405: 6498
+406: 6403
+407: 8263
+408: 9147
+409: 5133
+410: 9390
+411: 0000 Error: cub7EJz6G8NF is not defined; zero used
+412: 4359 Error: Relative address exceeds module size; zero used
+413: 6263
+414: 9999 Error: Illegal immediate value; treated as 9999
+415: 4263
+416: 0062
+417: 9999 Error: Illegal opcode; treated as 9999
+418: 8389
+419: 6414
+420: 8180
+421: 2364
+422: 2397
+423: 0371
+424: 4389
+425: 6000 Error: cub7EJz6G8NF is not defined; zero used
+426: 4302
+427: 4286
+428: 7263
+429: 4029 Error: External address exceeds length of uselist; treated as immediate
+430: 9410
+431: 0429
+432: 3470
+433: 8478
+434: 4000 Error: cub7EJz6G8NF is not defined; zero used
+435: 1155
+436: 6348
+437: 1506
+438: 9999 Error: Illegal opcode; treated as 9999
+439: 1263
+440: 8000 Error: cub7EJz6G8NF is not defined; zero used
+441: 5247
+442: 7441
+443: 1450
+444: 4350
+445: 7000 Error: gi5bio is not defined; zero used
+446: 4206
+447: 0000 Error: abM9oEtezm26M is not defined; zero used
+448: 6000 Error: l7tmQqYBBqNh5 is not defined; zero used
+449: 0000 Error: Absolute address exceeds machine size; zero used
+450: 1442
+451: 0034
+452: 7000 Error: l7tmQqYBBqNh5 is not defined; zero used
+Warning: Module 4: j appeared in the uselist but was not actually used
+Warning: Module 4: iRbfYdGpML0p1w32 appeared in the uselist but was not actually used
+Warning: Module 4: gAcrTuWaJx appeared in the uselist but was not actually used
+
+Warning: Module 1: sKONGj17 was defined but never used
+Warning: Module 1: vbJ9HrfuEHoo was defined but never used
+Warning: Module 1: hbpoYqTnq0Dy9LKN was defined but never used
+Warning: Module 1: dvP0pGaBzDk0aA was defined but never used
+Warning: Module 1: l0Q0Iu8lLq5Lb5s was defined but never used
+Warning: Module 1: bqqztUYRBPn was defined but never used
+Warning: Module 1: ge37MQCCU2EnXrM was defined but never used
+Warning: Module 1: kCo8vqbGG6CDVa9u was defined but never used
+Warning: Module 2: agvuFFKmWOg57 was defined but never used
+Warning: Module 2: u was defined but never used
+Warning: Module 2: b6lvlKUM58fxctq was defined but never used
+Warning: Module 2: epxNWogku was defined but never used
+Warning: Module 2: c3pdoFXd was defined but never used
+Warning: Module 2: uO7D6rD8kf2w was defined but never used
+Warning: Module 2: o6gC7B0rqa5Ckk was defined but never used
+Warning: Module 2: qHyQDR2Url was defined but never used
+Warning: Module 2: tvWJdEv was defined but never used
+Warning: Module 3: e5SDFgUYh was defined but never used
+Warning: Module 3: lBC was defined but never used
+Warning: Module 4: sV5pY58 was defined but never used
+Warning: Module 4: ufKz79aySL was defined but never used
+Warning: Module 4: cuBv was defined but never used
+Warning: Module 4: k5mNUAtxMHKs4J was defined but never used
+Warning: Module 4: fdYMEDX was defined but never used
+Warning: Module 4: pskR3 was defined but never used
+Warning: Module 4: p6uqtK was defined but never used
+Warning: Module 4: xg was defined but never used
+Warning: Module 4: zhsBSOq4OSvLf was defined but never used
+Warning: Module 4: oS5XfJ61m344 was defined but never used
+Warning: Module 4: tcwvrY2lW6g5qyHP was defined but never used
+Warning: Module 4: jCEMKOEbhzwn was defined but never used
+Warning: Module 4: kwFmCz4 was defined but never used
+Warning: Module 4: ukP9qagm was defined but never used
+Warning: Module 4: xr06zMkRX6uu was defined but never used
+

@@ -107,9 +107,7 @@ class SymTab {
 
     void setMulDefErr(string sym, int module_counter) {
         symTable[sym].errcode = 4;
-        if (module_counter != symTable[sym].loc) {
-            __warning_message(1, sym, module_counter);
-        }
+        __warning_message(1, sym, module_counter);
     }
 
     bool symExist(string sym) { return symTable.count(sym); }

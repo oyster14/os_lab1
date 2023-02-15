@@ -1,0 +1,249 @@
+Symbol Table
+l4zjqD9eXH=29
+lKbXubc=31
+f264RxoMJEc9IJ6v=2
+pYD=1
+hYrIsWePsZSrc=37
+cIdGQ6QA=29
+lyaHiKarsjMjJV=109
+kANo=55
+czMzKhDJ=162
+snhjqsbRjwpbGn=90
+o8KjhPF=146
+eumTWGc0O=103
+j4R903cROycFYOZQ=146
+qn=103
+voNevoCZwH7gRveR=87
+
+Memory Map
+000: 3031
+001: 1465
+002: 8000 Error: cvgTLuON is not defined; zero used
+003: 9000 Error: eKrz7VRCeOzk59Ov is not defined; zero used
+004: 9000 Error: lLShykmE46BW is not defined; zero used
+005: 0000 Error: tACHE is not defined; zero used
+006: 0505
+007: 6422
+008: 2291
+009: 0071
+010: 3116
+011: 3331
+012: 0000 Error: Relative address exceeds module size; zero used
+013: 5000 Error: ic4eBrQ is not defined; zero used
+014: 4000 Error: cvgTLuON is not defined; zero used
+015: 9000 Error: idr is not defined; zero used
+016: 5109
+017: 8000 Error: ubrZThBD is not defined; zero used
+018: 3481
+019: 2140
+020: 0232
+021: 0259
+022: 7004
+023: 6443
+024: 2019
+025: 0028 Error: External address exceeds length of uselist; treated as immediate
+026: 5432
+027: 3367
+028: 0000 Error: Absolute address exceeds machine size; zero used
+029: 3000 Error: idr is not defined; zero used
+030: 0303
+031: 5000 Error: bt is not defined; zero used
+032: 0016
+033: 4256
+034: 6428
+035: 4487
+036: 2007
+037: 5000 Error: pJZ9FSphmPW is not defined; zero used
+Warning: Module 1: y5GbzYdbw appeared in the uselist but was not actually used
+Warning: Module 1: q0Mv appeared in the uselist but was not actually used
+Warning: Module 1: vkiX appeared in the uselist but was not actually used
+Warning: Module 1: sZg appeared in the uselist but was not actually used
+Warning: Module 1: zpTBDgJWmPYyKZ appeared in the uselist but was not actually used
+038: 7000 Error: sKGpaxcJi is not defined; zero used
+039: 9999 Error: Illegal opcode; treated as 9999
+040: 7000 Error: sKGpaxcJi is not defined; zero used
+041: 5000 Error: sKGpaxcJi is not defined; zero used
+042: 4000 Error: sKGpaxcJi is not defined; zero used
+043: 2000 Error: sKGpaxcJi is not defined; zero used
+044: 2258
+045: 8000 Error: sKGpaxcJi is not defined; zero used
+046: 8202
+047: 9012 Error: External address exceeds length of uselist; treated as immediate
+048: 9999 Error: Illegal opcode; treated as 9999
+049: 0000 Error: Absolute address exceeds machine size; zero used
+050: 9000 Error: sKGpaxcJi is not defined; zero used
+051: 5229
+052: 0216
+053: 4488
+054: 6426
+055: 4456
+056: 8495
+057: 5299
+058: 9172
+059: 5111
+060: 0277
+061: 7164
+062: 4502
+063: 4332
+064: 0234
+065: 8214
+066: 8000 Error: sKGpaxcJi is not defined; zero used
+067: 4184
+068: 2204
+069: 6293
+070: 0038 Error: Relative address exceeds module size; zero used
+071: 2066
+072: 1000 Error: sKGpaxcJi is not defined; zero used
+073: 7106
+074: 0277
+075: 9999 Error: Illegal opcode; treated as 9999
+076: 3000 Error: sKGpaxcJi is not defined; zero used
+077: 0187
+078: 2123
+079: 5271
+080: 4150
+081: 0654
+082: 4000 Error: sKGpaxcJi is not defined; zero used
+083: 2187
+084: 2339
+085: 1511
+086: 3123
+087: 5105
+088: 0000 Error: Absolute address exceeds machine size; zero used
+089: 8000 Error: sKGpaxcJi is not defined; zero used
+090: 0111
+091: 8424
+092: 8000 Error: sKGpaxcJi is not defined; zero used
+093: 8049
+094: 9186
+095: 8000 Error: sKGpaxcJi is not defined; zero used
+096: 9999 Error: Illegal immediate value; treated as 9999
+097: 5252
+098: 9077
+099: 0401
+100: 1187
+101: 6000 Error: sKGpaxcJi is not defined; zero used
+102: 5341
+103: 8083
+104: 1207
+105: 3106
+106: 8134
+107: 0123
+108: 9038 Error: Relative address exceeds module size; zero used
+109: 3438
+110: 5000 Error: sKGpaxcJi is not defined; zero used
+111: 9288
+112: 8000 Error: sKGpaxcJi is not defined; zero used
+113: 0208
+114: 0198
+115: 5156
+116: 1000 Error: sKGpaxcJi is not defined; zero used
+117: 3435
+118: 7396
+119: 1321
+120: 8117
+121: 4306
+122: 2088
+123: 5170
+124: 2449
+125: 4134
+126: 8470
+127: 0129
+128: 2115
+129: 5398
+130: 4443
+131: 8058
+132: 2090
+133: 5503
+134: 6183
+135: 4000 Error: sKGpaxcJi is not defined; zero used
+136: 7108
+137: 0000 Error: Absolute address exceeds machine size; zero used
+138: 8000 Error: sKGpaxcJi is not defined; zero used
+139: 8000 Error: sKGpaxcJi is not defined; zero used
+140: 2122
+141: 2494
+142: 2160
+143: 1283
+144: 0356
+145: 7385
+146: 2000 Error: sKGpaxcJi is not defined; zero used
+147: 8116
+148: 5173
+149: 7149
+150: 8512
+151: 9432
+152: 6000 Error: sKGpaxcJi is not defined; zero used
+153: 3239
+154: 3345
+155: 8089
+156: 8000 Error: Absolute address exceeds machine size; zero used
+157: 6455
+158: 9114
+159: 3203
+160: 0000 Error: sKGpaxcJi is not defined; zero used
+161: 5000 Error: sKGpaxcJi is not defined; zero used
+162: 0000 Error: Absolute address exceeds machine size; zero used
+163: 4116
+164: 3000 Error: sKGpaxcJi is not defined; zero used
+165: 0000 Error: Absolute address exceeds machine size; zero used
+166: 0424
+167: 9407
+168: 8502
+169: 8148
+170: 9000 Error: sKGpaxcJi is not defined; zero used
+171: 0191
+172: 0498
+173: 6449
+174: 9311
+175: 4261
+176: 0062
+177: 3475
+178: 7434
+179: 7134
+180: 2130
+181: 6159
+182: 7000 Error: sKGpaxcJi is not defined; zero used
+183: 3000 Error: sKGpaxcJi is not defined; zero used
+184: 8051
+185: 5234
+186: 3113
+187: 1000 Error: sKGpaxcJi is not defined; zero used
+188: 6000 Error: sKGpaxcJi is not defined; zero used
+189: 6171
+190: 8000 Error: sKGpaxcJi is not defined; zero used
+191: 8159
+192: 8133
+193: 9000 Error: sKGpaxcJi is not defined; zero used
+194: 2245
+195: 3169
+196: 4373
+197: 3424
+198: 9065
+199: 7168
+200: 8000 Error: sKGpaxcJi is not defined; zero used
+201: 7000 Error: sKGpaxcJi is not defined; zero used
+202: 5017 Error: External address exceeds length of uselist; treated as immediate
+203: 4000 Error: sKGpaxcJi is not defined; zero used
+204: 5000 Error: sKGpaxcJi is not defined; zero used
+205: 6162
+206: 7345
+207: 7377
+208: 6179
+
+Warning: Module 1: l4zjqD9eXH was defined but never used
+Warning: Module 1: lKbXubc was defined but never used
+Warning: Module 1: f264RxoMJEc9IJ6v was defined but never used
+Warning: Module 1: pYD was defined but never used
+Warning: Module 1: hYrIsWePsZSrc was defined but never used
+Warning: Module 1: cIdGQ6QA was defined but never used
+Warning: Module 2: lyaHiKarsjMjJV was defined but never used
+Warning: Module 2: kANo was defined but never used
+Warning: Module 2: czMzKhDJ was defined but never used
+Warning: Module 2: snhjqsbRjwpbGn was defined but never used
+Warning: Module 2: o8KjhPF was defined but never used
+Warning: Module 2: eumTWGc0O was defined but never used
+Warning: Module 2: j4R903cROycFYOZQ was defined but never used
+Warning: Module 2: qn was defined but never used
+Warning: Module 2: voNevoCZwH7gRveR was defined but never used
+

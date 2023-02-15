@@ -1,0 +1,580 @@
+Symbol Table
+wOe9atcqDN5j7qBf=463
+e9IywzDcq9z=382
+w9ZRC0W8Bkgw2U=411
+o=146
+cVDrnuFqrI5p=455
+l1=263
+c5uviLnI=481
+grPnlZStQ=493
+yJBj94y=486
+cdRjEY6l6YEKG=498
+rLknkAPRCXs=485
+muqofI74izpj5qK=498
+nixt5mkDEmxz3b8=486
+yb=499
+gil1ty=491
+ya1yqev=502
+pQD8fC3JZnUOia3=504
+sQLMIpW09=504
+ntj48qmSof=507
+e412=508
+cSV=507
+j1Hv=508
+h2RybEAvg=508
+iLD15XfZj=507
+ww0BS8Vepk6Xh=507
+nbtV7oBWgNONBy=507
+vvxgQSEK0jq1zyk=507
+pXCrPt=508
+h0367KYV2MVzA=508
+m=507
+
+Memory Map
+000: 0000 Error: iXJ6SBBc00scu is not defined; zero used
+001: 0018
+002: 9000 Error: xBih is not defined; zero used
+003: 9000 Error: Relative address exceeds module size; zero used
+004: 0380
+005: 2192
+006: 8334
+007: 3190
+008: 0000 Error: Absolute address exceeds machine size; zero used
+009: 0035
+010: 0101
+011: 2000 Error: j5hTJqmxcY is not defined; zero used
+012: 9455
+013: 6000 Error: i is not defined; zero used
+014: 3235
+015: 7000 Error: xBih is not defined; zero used
+016: 5000 Error: i is not defined; zero used
+017: 7000 Error: xBih is not defined; zero used
+018: 3413
+019: 4316
+020: 4343
+021: 9000 Error: j5hTJqmxcY is not defined; zero used
+022: 7334
+023: 7069
+024: 1000 Error: iXJ6SBBc00scu is not defined; zero used
+025: 4000 Error: xBih is not defined; zero used
+026: 9346
+027: 7167
+028: 3000 Error: i is not defined; zero used
+029: 0345
+030: 0510
+031: 0428
+032: 4330
+033: 0030
+034: 3244
+035: 0000 Error: Absolute address exceeds machine size; zero used
+036: 0000 Error: j5hTJqmxcY is not defined; zero used
+037: 2102
+038: 4255
+039: 9509
+040: 9460
+041: 5666
+042: 0024
+043: 3000 Error: Relative address exceeds module size; zero used
+044: 5365
+045: 5000 Error: i is not defined; zero used
+046: 2406
+047: 7000 Error: iXJ6SBBc00scu is not defined; zero used
+048: 0194
+049: 2315
+050: 1364
+051: 4200
+052: 2249
+053: 0052
+054: 4303
+055: 5318
+056: 0068
+057: 9064
+058: 3124
+059: 2000 Error: j5hTJqmxcY is not defined; zero used
+060: 0958
+061: 0075
+062: 4480
+063: 9154
+064: 9178
+065: 0000 Error: Absolute address exceeds machine size; zero used
+066: 0261
+067: 5178
+068: 3016
+069: 2243
+070: 7000 Error: iXJ6SBBc00scu is not defined; zero used
+071: 6151
+072: 7104
+073: 5000 Error: xBih is not defined; zero used
+074: 8000 Error: xBih is not defined; zero used
+075: 3465
+076: 7201
+077: 5000 Error: xBih is not defined; zero used
+078: 2470
+079: 0390
+080: 1483
+081: 0965
+082: 0024 Error: External address exceeds length of uselist; treated as immediate
+083: 7000 Error: xBih is not defined; zero used
+084: 9000 Error: iXJ6SBBc00scu is not defined; zero used
+085: 9178
+086: 6000 Error: j5hTJqmxcY is not defined; zero used
+087: 4245
+088: 9087
+089: 5334
+090: 2000 Error: j5hTJqmxcY is not defined; zero used
+091: 4246
+092: 9000 Error: xBih is not defined; zero used
+093: 5200
+094: 0186
+095: 4000 Error: xBih is not defined; zero used
+096: 5040
+097: 9000 Error: iXJ6SBBc00scu is not defined; zero used
+098: 7248
+099: 0451
+100: 2384
+101: 8000 Error: iXJ6SBBc00scu is not defined; zero used
+102: 8212
+103: 2378
+104: 0562
+105: 4499
+106: 9404
+107: 8000 Error: i is not defined; zero used
+108: 0302
+109: 1364
+110: 0277
+111: 5000 Error: j5hTJqmxcY is not defined; zero used
+112: 6178
+113: 6000 Error: Relative address exceeds module size; zero used
+114: 6300
+115: 3000 Error: i is not defined; zero used
+116: 4000 Error: iXJ6SBBc00scu is not defined; zero used
+117: 4236
+118: 9999 Error: Illegal opcode; treated as 9999
+119: 5105
+120: 0738
+121: 5326
+122: 8000 Error: xBih is not defined; zero used
+123: 8151
+124: 3298
+125: 4207
+126: 4000 Error: xBih is not defined; zero used
+127: 1000 Error: j5hTJqmxcY is not defined; zero used
+128: 9105
+129: 4146
+130: 3000 Error: i is not defined; zero used
+131: 4486
+132: 6145
+133: 0397
+134: 1476
+135: 0000 Error: Absolute address exceeds machine size; zero used
+136: 3497
+137: 1498
+138: 0000 Error: Absolute address exceeds machine size; zero used
+139: 6000 Error: xBih is not defined; zero used
+140: 8115
+141: 8440
+142: 5500
+143: 0040
+144: 7274
+145: 1342
+146: 6441
+147: 9483
+148: 8334
+149: 0000 Error: Absolute address exceeds machine size; zero used
+150: 9489
+151: 1124
+152: 2000 Error: iXJ6SBBc00scu is not defined; zero used
+153: 0152
+154: 2000 Error: xBih is not defined; zero used
+155: 7000 Error: iXJ6SBBc00scu is not defined; zero used
+156: 0419
+157: 0111
+158: 0087
+159: 2360
+160: 9000 Error: iXJ6SBBc00scu is not defined; zero used
+161: 2187
+162: 4000 Error: j5hTJqmxcY is not defined; zero used
+163: 3349
+164: 5233
+165: 6193
+166: 7000 Error: iXJ6SBBc00scu is not defined; zero used
+167: 4000 Error: j5hTJqmxcY is not defined; zero used
+168: 8053
+169: 2000 Error: j5hTJqmxcY is not defined; zero used
+170: 2431
+171: 6161
+172: 1146
+173: 4124
+174: 1000 Error: i is not defined; zero used
+175: 1382
+176: 5303
+177: 6424
+178: 5446
+179: 6141
+180: 0000 Error: xBih is not defined; zero used
+181: 0356
+182: 1195
+183: 8000 Error: iXJ6SBBc00scu is not defined; zero used
+184: 7075
+185: 9301
+186: 0120
+187: 0434
+188: 9141
+189: 4185
+190: 2343
+191: 0131
+192: 3325
+193: 6454
+194: 8406
+195: 0000 Error: xBih is not defined; zero used
+196: 2350
+197: 8285
+198: 6030
+199: 4155
+200: 8000 Error: i is not defined; zero used
+201: 4353
+202: 4000 Error: xBih is not defined; zero used
+203: 2030 Error: External address exceeds length of uselist; treated as immediate
+204: 5143
+205: 1085
+206: 0212
+207: 0465
+208: 3000 Error: j5hTJqmxcY is not defined; zero used
+209: 0220
+210: 5458
+211: 6511
+212: 1040
+213: 5000 Error: i is not defined; zero used
+214: 5280
+215: 8388
+216: 5296
+217: 7221
+218: 5000 Error: j5hTJqmxcY is not defined; zero used
+219: 3000 Error: iXJ6SBBc00scu is not defined; zero used
+220: 8000 Error: iXJ6SBBc00scu is not defined; zero used
+221: 1506
+222: 8201
+223: 8428
+224: 2074
+225: 8259
+226: 0187
+227: 8410
+228: 4432
+229: 7201
+230: 7000 Error: iXJ6SBBc00scu is not defined; zero used
+231: 0346
+232: 8009
+233: 1263
+234: 3227
+235: 0322
+236: 3276
+237: 8222
+238: 9000 Error: xBih is not defined; zero used
+239: 0000 Error: Absolute address exceeds machine size; zero used
+240: 4444
+241: 3000 Error: i is not defined; zero used
+242: 4000 Error: xBih is not defined; zero used
+243: 7086
+244: 6384
+245: 0000 Error: iXJ6SBBc00scu is not defined; zero used
+246: 2007 Error: External address exceeds length of uselist; treated as immediate
+247: 3002
+248: 6106
+249: 6000 Error: xBih is not defined; zero used
+250: 5000 Error: j5hTJqmxcY is not defined; zero used
+251: 8352
+252: 1386
+253: 6469
+254: 3462
+255: 2454
+256: 3009
+257: 6000 Error: j5hTJqmxcY is not defined; zero used
+258: 7000 Error: iXJ6SBBc00scu is not defined; zero used
+259: 2403
+260: 1000 Error: Relative address exceeds module size; zero used
+261: 1209
+262: 7399
+263: 6426
+264: 2234
+265: 5487
+266: 8299
+267: 3093
+268: 0000 Error: i is not defined; zero used
+269: 5000 Error: xBih is not defined; zero used
+270: 2149
+271: 6000 Error: xBih is not defined; zero used
+272: 6078
+273: 9324
+274: 1027
+275: 8114
+276: 5000 Error: j5hTJqmxcY is not defined; zero used
+277: 0864
+278: 6159
+279: 0508
+280: 2000 Error: iXJ6SBBc00scu is not defined; zero used
+281: 1260
+282: 9237
+283: 9999 Error: Illegal opcode; treated as 9999
+284: 9999 Error: Illegal immediate value; treated as 9999
+285: 0000 Error: xBih is not defined; zero used
+286: 7153
+287: 9000 Error: xBih is not defined; zero used
+288: 2004 Error: External address exceeds length of uselist; treated as immediate
+289: 7145
+290: 1230
+291: 9294
+292: 4115
+293: 3489
+294: 2000 Error: j5hTJqmxcY is not defined; zero used
+295: 0327
+296: 8499
+297: 6000 Error: iXJ6SBBc00scu is not defined; zero used
+298: 7000 Error: xBih is not defined; zero used
+299: 9000 Error: i is not defined; zero used
+300: 0000 Error: Absolute address exceeds machine size; zero used
+301: 0078
+302: 9999 Error: Illegal opcode; treated as 9999
+303: 4076
+304: 0151
+305: 8000 Error: iXJ6SBBc00scu is not defined; zero used
+306: 1000 Error: j5hTJqmxcY is not defined; zero used
+307: 4000 Error: xBih is not defined; zero used
+308: 2387
+309: 0000 Error: Absolute address exceeds machine size; zero used
+310: 4364
+311: 5000 Error: iXJ6SBBc00scu is not defined; zero used
+312: 0195
+313: 4178
+314: 0133
+315: 8101
+316: 8466
+317: 9000 Error: iXJ6SBBc00scu is not defined; zero used
+318: 1345
+319: 4474
+320: 1000 Error: xBih is not defined; zero used
+321: 4253
+322: 0057
+323: 2000 Error: j5hTJqmxcY is not defined; zero used
+324: 5493
+325: 0000 Error: Absolute address exceeds machine size; zero used
+326: 6368
+327: 7000 Error: i is not defined; zero used
+328: 0627
+329: 0100
+330: 2269
+331: 2000 Error: j5hTJqmxcY is not defined; zero used
+332: 0477
+333: 0078
+334: 0000 Error: Absolute address exceeds machine size; zero used
+335: 1000 Error: i is not defined; zero used
+336: 6014
+337: 9100
+338: 3068
+339: 9275
+340: 7275
+341: 3428
+342: 2282
+343: 9061
+344: 9069
+345: 7186
+346: 1404
+347: 8000 Error: i is not defined; zero used
+348: 6132
+349: 3000 Error: iXJ6SBBc00scu is not defined; zero used
+350: 0539
+351: 1325
+352: 5000 Error: j5hTJqmxcY is not defined; zero used
+353: 9000 Error: iXJ6SBBc00scu is not defined; zero used
+354: 9999 Error: Illegal opcode; treated as 9999
+355: 0030
+356: 7018
+357: 7162
+358: 7403
+359: 3110
+360: 3000 Error: i is not defined; zero used
+361: 0000 Error: Absolute address exceeds machine size; zero used
+362: 8000 Error: j5hTJqmxcY is not defined; zero used
+363: 0000 Error: iXJ6SBBc00scu is not defined; zero used
+364: 0930
+365: 4117
+366: 8199
+367: 4393
+368: 3000 Error: xBih is not defined; zero used
+369: 4000 Error: i is not defined; zero used
+370: 0000 Error: Absolute address exceeds machine size; zero used
+371: 0179
+372: 8444
+373: 5000 Error: i is not defined; zero used
+374: 4171
+375: 1104
+376: 7199
+377: 4485
+378: 0000 Error: Absolute address exceeds machine size; zero used
+379: 4178
+380: 9412
+381: 2344
+382: 9280
+383: 6252
+384: 5142
+385: 8000 Error: i is not defined; zero used
+386: 6000 Error: i is not defined; zero used
+387: 7344
+388: 8485
+389: 5426
+390: 7431
+391: 0000 Error: Absolute address exceeds machine size; zero used
+392: 2441
+393: 6000 Error: j5hTJqmxcY is not defined; zero used
+394: 9000 Error: xBih is not defined; zero used
+395: 3131
+396: 4372
+397: 0036
+398: 1000 Error: i is not defined; zero used
+399: 4379
+400: 4391
+401: 0407
+402: 3179
+403: 0299
+404: 2307
+405: 9417
+406: 1277
+407: 3254
+408: 6000 Error: xBih is not defined; zero used
+409: 5302
+410: 0962
+411: 2378
+412: 0071
+413: 5427
+414: 0327
+415: 7326
+416: 7497
+417: 6000 Error: xBih is not defined; zero used
+418: 3000 Error: j5hTJqmxcY is not defined; zero used
+419: 3479
+420: 8285
+421: 1017
+422: 0390
+423: 0113
+424: 2414
+425: 7182
+426: 0195
+427: 9358
+428: 9999 Error: Illegal immediate value; treated as 9999
+429: 6000 Error: iXJ6SBBc00scu is not defined; zero used
+430: 8261
+431: 0034
+432: 4000 Error: j5hTJqmxcY is not defined; zero used
+433: 2136
+434: 0662
+435: 8000 Error: iXJ6SBBc00scu is not defined; zero used
+436: 9194
+437: 6442
+438: 8000 Error: iXJ6SBBc00scu is not defined; zero used
+439: 5437
+440: 9318
+441: 7000 Error: xBih is not defined; zero used
+442: 8268
+443: 6242
+444: 9999 Error: Illegal opcode; treated as 9999
+445: 5000 Error: j5hTJqmxcY is not defined; zero used
+446: 5133
+447: 8158
+448: 9261
+449: 1000 Error: j5hTJqmxcY is not defined; zero used
+450: 7462
+451: 8000 Error: i is not defined; zero used
+452: 6501
+453: 7000 Error: i is not defined; zero used
+454: 5000 Error: iXJ6SBBc00scu is not defined; zero used
+455: 3306
+456: 7358
+457: 2000 Error: xBih is not defined; zero used
+458: 6130
+459: 9005 Error: External address exceeds length of uselist; treated as immediate
+460: 9000 Error: xBih is not defined; zero used
+461: 2257
+462: 4295
+463: 4490
+464: 9154
+465: 4000 Error: iXJ6SBBc00scu is not defined; zero used
+466: 8232
+467: 4018
+468: 0129
+469: 1000 Error: i is not defined; zero used
+470: 4178
+471: 6000 Error: i is not defined; zero used
+472: 0032
+473: 5000 Error: j5hTJqmxcY is not defined; zero used
+474: 7000 Error: iXJ6SBBc00scu is not defined; zero used
+475: 6000 Error: j5hTJqmxcY is not defined; zero used
+476: 4202
+477: 5288
+478: 0501
+479: 0068
+480: 0000 Error: cPTorr9 is not defined; zero used
+481: 7493
+482: 3480
+483: 9999 Error: Illegal immediate value; treated as 9999
+484: 0058
+485: 6000 Error: nIsOMauGdF874YK is not defined; zero used
+486: 6337
+487: 1496
+488: 5363
+489: 0784
+490: 3492
+491: 8480
+492: 3304
+493: 3415
+494: 9000 Error: yXKAS0AAUAtPE is not defined; zero used
+495: 7000 Error: nIsOMauGdF874YK is not defined; zero used
+496: 2444
+497: 1485
+498: 7492
+499: 0097
+500: 9000 Error: eY is not defined; zero used
+501: 7230
+Warning: Module 2: htKGlBWP appeared in the uselist but was not actually used
+Warning: Module 2: cdRjEY6l6YEKG appeared in the uselist but was not actually used
+Warning: Module 2: u appeared in the uselist but was not actually used
+502: 0043
+503: 9999 Error: Illegal immediate value; treated as 9999
+504: 0120
+505: 9248
+506: 0719
+Warning: Module 3: llVuURDTH appeared in the uselist but was not actually used
+Warning: Module 3: mn appeared in the uselist but was not actually used
+Warning: Module 3: rI68cAdgu8RQ appeared in the uselist but was not actually used
+507: 3002 Error: External address exceeds length of uselist; treated as immediate
+508: 4357
+
+Warning: Module 1: wOe9atcqDN5j7qBf was defined but never used
+Warning: Module 1: e9IywzDcq9z was defined but never used
+Warning: Module 1: w9ZRC0W8Bkgw2U was defined but never used
+Warning: Module 1: o was defined but never used
+Warning: Module 1: cVDrnuFqrI5p was defined but never used
+Warning: Module 1: l1 was defined but never used
+Warning: Module 2: c5uviLnI was defined but never used
+Warning: Module 2: grPnlZStQ was defined but never used
+Warning: Module 2: yJBj94y was defined but never used
+Warning: Module 2: cdRjEY6l6YEKG was defined but never used
+Warning: Module 2: rLknkAPRCXs was defined but never used
+Warning: Module 2: muqofI74izpj5qK was defined but never used
+Warning: Module 2: nixt5mkDEmxz3b8 was defined but never used
+Warning: Module 2: yb was defined but never used
+Warning: Module 2: gil1ty was defined but never used
+Warning: Module 3: ya1yqev was defined but never used
+Warning: Module 3: pQD8fC3JZnUOia3 was defined but never used
+Warning: Module 3: sQLMIpW09 was defined but never used
+Warning: Module 4: ntj48qmSof was defined but never used
+Warning: Module 4: e412 was defined but never used
+Warning: Module 4: cSV was defined but never used
+Warning: Module 4: j1Hv was defined but never used
+Warning: Module 4: h2RybEAvg was defined but never used
+Warning: Module 4: iLD15XfZj was defined but never used
+Warning: Module 4: ww0BS8Vepk6Xh was defined but never used
+Warning: Module 4: nbtV7oBWgNONBy was defined but never used
+Warning: Module 4: vvxgQSEK0jq1zyk was defined but never used
+Warning: Module 4: pXCrPt was defined but never used
+Warning: Module 4: h0367KYV2MVzA was defined but never used
+Warning: Module 4: m was defined but never used
+
