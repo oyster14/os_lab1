@@ -470,8 +470,6 @@ int main(int argc, char* argv[]) {
 
     SymTab* symTab = new SymTab();
 
-    SymTab symTab2 = SymTab();
-
     MemMap* memMap = new MemMap();
 
     Tokenizer* tokenizer = new Tokenizer(fileName);
@@ -482,11 +480,11 @@ int main(int argc, char* argv[]) {
 
     Pass2(tokenizer, symTab, memMap);
 
-    delete symTab;
+    delete tokenizer;
 
     delete memMap;
 
-    delete tokenizer;
+    delete symTab;
 
     return 0;
 }
