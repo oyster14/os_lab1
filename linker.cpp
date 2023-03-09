@@ -129,9 +129,6 @@ class MemMap {
 
     void print() {
         int i = memMap.size() - 1;
-        if (i == 0) {
-            cout << "Memory Map" << endl;
-        }
         cout << setw(3) << setfill('0') << i;
         cout << ": " << setw(4) << setfill('0') << memMap[i].val;
         if (memMap[i].errcode >= 0) {
@@ -420,6 +417,8 @@ void Pass2(Tokenizer* tokenizer, SymTab* symTab, MemMap* memMap) {
     int module_base = 0;
     int module_counter = 0;
     vector<pair<string, bool>> uselist;
+
+    cout << "Memory Map" << endl;
 
     while (!tokenizer->isEnd()) {
         module_counter++;
